@@ -10,7 +10,7 @@
                    <img class="logoprincipal" src="/imgs/Marwin/Logo-MarwinWeb.png" alt="Logo de Marwin RODRIGUES, Auto-entrepreneur en services numériques">
                </div>
                <h1>Coming Soon</h1>
-               <p>Le futur site web de Marwin rodrigues prend vie… Restez connectés pour une expérience innovante à venir !</p>
+               <p>Le futur site web de Marwin RODRIGUES prend vie… Restez connectés pour une expérience innovante à venir !</p>
                <div class="putCenter">
                    <a href="https://www.linkedin.com/in/marwin-rodrigues/"><button>Savoir plus sur Marwin RODRIGUES</button></a>
                </div>
