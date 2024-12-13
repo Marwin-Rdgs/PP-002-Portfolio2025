@@ -6,4 +6,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  plugins: [
+    { src: '~/plugins/barba.ts', mode: 'client' }, // Exécuter uniquement côté client
+  ],
 });
