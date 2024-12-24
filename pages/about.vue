@@ -2,6 +2,46 @@
     <h1>Page A Propos (+ contact & prise de rdv)</h1>
     <NuxtLink to="/">Page Accueil</NuxtLink>
 
+
+    <section class="mt-[10%]">
+      <div class="phone:grid phone:grid-cols-1 desktop:flex desktop:flex-row justify-between items-center">
+        <div class="phone:col-start-2 desktop:w-2/3">
+          <p class="pl-[4%] relative z-10 font-Secondary text-lg">« C’est en repoussant ses limites que l’on découvre qui l’on est vraiment. » Cette citation me définit parfaitement. Je suis fermement convaincu que sortir de sa zone de confort est essentiel pour évoluer constamment, et c'est cette philosophie qui guide ma carrière. <br /> <br /> Abandonner n'a jamais fait partie de mon vocabulaire. Bien que j'aie récemment obtenu mon diplôme de BUT MMI spécialisé en développement web et dispositif interactif, je ne cesse de chercher à apprendre et à me perfectionner. Je poursuis activement diverses formations dans les domaines de l'IT, du design, de la communication, du management, du commerce, et plus récemment, de la comptabilité.</p>
+          <img src="/icons/Blob.svg" alt="" class="absolute z-0 left-0 phone:top-[10%] desktop:top-[45%] opacity-50">
+          <div class="phone:grid phone:grid-cols-2 desktop:flex desktop:justify-center desktop:gap-10 mt-[2%]">
+            <div class="flex gap-4 items-center">
+              <img src="/icons/house.svg" alt="" class="w-[32px]">
+              <p class="text-primary-color font-extrabold text-2xl">|</p>
+              <p class="phone:text-xs desktop:text-base font-Secondary">Montbéliard, 25200 Doubs, France</p>
+            </div>
+            <div class="flex gap-4 items-center">
+              <img src="/icons/calendar.svg" alt="" class="w-[32px]">
+              <p class="text-primary-color font-extrabold text-2xl">|</p>
+              <p class="phone:text-xs desktop:text-base font-Secondary">23 ans</p>
+            </div>
+
+            <NuxtLink to="contact">
+              <button class="phone:mt-[10%] desktop:mt-[2%] flex justify-between bg-primary-color rounded-2xl items-center px-[10px] py-[2px] border-2 border-primary-color group hover:bg-light-color hover:flex-row-reverse">
+                <img src="/icons/arrow_right.svg" alt="" class="fill-light-color text-light-color w-[32px] group-hover:fill-primary-color group-hover:text-primary-color">
+                <p class="uppercase font-Primary font-bold text-light-color group-hover:text-primary-color">me contacter</p>
+              </button>
+            </NuxtLink>
+
+            <NuxtLink to="contact">
+              <button class="phone:mt-[10%] desktop:mt-[2%] bg-light-color rounded-2xl items-center px-[10px] py-[6px] border-2 border-primary-color group hover:bg-primary-color">
+                <p class="uppercase font-Primary text-center font-bold text-primary-color group-hover:text-light-color">voir mon cv</p>
+              </button>
+            </NuxtLink>
+
+          </div>
+        </div>
+
+        <div class="phone:col-start-1 desktop:flex desktop:justify-end desktop:pr-[4%]">
+          <img src="/imgs/Marwin/About_Me.png" alt="">
+        </div>
+      </div>
+    </section>
+
     <section class="phone:mt-10 desktop:mt-60">
 
     <div class="flex justify-center relative">
@@ -22,14 +62,8 @@
       </div>
 
       </div>
-      <img src="/imgs/Marwin/wave-me_profil.png" alt="Image Profil" class="absolute z-10 w-full phone:-bottom-52 desktop:-bottom-60">
     </div>
 
-  </section>
-
-
-  <section class="bg-primary-color phone:mt-[205px] desktop:mt-60">
-    <h1 class="text-center">ils me font confiance</h1>
   </section>
 
 

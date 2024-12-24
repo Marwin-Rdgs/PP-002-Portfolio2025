@@ -12,7 +12,7 @@ defineProps({
       <div class="overlay-content">
         <h2 class="overlay-title">Chargement...</h2>
         <p class="overlay-description">Merci de patienter pendant que nous chargeons la page.</p>
-        <img class="overlay-image" src="/imgs/Marwin/BackGround.jpg" alt="Image pendant la transition" />
+        <!-- <img class="overlay-image" src="/imgs/Marwin/BackGround.jpg" alt="Image pendant la transition" /> -->
       </div>
     </div>
   </template>
@@ -46,13 +46,13 @@ defineProps({
   }
   
   .overlay-title {
-    font-size: 2rem;
+    font-size: 64px;
     font-weight: bold;
   }
   
   .overlay-description {
     margin-top: 1rem;
-    font-size: 1rem;
+    font-size: 48px;
   }
   
   .overlay-image {
