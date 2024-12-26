@@ -17,22 +17,22 @@ export default {
 <template>
     <h1 class="col-span-2 font-Primary text-3xl uppercase pl-[4%]">Compétences</h1>
     <div class="desktop:grid desktop:grid-cols-2 overflow-x-hidden">
-        <div class="col-span-1" v-if="categ === 1">
+        <div class="col-span-1 animate__animated animate__fadeInLeft" v-if="categ === 1">
             <h2>Front-end</h2>
         </div>
-        <div class="col-span-1" v-if="categ === 2">
+        <div class="col-span-1 animate__animated animate__fadeInLeft" v-if="categ === 2">
             <h2>Back-end</h2>
         </div>
-        <div class="col-span-1" v-if="categ === 3">
+        <div class="col-span-1 animate__animated animate__fadeInLeft" v-if="categ === 3">
             <h2>Jeux Vidéos</h2>
         </div>
-        <div class="col-span-1" v-if="categ === 4">
+        <div class="col-span-1 animate__animated animate__fadeInLeft" v-if="categ === 4">
             <h2>Outils</h2>
         </div>
-        <div class="col-span-1" v-if="categ === 5">
+        <div class="col-span-1 animate__animated animate__fadeInLeft" v-if="categ === 5">
             <h2>Pratiques</h2>
         </div>
-        <div class="col-span-1" v-if="categ === 6">
+        <div class="col-span-1 animate__animated animate__fadeInLeft" v-if="categ === 6">
             <h2>Qualités</h2>
         </div>
     <div id="page" class="site ml-[100%] col-span-1 col-start-2">
