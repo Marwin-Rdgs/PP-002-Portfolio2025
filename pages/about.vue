@@ -6,7 +6,7 @@
     <section class="mt-[10%]">
       <div class="phone:grid phone:grid-cols-1 desktop:flex desktop:flex-row justify-between items-center">
         <div class="phone:col-start-2 desktop:w-2/3 z-10">
-          <p class="pl-[4%] relative z-10 font-Secondary text-lg">« C’est en repoussant ses limites que l’on découvre qui l’on est vraiment. » Cette citation me définit parfaitement. Je suis fermement convaincu que sortir de sa zone de confort est essentiel pour évoluer constamment, et c'est cette philosophie qui guide ma carrière. <br /> <br /> Abandonner n'a jamais fait partie de mon vocabulaire. Bien que j'aie récemment obtenu mon diplôme de BUT MMI spécialisé en développement web et dispositif interactif, je ne cesse de chercher à apprendre et à me perfectionner. Je poursuis activement diverses formations dans les domaines de l'IT, du design, de la communication, du management, du commerce, et plus récemment, de la comptabilité.</p>
+          <p class="pl-[4%] relative z-10 font-Secondary text-lg animate__animated animate__fadeInLeft">« C’est en repoussant ses limites que l’on découvre qui l’on est vraiment. » Cette citation me définit parfaitement. Je suis fermement convaincu que sortir de sa zone de confort est essentiel pour évoluer constamment, et c'est cette philosophie qui guide ma carrière. <br /> <br /> Abandonner n'a jamais fait partie de mon vocabulaire. Bien que j'aie récemment obtenu mon diplôme de BUT MMI spécialisé en développement web et dispositif interactif, je ne cesse de chercher à apprendre et à me perfectionner. Je poursuis activement diverses formations dans les domaines de l'IT, du design, de la communication, du management, du commerce, et plus récemment, de la comptabilité.</p>
           <img src="/imgs/shapes/Blob.svg" alt="" class="absolute z-0 left-0 phone:top-[10%] desktop:top-[45%] opacity-50">
           <div class="phone:grid phone:grid-cols-2 desktop:flex desktop:justify-center desktop:gap-10 mt-[2%]">
             <div class="flex gap-4 items-center phone:px-[10%] desktop:px-0">
@@ -48,30 +48,110 @@
     </section>
     <img src="/imgs/shapes/waves.svg" alt="" class="w-full rotate-180">
 
-    <section class="phone:mt-10 desktop:mt-60">
+    <section id="Cursus" class="mt-4 shadow-lg shadow-jaune pb-4 z-10 flex justify-center">
 
-    <div class="flex justify-center relative">
-    <div class="desktop:grid desktop:grid-cols-2 mt-10 list-item items-center ml-[4%]">
-      <div class="grid-cols-2 desktop:ml-11 z-20">
-        <h2 class="desktop:text-lg phone:ml-2 desktop:ml-0 font-Primary" >Marwin RODRIGUES</h2>
-        <h3 class="desktop:text-base text-primary-color phone:ml-2 desktop:ml-0 font-Primary">WebMaster Junior</h3>
-        <p class="desktop:text-3xs phone:text-5xs text-opacity-75 mt-4 deskstop:w-4/12 phone:ml-2 desktop:ml-0 font-Secondary">Fraichement Diplômé d’un BUT MMI à <a href="https://www.linkedin.com/school/mmimontbeliard/?originalSubdomain=fr" target="_blank"><span class="text-primary-color hover:underline hover:animate-pulse"> MMI Montbéliard </span></a>, je possède une expertise en développement web, communication digital & print, UX/UI, et programmation de jeux vidéo. Déterminé à évoluer en tant que développeur front-end, mon objectif est d'atteindre le poste de directeur de projet web. Motivé et prêt à contribuer à des projets web de haut niveau.</p>
-        <ul class="theme-list mt-5 phone:ml-2 desktop:ml-0 font-Secondary">
-            <li><b>Réside:</b> Montbéliard, FR</li>
-            <li><b>Age:</b> 23</li>
-            <li><b>Né:</b> 19/03/2001</li>
-            <li><b>Contact: </b> <a href="mailto:contact@marwin-rodrigues.fr" class="text-primary-color hover:underline hover:animate-pulse">contact@marwin-rodrigues.fr</a></li>
+      <div class="container pt-5">
+      <div class="desktop:flex phone:grid justify-center gap-52">
+
+
+        <!-- SCOLAIRE -->
+        <div class="wow fadeInRight desktop:w-1/3">
+          <h2 class="fw-normal font-swap desktop:text-lg">Scolaire</h2>
+          <ul class="timeline mt-4 pr-md-5">
+            <li>
+              <div class="title">09/2021 à 08/2024</div>
+              <div class="details">
+                <h5>BUT MMI</h5>
+                <small class="fg-theme">mmi montbéliard</small>
+                <p>Formation aux métiers du web, spécialité <b>Développement Web & dispositifs intéractifs</b></p>
+              </div>
+              <div class="text-center wow fadeInUp mb-2">
+                <a href="https://marwin-rodrigues.fr/MMI/" target="_blank" class="btn btn-theme hover:underline hover:animate-pulse">Projets Réalisés en MMI</a>
+              </div>
+            </li>
+            <li>
+              <div class="title">09/2020 à 06/2021</div>
+              <div class="details">
+                <h5>BTS SIO</h5>
+                <small class="fg-theme">Lycée Condorcet, Belfort</small>
+                <p>Formé en Informatique en alternance, spécialité <br /> <b>SLAM</b> (Solution Logiciel, Application et Maintenance)</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">09/2017 à 07/2020</div>
+              <div class="details">
+                <h5>BAC STI2D</h5>
+                <small class="fg-theme">Lycée Germaine Tillion, Montbéliard</small>
+                <p>Baccalauréat mention assez bien, spécialité <b>SIN</b> (Système d'Information et Numérique)</p>
+              </div>
+            </li>
           </ul>
-          <div class="desktop:flex desktop:justify-center phone:ml-2 desktop:ml-0 desktop:w-1/2 mt-4">
-          <a href="../../assets/CV-FR-FD_Marwin-RODRIGUES.pdf" target="_blank"><button class="rounded-full border-2 border-primary-color px-2 py-1 hover:bg-primary-color hover:text-light-color hover:scale-110 duration-300 font-Primary">Voir mon CV</button></a>
-          </div>
-      </div>
+        </div>
 
+        <!-- PRO -->
+        <div class="col-md-6 wow fadeInRight desktop:w-1/3" data-wow-delay="200ms">
+          <h2 class="fw-normal font-swap desktop:text-lg">Professionel</h2>
+          <ul class="timeline mt-4 pr-md-5">
+            <li>
+              <div class="title">09/2023 à aujourd'hui</div>
+              <div class="details">
+                <h5><b>Responsable Développement Web & Responsable Communication</b></h5>
+                <small class="fg-theme">Jadyss</small>
+                <p>Responsable de 2 équipes multi-activités</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">05/2023 à aujourd'hui</div>
+              <div class="details">
+                <h5><b>Web Developper Freelancer</b></h5>
+                <small class="fg-theme">Chez Marwin Web</small>
+                <p>Création d'une entreprise individuelle spécialisée dans les services web, offrant des compétences en communication digitale, développement web, design web et audiovisuel</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">09/2022 à 08/2024</div>
+              <div class="details">
+                <h5><b>Web developper apprentice</b></h5>
+                <small class="fg-theme">Forvia</small>
+                <p>Alternance chez Forvia en tant que Développeur Web, avec pour responsabilité la création d'applications web en utilisant des outils tels que Microsoft Power, AngularJS et .NET. J'ai également assumé les rôles de Chef de Projet, Analyste UX/UI, Webdesigner et Vidéaste lors de certaines missions</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">08/2021 à 03/2024</div>
+              <div class="details">
+                <h5><b>Arbitrage évennementiel & CM</b></h5>
+                <small class="fg-theme">Ekalia</small>
+                <p>Expérience en tant qu'Arbitre Événementiel et Community Manager au sein de l'association Ekalia, organisatrice d'événements de jeux vidéo en ligne, conformément à la loi 1901</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">09/2020 à 06/2021</div>
+              <div class="details">
+                <h5><b>Pilote Système d'Informations</b></h5>
+                <small class="fg-theme">Stellantis</small>
+                <p>Une année d alternance chez Stellantis en tant que Pilote Système d'Information, avec pour responsabilité la création de fichiers Excel comportant des macros développées en VBA</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">09/2020 à Aujourd'hui</div>
+              <div class="details">
+                <h5><b>Initiation d’adolescent à la programmation</b></h5>
+                <p>Encadrement et initiation à la programmation pour des groupes d'adolescents âgés d'environ 13 ans</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">07/2019 à 07/2021</div>
+              <div class="details">
+                <h5><b>Modérateur, Gérant Statistiques et Suggestions et UI Designer</b></h5>
+                <small class="fg-theme">Ezaly</small>
+                <p>Gestion de micro-événements(2h), des statistiques, des suggestions des utilisateurs ainsi que designer l'ensemble des interface</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-
   </section>
-
 
 </template>
 
