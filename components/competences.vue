@@ -15,16 +15,86 @@ export default {
 </script>
 
 <template>
-    <h1 class="col-span-2 font-Primary text-3xl uppercase pl-[4%]">Compétences</h1>
+    <h1 class="col-span-2 font-Primary font-black text-3xl uppercase text-center border-2 rounded-3xl border-primary-color border-opacity-20 w-1/4 ml-[4%]">Compétences</h1>
     <div class="desktop:grid desktop:grid-cols-2 overflow-x-hidden">
-        <div class="col-span-1 animate__animated animate__fadeInLeft" v-if="categ === 1">
-            <h2>Front-end</h2>
+        <div class="col-span-1 animate__animated animate__fadeInLeft pl-[2%]" v-if="categ === 1">
+            <h2 class="text-xl text-primary-color font-Primary font-light">Techniques - Front-end</h2>
+            <ul class="grid desktop:grid-cols-4">
+                <li>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>SASS, SCSS</li>
+                    </ul>
+                </li>
+                <li> Frameworks CSS :
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Tailwind CSS</li>
+                        <li>Uikit</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>Javascript</li>
+                        <li>Typescript</li>
+                    </ul>
+                </li>
+                <li> Frameworks & Librairies :
+                    <ul>
+                        <li>AngularJS</li>
+                        <li>VueJS</li>
+                        <li>NuxtJS</li>
+                        <li>React Native</li>
+                    </ul>
+                </li>
+                <li> Développement 3D
+                    <ul>
+                        <li>ThreeJS</li>
+                        <li>TroisJS</li>
+                    </ul>
+                </li>
+            </ul>
         </div>
         <div class="col-span-1 animate__animated animate__fadeInLeft" v-if="categ === 2">
-            <h2>Back-end</h2>
+            <h2 class="text-xl text-primary-color font-Primary font-light">Techniques - Back-end</h2>
+            <ul class="grid desktop:grid-cols-4">
+                <li>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                    </ul>
+                </li>
+                <li> Frameworks
+                    <ul>
+                        <li>.NET CORE</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>REST API</li>
+                        <li>NodeJS</li>
+                    </ul>
+                </li>
+                <li> Gestion de Base de données :
+                    <ul>
+                        <li>PHPMyAdmin</li>
+                        <li>Supabase</li>
+                        <li>Firebase</li>
+                    </ul>
+                </li>
+            </ul>
         </div>
         <div class="col-span-1 animate__animated animate__fadeInLeft" v-if="categ === 3">
-            <h2>Jeux Vidéos</h2>
+            <h2 class="text-xl text-primary-color font-Primary font-light">Jeux Vidéos</h2>
+            <ul class="grid desktop:grid-cols-4">
+                <li> Développement VR
+                    <ul>
+                        <li>Unreal Engine</li>
+                    </ul>
+                </li>
+            </ul>
         </div>
         <div class="col-span-1 animate__animated animate__fadeInLeft" v-if="categ === 4">
             <h2>Outils</h2>
@@ -69,7 +139,6 @@ button {
 
 * {
     line-height: 1.8;
-    font-weight: 400;
     color: #EEA500;
 }
 
