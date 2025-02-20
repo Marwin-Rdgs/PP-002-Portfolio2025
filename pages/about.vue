@@ -1,9 +1,5 @@
 <template>
-    <h1>Page A Propos (+ contact & prise de rdv)</h1>
-    <NuxtLink to="/">Page Accueil</NuxtLink>
-
-
-    <section class="mt-[10%]">
+    <section class="">
       <div class="phone:grid phone:grid-cols-1 desktop:flex desktop:flex-row justify-between items-center">
         <div class="phone:col-start-2 desktop:w-2/3 z-10">
           <p class="pl-[4%] relative z-10 font-Secondary text-lg animate__animated animate__fadeInLeft">« C’est en repoussant ses limites que l’on découvre qui l’on est vraiment. » Cette citation me définit parfaitement. Je suis fermement convaincu que sortir de sa zone de confort est essentiel pour évoluer constamment, et c'est cette philosophie qui guide ma carrière. <br /> <br /> Abandonner n'a jamais fait partie de mon vocabulaire. Bien que j'aie récemment obtenu mon diplôme de BUT MMI spécialisé en développement web et dispositif interactif, je ne cesse de chercher à apprendre et à me perfectionner. Je poursuis activement diverses formations dans les domaines de l'IT, du design, de la communication, du management, du commerce, et plus récemment, de la comptabilité.</p>
