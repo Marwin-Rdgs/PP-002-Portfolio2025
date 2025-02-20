@@ -1,5 +1,5 @@
 <template>
-    <Headnav class="z-50"/>
+    <Headnav/>
 
     <NuxtPage />
 
