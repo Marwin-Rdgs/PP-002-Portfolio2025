@@ -1,8 +1,5 @@
 <template>
     <div class="background-progress">
-       <div class="progress__logo-Me">
-           <a href="https://marwin-rodrigues.fr/" target="_blank"><img src="/imgs/Marwin/Logo-MarwinWeb.png" alt="Logo de Chez Marwin-web" class="progress__logo-Me-Web"></a>
-       </div>
 
        <div class="progess__content">
            <div class="progress__content-text">
