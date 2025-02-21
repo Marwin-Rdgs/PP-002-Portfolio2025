@@ -114,12 +114,12 @@ export default {
                      <img src="/icons/close.svg" alt="Icône de Menu pour la section compétences" class="w-[32px] close">
                 </label>
                 <ul class="submenu">
-                    <li  @click="setCategory(1)"><button><span>Front-end</span><img src="/icons/front-end.svg" alt="Icône de Menu pour la section compétences"></button></li>
-                    <li @click="setCategory(2)"><button><span>Back-end</span><img src="/icons/back-end.svg" alt="Icône de Menu pour la section compétences"></button></li>
-                    <li @click="setCategory(3)"><button><span>Jeux Vidéos</span><img src="/icons/VR.svg" alt="Icône de Menu pour la section compétences"></button></li>
-                    <li @click="setCategory(4)"><button><span>Outils</span><img src="/icons/tools.svg" alt="Icône de Menu pour la section compétences"></button></li>
-                    <li @click="setCategory(5)"><button><span>Pratiques</span><img src="/icons/skills.svg" alt="Icône de Menu pour la section compétences"></button></li>
-                    <li @click="setCategory(6)"><button><span>Qualités</span><img src="/icons/qualites.svg" alt="Icône de Menu pour la section compétences"></button></li>
+                    <li  @click="setCategory(1)"><button><span>Front-end</span><img src="/icons/competences/front-end.svg" alt="Icône de Menu pour la section compétences"></button></li>
+                    <li @click="setCategory(2)"><button><span>Back-end</span><img src="/icons/competences/back-end.svg" alt="Icône de Menu pour la section compétences"></button></li>
+                    <li @click="setCategory(3)"><button><span>Jeux Vidéos</span><img src="/icons/competences/VR.svg" alt="Icône de Menu pour la section compétences"></button></li>
+                    <li @click="setCategory(4)"><button><span>Outils</span><img src="/icons/competences/tools.svg" alt="Icône de Menu pour la section compétences"></button></li>
+                    <li @click="setCategory(5)"><button><span>Pratiques</span><img src="/icons/competences/skills.svg" alt="Icône de Menu pour la section compétences"></button></li>
+                    <li @click="setCategory(6)"><button><span>Qualités</span><img src="/icons/competences/qualites.svg" alt="Icône de Menu pour la section compétences"></button></li>
                 </ul>
             </nav>
         </div>
