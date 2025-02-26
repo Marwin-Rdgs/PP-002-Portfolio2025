@@ -6,7 +6,7 @@ const menuOpen = ref(false);
 </script>
 
 <template>
-    <header class="grid desktop:grid-cols-3 phone:grid-cols-2 items-center bg-light-color phone:pt-[4%] desktop:pt-[1%]">
+    <header class="grid desktop:grid-cols-3 phone:grid-cols-2 items-center bg-light-color phone:pt-[4%] desktop:pt-[1%] relative z-50">
        <NuxtLink to="/"> <h1 class="ml-[4%] font-Primary font-bold text-2xl text-dark-color hover:animate-pulse">MarwinR.</h1></NuxtLink>
         <ul class="phone:hidden desktop:flex justify-center gap-10">
             <li class="font-Secondary font-semibold text-lg text-dark-color opacity-100 hover:opacity-70"><NuxtLink to="veille">Veille</NuxtLink></li>
