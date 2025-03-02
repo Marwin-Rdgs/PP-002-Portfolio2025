@@ -42,7 +42,7 @@
     </section>
 
     <section class="desktop:flex desktop:justify-center phone:grid phone:gap-[4%] desktop:gap-0 mt-[15%]">
-      <div class="desktop:w-[45%] bg-light-color border-l-2 border-t-2 border-b-2 border-dark-color border-opacity-10 rounded-l-md h-[500px]">
+      <div class="desktop:w-[45%] bg-light-color desktop:border-l-2 border-t-2 desktop:border-b-2 border-dark-color border-opacity-10 rounded-l-md phone:h-[536px] desktop:h-[500px]">
         <h1 class="text-primary-color font-Primary text-center text-2xl font-bold desktop:mt-[4%]">Chef de projet</h1>
         <ul class="grid gap-[4%] text-md ml-[2%] mt-[2%]">
           <li>Pilotage et coordination de projets dans divers secteurs.</li>
