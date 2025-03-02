@@ -6,8 +6,7 @@
         Chef de projet & Indépendant en Stratégie Digitale
       </h1>
   
-      <!-- Image en dessous mais sans casser la mise en page -->
-      <div class="flex justify-center -mt-[18%]">
+      <div class="flex justify-center -mt-[25%]">
         <img 
           src="/imgs/Marwin/Marwin-index.png" 
           alt="Image de Marwin RODRIGUES" 
@@ -30,7 +29,7 @@
           </div>
     </section>
 
-    <section class="grid desktop:grid-cols-2 phone:mt-[60%] desktop:mt-[20%]">
+    <section class="relative grid desktop:grid-cols-2 phone:mt-[60%] desktop:mt-[20%]">
       <div class="grid gap-[8%] ml-[4%]">
         <h3 class="font-Primary font-bold text-dark-color phone:text-2xl desktop:text-5xl">Derrière chaque projet, une histoire. <span class="text-primary-color">Voici la mienne</span>.</h3>
         <p class="font-Secondary text-dark-color desktop:text-lg phone:text-sm">Lorem ipsum dolor sit amet. Et magnam rerum ut numquam eligendi est debitis odit hic inventore Quis hic possimus totam? Sed nobis reprehenderit cum commodi voluptates et dignissimos beatae. Qui tenetur minus aut illo eligendi qui quisquam quia qui nulla nulla est deserunt voluptas in dolores dolor. Aut sapiente itaque id autem beatae aut iste porro ex aspernatur alias.</p>
@@ -38,7 +37,7 @@
         <RouterLink to="/about"><button class="bg-primary-color text-dark-color rounded-full desktop:px-[24px] phone:px-[10px] phone:text-sm desktop:text-lg py-[1%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:translate-x-6 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-500">Savoir plus</button></RouterLink>      
       </div>
 
-      <img src="/imgs/Marwin/Marwin-IndexBio.png" alt="">
+      <img src="/imgs/Marwin/Marwin-IndexBio.png" alt="" class=" desktop:absolute desktop:right-0 desktop:-top-64 object-cover z-0">
       
     </section>
 
