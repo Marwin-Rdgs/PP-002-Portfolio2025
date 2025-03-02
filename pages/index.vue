@@ -41,5 +41,41 @@
       
     </section>
 
+    <section class="desktop:flex desktop:justify-center phone:grid phone:gap-[4%] desktop:gap-0 mt-[15%]">
+      <div class="desktop:w-[45%] bg-light-color border-l-2 border-t-2 border-b-2 border-dark-color border-opacity-10 rounded-l-md h-[500px]">
+        <h1 class="text-primary-color font-Primary text-center text-2xl font-bold desktop:mt-[4%]">Chef de projet</h1>
+        <ul class="grid gap-[4%] text-md ml-[2%] mt-[2%]">
+          <li>Pilotage et coordination de projets dans divers secteurs.</li>
+          <li>Définition et suivi des objectifs en fonction des enjeux stratégiques et opérationnels</li>
+          <li>Gestion du cycle de vie des produits/services, de la conception à la mise en marché</li>
+          <li>Collaboration avec les équipes techniques, créatives et métiers pour assurer l’alignement stratégique</li>
+          <li>Mise en place et gestion des méthodologies de travail (agilité, cycle en V,gestion classique, workflows créatifs)</li>
+          <li>Analyse des besoins et des tendances du marché pour optimiser les offres et expériences</li>
+          <li>Organisation et gestion d’événements (lancements, activations de marque, productions audiovisuelles...)</li>
+          <li>Gestion des parties prenantes et coordination des intervenants (clients, prestataires, équipes internes)</li>
+        </ul>
+      </div>
+      <div class="desktop:w-[45%] bg-primary-color rounded-r-md h-[500px]">
+        <h1 class="text-light-color font-Primary text-center text-2xl font-bold desktop:mt-[4%]">Indépendant en Stratégie Digital</h1>
+        <ul class="grid phone:gap-[4%] desktop:gap-[14%] text-md ml-[2%] mt-[2%]">
+          <li>Création et refonte de sites vitrines ergonomiques et optimisés SEO</li>
+          <li>Stratégie et gestion des réseaux sociaux : contenu, engagement, publicité</li>
+          <li>Conception de supports de communication (print & digital) : cartes de visite, flyers, brochures...</li>
+          <li>Mise en place et analyse des campagnes marketing digital (emailing, ads, référencement)</li>
+          <li>Accompagnement des marques dans leur digitalisation et positionnement en ligne</li>
+          <li>Formation et conseils personnalisés pour aider les entreprises et particuliers à mieux gérer leur communication digitale</li>
+          <li>Optimisation du parcours utilisateur pour maximiser le taux de conversion</li>
+        </ul>
+      </div>
+    </section>
+
+    <h1 class="mt-[20%] font-bold">à faire</h1>
+
+    <ul>
+      <li>projets (favoris ?)</li>
+      <li>Avis</li>
+      <li>FAQ ?</li>
+    </ul>
+
   </template>
   
