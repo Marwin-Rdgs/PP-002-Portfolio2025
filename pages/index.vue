@@ -1,3 +1,9 @@
+<script setup>
+import {ref} from 'vue';
+
+const avis = ref(1);
+</script>
+
 <template>
     <section class="relative h-full pt-[6%] flex flex-col items-center">
       <!-- Texte bien au-dessus -->
@@ -88,8 +94,22 @@
       <RouterLink to="/projects"><p class="underline text-right">Voir plus...</p></RouterLink>
     </section>
 
-    <section>
-      <h1>Vos retours</h1>
+    <section class="mt-[4%]">
+      <h1 class="text-5xl font-Primary font-bold text-primary-color ml-[2%] mb-[1%]">Des retours satisfaisants</h1>
+      <div class="grid desktop:grid-cols-2 phone:gap-[8%] desktop:gap-[2%] desktop:mx-[2%] relative">
+        <feedback v-if="avis==1" nom="Pascal Chatonnay" poste="Chef de département" img="/imgs/retours/pascal-chatonnay.jpg" alt="test" comments="Marwin s'est distingué par son implication et son enthousiasme. Son engagement en alternance chez Forvia lui a permis de développer un savoir-faire technique solide, tout en appliquant de manière pratique les compétences acquises au département MMI de Montbéliard. Sa capacité à jongler entre les exigences académiques et professionnelles témoigne de sa rigueur, de son sens de l'organisation et de sa passion pour le développement tout en étant à l'aise avec la communication et le design. Outre ses compétences professionnelles, Marwin est toujours d'une compagne agréable."/>
+        <feedback v-if="avis==1" nom="Pascal Chatonnay" poste="Chef de département" img="/imgs/retours/pascal-chatonnay.jpg" alt="test" comments="Marwin s'est distingué par son implication et son enthousiasme. Son engagement en alternance chez Forvia lui a permis de développer un savoir-faire technique solide, tout en appliquant de manière pratique les compétences acquises au département MMI de Montbéliard. Sa capacité à jongler entre les exigences académiques et professionnelles témoigne de sa rigueur, de son sens de l'organisation et de sa passion pour le développement tout en étant à l'aise avec la communication et le design. Outre ses compétences professionnelles, Marwin est toujours d'une compagne agréable."/>
+       
+        <feedback v-if="avis==2" nom="Pascal Chatonnay" poste="Chef de département" img="/imgs/retours/pascal-chatonnay.jpg" alt="test" comments="Marwin s'est distingué par son implication et son enthousiasme. Son engagement en alternance chez Forvia lui a permis de développer un savoir-faire technique solide, tout en appliquant de manière pratique les compétences acquises au département MMI de Montbéliard. Sa capacité à jongler entre les exigences académiques et professionnelles témoigne de sa rigueur, de son sens de l'organisation et de sa passion pour le développement tout en étant à l'aise avec la communication et le design. Outre ses compétences professionnelles, Marwin est toujours d'une compagne agréable."/>
+        <feedback v-if="avis==2" nom="Pascal Chatonnay" poste="Chef de département" img="/imgs/retours/pascal-chatonnay.jpg" alt="test" comments="Marwin s'est distingué par son implication et son enthousiasme. Son engagement en alternance chez Forvia lui a permis de développer un savoir-faire technique solide, tout en appliquant de manière pratique les compétences acquises au département MMI de Montbéliard. Sa capacité à jongler entre les exigences académiques et professionnelles témoigne de sa rigueur, de son sens de l'organisation et de sa passion pour le développement tout en étant à l'aise avec la communication et le design. Outre ses compétences professionnelles, Marwin est toujours d'une compagne agréable."/>
+       
+        <feedback v-if="avis==3" nom="Pascal Chatonnay" poste="Chef de département" img="/imgs/retours/pascal-chatonnay.jpg" alt="test" comments="Marwin s'est distingué par son implication et son enthousiasme. Son engagement en alternance chez Forvia lui a permis de développer un savoir-faire technique solide, tout en appliquant de manière pratique les compétences acquises au département MMI de Montbéliard. Sa capacité à jongler entre les exigences académiques et professionnelles témoigne de sa rigueur, de son sens de l'organisation et de sa passion pour le développement tout en étant à l'aise avec la communication et le design. Outre ses compétences professionnelles, Marwin est toujours d'une compagne agréable."/>
+        <feedback v-if="avis==3" nom="Pascal Chatonnay" poste="Chef de département" img="/imgs/retours/pascal-chatonnay.jpg" alt="test" comments="Marwin s'est distingué par son implication et son enthousiasme. Son engagement en alternance chez Forvia lui a permis de développer un savoir-faire technique solide, tout en appliquant de manière pratique les compétences acquises au département MMI de Montbéliard. Sa capacité à jongler entre les exigences académiques et professionnelles témoigne de sa rigueur, de son sens de l'organisation et de sa passion pour le développement tout en étant à l'aise avec la communication et le design. Outre ses compétences professionnelles, Marwin est toujours d'une compagne agréable."/>       
+        <div class="absolute z-20 flex justify-between w-full items-center h-full">
+          <button @click="avis-=1;if(avis<1){avis=3}"><img src="/icons/chevron.svg" alt="" class="w-[64px] rotate-90 scale-100 hover:scale-110 ease-in-out duration-150 transition-all"></button>
+          <button @click="avis+=1;if(avis>3){avis=1}"><img src="/icons/chevron.svg" alt="" class="w-[64px] -rotate-90 scale-100 hover:scale-110 ease-in-out duration-150 transition-all"></button>
+        </div>
+      </div>
     </section>
 
     <section>
