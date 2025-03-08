@@ -1,33 +1,33 @@
 <script>
 export default {
     props: {
-         title: {
+        title: {
             type: String,
             default: "Projet",
         },
-        description: {
+        img: {
             type: String,
-            default: "description du Projet"
+            required: true, // L'image doit être fournie
+        },
+        alt: {
+            type: String,
+            default: "Image du projet",
         },
         link: {
             type: String,
             default: "#",
         },
-        tag : {
-            type: String,
-        },
-        img : {
-            type: String,
-        }
-    },
+    }
 };
 </script>
 
 <template>
-    <div class="group w-[128px] ">
-        <div class="relative">
-            <img src="/public/imgs/projects/emorphoz.gif" alt="" class="absolute w-full h-full z-0 grayscale group-hover:grayscale-0">
-            <h1 class="z-10">fldgkdfjkghjdkhjfjkdqhdjkshtest</h1>
-        </div>
-    </div>
+    <RouterLink :to="link" class="group w-[128px] h-[180px] relative overflow-hidden phone:px-[50%] desktop:px-[10%] rounded-xl">
+        <!-- Image en arrière-plan -->
+        <img :src="img" :alt="alt" class="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0"/>
+        <!-- Titre en bas -->
+        <h1 class="absolute inset-x-0 bottom-0 text-white text-center bg-black/50 p-2 z-10 font-Primary font-extrabold text-light-color">
+            {{ title }}
+        </h1>
+    </RouterLink>
 </template>

@@ -72,28 +72,20 @@
     <section class="desktop:mt-[4%] phone:mt-[15%]">
       <h1 class="text-5xl font-Primary font-bold text-primary-color ml-[2%]">Mon dernier projet</h1>
 
-      <!-- <div class="grid desktop:grid-cols-2 ml-[2%] mt-[4%] group desktop:border-2 border-opacity-0 border-dark-color desktop:hover:border-2 desktop:hover:border-opacity-10 desktop:rounded-xl transition-all ease-in-out duration-300">
-        <img src="/imgs/projects/emorphoz.gif" alt="" class="grayscale group-hover:grayscale-0 transition-all ease-in-out duration-300 rounded-xl">
-        <div class="grid">
-          <h2 class="text-primary-color font-Primary font-semibold text-4xl">E-morphoz</h2>
-          <p class="text-lg text-dark-color font-Secondary font-medium desktop:w-4/5">E-morphoz est un générateur de NFT collaboratif où vous participez à la création de votre NFT en y ajoutant des accessoires. La température extérieure d’où vous êtes influe aussi sur le rendu final de la NFT. Une fois généré, une partie des bénéfices de la NFT vous sera reversée à vous et à une association à chaque revente.</p>
-          <RouterLink to="/projects/emorphoz"><button class="bg-primary-color text-dark-color rounded-full desktop:px-[24px] phone:px-[10px] phone:text-sm desktop:text-lg py-[1%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:translate-x-6 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-500">Voir plus</button></RouterLink>
-        </div>
-      </div> -->
-      <div class="bg-[url(/imgs/projects/emorphoz.gif)] bg-cover bg-bottom mt-[4%] h-[100%]">
+      <div class="bg-[url(/imgs/projects/emorphoz.gif)] bg-cover bg-bottom mt-[1%] h-[100%]">
         <div class="grid items-center bg-light-color bg-opacity-5 rounded-r-full w-[50%] pl-[2%] pr-[4%] pt-[4%] h-[500px]">
           <h2 class="text-5xl font-Primary font-bold text-primary-color">E-morphoz</h2>
           <p class="text-lg font-Secondary font-medium text-light-color">E-morphoz est un générateur de NFT collaboratif où vous participez à la création de votre NFT en y ajoutant des accessoires. La température extérieure d’où vous êtes influe aussi sur le rendu final de la NFT. Une fois généré, une partie des bénéfices de la NFT vous sera reversée à vous et à une association à chaque revente.</p>
           <RouterLink to="/projects/emorphoz"><button class="bg-primary-color text-dark-color rounded-full desktop:px-[24px] phone:px-[10px] phone:text-sm desktop:text-lg py-[1%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:translate-x-6 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-500">Voir plus</button></RouterLink>
         </div>
       </div>
-      <div class="desktop:flex desktop:gap-2">
-        <CardProject />
+      <div class="desktop:flex phone:flex-col desktop:flex-row gap-[2%] justify-center mx-[2%] mt-[1%]">
+        <CardProject title="e-morphoz" img="/imgs/projects/emorphoz.gif" alt="projet"/>
+        <CardProject title="e-morphoz" img="/imgs/projects/emorphoz.gif" alt="projet"/>
+        <CardProject title="e-morphoz" img="/imgs/projects/emorphoz.gif" alt="projet"/>
+        <CardProject title="e-morphoz" img="/imgs/projects/emorphoz.gif" alt="projet"/>
       </div>
       <RouterLink to="/projects"><p class="underline text-right">Voir plus...</p></RouterLink>
-      
-      <p class="mt-16">list des derniers projets</p>
-      <p>voir plus...</p>
     </section>
 
     <section>
