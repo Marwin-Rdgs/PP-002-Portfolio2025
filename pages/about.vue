@@ -13,7 +13,7 @@
             <div class="flex gap-4 items-center phone:px-[10%] desktop:px-0">
               <img src="/icons/about/calendar.svg" alt="" class="w-[32px]">
               <p class="text-primary-color font-extrabold text-2xl">|</p>
-              <p class="phone:text-xs desktop:text-base font-Secondary">23 ans</p>
+              <p class="phone:text-xs desktop:text-base font-Secondary">24 ans</p>
             </div>
 
             <NuxtLink to="contact" class="phone:ml-[4%] desktop:ml-0">
@@ -98,9 +98,17 @@
             <li>
               <div class="title">05/2023 à aujourd'hui</div>
               <div class="details">
-                <h5><b>Web Developper Freelancer</b></h5>
+                <h5><b>Indépendant en Stratégie Digital</b></h5>
                 <small class="fg-theme">Chez Marwin Web</small>
                 <p>Création d'une entreprise individuelle spécialisée dans les services web, offrant des compétences en communication digitale, développement web, design web et audiovisuel</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">02/2025 à aujourd'hui</div>
+              <div class="details">
+                <h5><b>WebMaster</b></h5>
+                <small class="fg-theme">Groupe SEB</small>
+                <p>Gestion de la visibilité des produits SEB.</p>
               </div>
             </li>
             <li>
@@ -146,7 +154,31 @@
         </div>
       </div>
     </div>
+    
   </section>
+
+  <div class="relative flex justify-center items-center">
+    <hr class="px-10 border-primary-color border-2 shadow-lg shadow-primary-color w-1/3 desktop:mr-4"/>
+    <div>
+      <h2 class="text-center mb-4 text-primary-color desktop:text-4xl font-Primary font-extralight">Marwin c'est</h2>
+      <img src="/public/imgs/Marwin/Marwin-Stats.png" alt="Image Me with duotone">
+    </div>
+    <hr class="px-10 border-primary-color border-2 shadow-lg shadow-primary-color w-1/3"/>
+
+    <div class="absolute desktop:bottom-48">
+      <div class="desktop:flex phone:grid phone:grid-cols-2 phone:gap-x-44 phone:gap-40 desktop:gap-96">
+        <div class="desktop:flex desktop:gap-28 desktop:mr-52">
+          <p class="animate-bounce text-center phone:text-xs desktop:text-base desktop:font-semibold">+999 lignes de codes</p>
+          <p class="animate-bounce text-center phone:text-xs desktop:text-base desktop:font-semibold">14 clients</p>
+        </div>
+        
+        <div class="desktop:flex desktop:gap-28">
+          <p class="animate-bounce text-center phone:text-xs desktop:text-base desktop:font-semibold">15 projets</p>
+          <p class="animate-bounce text-center phone:text-xs desktop:text-base desktop:font-semibold">6 ans d'expériences</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </template>
 
