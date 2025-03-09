@@ -37,7 +37,7 @@
 </ul>
 
 <!-- Vous trouverez ici la "mention légale" -->
-<p>Copyright © 2025 Marwin RODRIGUES</p>
+<p>© Copyright 2025 Marwin RODRIGUES – Tous droits réservés – Création Chez Marwin web – Mentions légales – Politique de confidentialité</p>
 
 </footer>
 </template>
