@@ -43,7 +43,7 @@
     </section>
     <img src="/imgs/shapes/waves.svg" alt="" class="w-full rotate-180">
 
-    <section id="Cursus" class="mt-4 shadow-lg shadow-jaune pb-4 z-10 flex justify-center">
+    <section id="Cursus" class="mt-4 pb-4 z-10 flex justify-center">
 
       <div class="container pt-5">
       <div class="desktop:flex phone:grid justify-center gap-52">
