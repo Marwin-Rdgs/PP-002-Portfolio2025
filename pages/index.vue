@@ -112,8 +112,26 @@ const avis = ref(1);
       </div>
     </section>
 
-    <section>
-      <h1>FAQ</h1>
+    <section class="grid desktop:grid-cols-2 items-center">
+      <FAQ 
+      question1="Pourquoi me choisir pour votre projet digital ?"
+      reponse1="Jeune professionnel motivé, toujours en quête de nouvelles expériences et compétences. Passionné par l’univers digital depuis mon plus jeune âge, j’ai exploré divers domaines tout en restant ancré dans le web et la communication digitale. Rigoureux, organisé et soucieux du détail, je mets tout en œuvre pour mener à bien chacun de vos projets digitaux avec précision et efficacité."
+      
+      question2="Comment se déroule une collaboration avec moi ?"
+      reponse2="Derrière chaque stratégie digitale se cachent de nombreux métiers spécialisés. Bien que je ne sois pas expert dans chacun d’eux, je collabore avec des partenaires de confiance, comme Dany Galmiche pour la création d’univers graphiques. Mon expertise se concentre sur la création de sites internet, l’optimisation SEO, le référencement et la gestion des réseaux sociaux, garantissant ainsi une approche complète et performante pour votre visibilité en ligne."
+      
+      question3="Quels sont mes engagements envers mes clients ?"
+      reponse3="Au-delà d’une simple prestation, je construis une véritable relation de confiance avec mes clients. Mon objectif n’est pas seulement d’améliorer leur visibilité en ligne, mais aussi de les accompagner tout au long du projet. J’aime partager mon expertise et les aider à mieux comprendre les enjeux du digital. Cette approche collaborative crée une alchimie parfaite pour atteindre des résultats optimaux."/>
+    
+      <div class="grid items-center gap-x-5">
+        <div class="h-1/2 -mb-[20%]">
+          <img src="/imgs/envato/FAQ1.jpg" alt="" class="rounded-xl h-full object-cover object-top w-full items-end">
+        </div>
+        <div class="grid grid-cols-2 gap-[2%] items-center">
+          <img src="/imgs/envato/FAQ2.jpg" alt="" class="rounded-xl w-[500px] h-[250px] object-cover">
+          <img src="/imgs/envato/FAQ3.jpg" alt="" class="rounded-xl w-[500px] h-[250px] object-cover">
+        </div>
+      </div>
     </section>
 
   </template>

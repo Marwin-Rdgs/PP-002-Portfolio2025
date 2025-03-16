@@ -1,5 +1,5 @@
 <template>
-  <footer class="mt-96" id="Footer">
+  <footer class="mt-[12%]" id="Footer">
 
 <!-- NE PAS TOUCHER -->
 <div class="waves">
