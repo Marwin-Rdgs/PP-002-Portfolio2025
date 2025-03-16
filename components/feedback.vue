@@ -31,7 +31,7 @@ export default {
 <template>
     <div class="relative w-full phone:p-[5%] desktop:p-6 bg-black/50 rounded-lg overflow-hidden">
         <!-- Image en arrière-plan -->
-        <img :src="img" :alt="nom" class="absolute inset-0 w-full h-[244px] object-cover object-top z-0 opacity-50" />
+        <img :src="img" :alt="nom" class="absolute inset-0 w-full h-full object-cover object-top z-0 opacity-50" />
         
         <!-- Contenu au premier plan -->
         <div class="relative z-10 text-white desktop:p-[2%]">
