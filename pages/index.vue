@@ -112,7 +112,7 @@ const avis = ref(1);
       </div>
     </section>
 
-    <section class="grid desktop:grid-cols-2 items-center">
+    <section class="grid desktop:grid-cols-2 items-center gap-[2%] desktop:ml-[6%] mr-[6%]">
       <FAQ 
       question1="Pourquoi me choisir pour votre projet digital ?"
       reponse1="Jeune professionnel motivé, toujours en quête de nouvelles expériences et compétences. Passionné par l’univers digital depuis mon plus jeune âge, j’ai exploré divers domaines tout en restant ancré dans le web et la communication digitale. Rigoureux, organisé et soucieux du détail, je mets tout en œuvre pour mener à bien chacun de vos projets digitaux avec précision et efficacité."
