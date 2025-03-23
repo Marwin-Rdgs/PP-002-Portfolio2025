@@ -34,9 +34,9 @@ defineProps({
 </script>
 
 <template>
-    <div class="ml-[8%]">
+    <div class="desktop:ml-[8%]">
         <h1 class="-mb-2 font-Secondary font-bold text-dark-color text-opacity-50">Marwin RODRIGUES</h1>
-        <h2 class="desktop:text-5xl phone:text-xl font-Primary w-[400px] text-primary-color">Vos questions, mes réponses</h2>
+        <h2 class="desktop:text-5xl phone:text-xl font-Primary desktop:w-[400px] text-primary-color">Vos questions, mes réponses</h2>
 
         <div class="grid gap-8 mt-[4%]">
             <div>

@@ -47,7 +47,7 @@ const avis = ref(1);
       
     </section>
 
-    <section class="desktop:flex desktop:justify-center phone:grid phone:gap-[4%] desktop:gap-0 mt-[15%]">
+    <!-- <section class="desktop:flex desktop:justify-center phone:grid phone:gap-[4%] desktop:gap-0 mt-[15%]">
       <div class="desktop:w-[45%] bg-light-color desktop:border-l-2 border-t-2 desktop:border-b-2 border-dark-color border-opacity-10 rounded-l-md phone:h-[536px] desktop:h-[500px]">
         <h1 class="text-primary-color font-Primary text-center text-2xl font-bold desktop:mt-[4%]">Chef de projet</h1>
         <ul class="grid gap-[4%] text-md ml-[2%] mt-[2%]">
@@ -73,9 +73,9 @@ const avis = ref(1);
           <li>Optimisation du parcours utilisateur pour maximiser le taux de conversion</li>
         </ul>
       </div>
-    </section>
+    </section> -->
 
-    <section class="desktop:mt-[4%] phone:mt-[15%]">
+    <section class="desktop:mt-[10%] phone:mt-[20%]">
       <h1 class="text-5xl font-Primary font-bold text-primary-color ml-[2%]">Mon dernier projet</h1>
 
       <div class="bg-[url(/imgs/projects/iutNFCTV.gif)] bg-cover bg-center mt-[1%] h-[100%]">
