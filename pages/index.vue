@@ -9,7 +9,7 @@ const avis = ref(1);
       <!-- Texte bien au-dessus -->
       <h1 class="text-center text-dark-color phone:text-4xl desktop:text-6xl font-Primary font-bold mx-[20%] z-10">
         Je suis <span class="font-extrabold text-primary-color">Marwin</span>. 
-        Chef de projet & Indépendant en Stratégie Digitale
+        Chef de projet & Entrepreneur.
       </h1>
   
       <div class="flex justify-center -mt-[20%]">
