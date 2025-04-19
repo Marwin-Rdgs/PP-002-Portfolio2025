@@ -22,7 +22,7 @@
         <div class="grid mx-auto gap-y-[4%]">
             <div class="flex justify-center items-center gap-[2%]">
                 <img src="/imgs/Marwin/Logo-MarwinWeb.png" alt="" class="w-[64px] animate-fadeIn">
-                <h1 class="font-Primary text-xl text-primary-color drop-shadow-lg animate-fadeIn">Chez Marwin-Web</h1>
+                <h1 class="font-Primary text-xl text-primary-color drop-shadow-lg animate-fadeIn">Chez Marwin-TeamCare</h1>
             </div>
             <img src="/imgs/projects/citadelle.jpg" alt="" class="w-full">
             <p class="text-justify">fdklskf</p>
