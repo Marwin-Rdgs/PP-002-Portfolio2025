@@ -1,7 +1,67 @@
 <script setup>
 import {ref} from 'vue';
+import CarouselFeedback from '@/components/CarouselFeedback.vue';
 
 const avis = ref(1);
+
+const feedbackList = [
+  {
+    auteur: "Johan Grandmougin",
+    poste: "Directeur Commercial",
+    entreprise: "ChooseMe",
+    link: "#",
+    comments: "Nous avons demandé à Marwin de créer notre projets, Nous lui avons expliqué ce que nous voulions, il a été à l'écoute, nous a poser des questions, ensuite il se projetait en incluant des options auxquels nous avions pas pansé ce qui répondait à nos attentes de plus améliorait de notre projet et nous lui avons approuvé le prototype. Nous sommes content de Marwin.",
+    img: "/imgs/retours/johan-grandmougin.jpg"
+  },
+  {
+    auteur: "Antoine Beluche",
+    poste: "Indépendant en débaras",
+    entreprise: "MTFer",
+    link: "#",
+    comments: "Marwin a été très compétent et il a répondu à mes attentes qui m'ont permis de me concentrer totalement sur mon activité d'auto-entreprise.",
+    img: "/imgs/retours/antoine-beluche.jpg"
+  },
+  {
+    auteur: "Dany Galmiche",
+    poste: "Indépendant en création numérique",
+    entreprise: "Dany Galmiche Design",
+    link: "#",
+    comments: "Efficace et professionnel c'est un très bon collaborateur.",
+    img: "/imgs/retours/dany-galmiche.jpeg"
+  },
+  {
+    auteur: "Julien Vissault",
+    poste: "Administrateur",
+    entreprise: "Jadyss",
+    link: "#",
+    comments: "Marwin est très professionnel dans son travail, on lui a confié la responsabilité du projet de développement de notre site internet. Nous sommes entièrement satisfait sur tous les aspects de ce projet que ce soit sur la partie technique ou gestion de projet.",
+    img: "/imgs/retours/julien-vissault.jpeg"
+  },
+  {
+    auteur: "Andréa Lopes",
+    poste: "Chef de projet",
+    entreprise: "FORVIA",
+    link: "#",
+    comments: "Marwin a été mon alternant entre septembre 2022 et août 2024 au sein de Forvia. Il a été très efficace et a su prendre en compte les conseils et remarques tout au long de cette période, il a beaucoup évolué et est aujourd'hui plus que jamais prêt à relever des defis. Très polyvalent et toujours volontaire, il sera une force pour votre entreprise",
+    img: "/imgs/retours/andrea-lopes.jpeg"
+  },
+  {
+    auteur: "Pascal Chatonnay",
+    poste: "Chef de département",
+    entreprise: "MMI Montbéliard",
+    link: "#",
+    comments: "Marwin s'est distingué par son implication et son enthousiasme. Son engagement en alternance chez Forvia lui a permis de développer un savoir-faire technique solide, tout en appliquant de manière pratique les compétences acquises au département MMI de Montbéliard. Sa capacité à jongler entre les exigences académiques et professionnelles témoigne de sa rigueur, de son sens de l'organisation et de sa passion pour le développement tout en étant à l'aise avec la communication et le design. Outre ses compétences professionnelles, Marwin est toujours d'une compagne agréable.",
+    img: "/imgs/retours/pascal-chatonnay.jpg"
+  },
+  {
+    auteur: "ilMago",
+    poste: "Dj & Producteur Hardstyle",
+    entreprise: "ilMago",
+    link: "http://ilmago.fr/",
+    comments: "J'ai confié la création de mon premier site web à Marwin, et j'ai été bluffé de la qualité de son travail ! Marwin est très carré, force de proposition et rapide. Super personnalité et rapport qualité/prix imbattable, je recommande ++ !",
+    img: "/imgs/retours/ilMago.jpg"
+  },
+]
 </script>
 
 <template>
@@ -96,20 +156,7 @@ const avis = ref(1);
 
     <section class="mt-[4%]">
       <h1 class="text-5xl font-Primary font-bold text-primary-color ml-[2%] mb-[1%]">Des retours satisfaisants</h1>
-      <div class="grid desktop:grid-cols-2 phone:gap-[8%] desktop:gap-[2%] desktop:mx-[2%] relative">
-        <feedback v-if="avis==1" nom="Pascal Chatonnay" poste="Chef de département" secteur="MMI Montbéliard" link="#" img="/imgs/retours/pascal-chatonnay.jpg" alt="test" comments="Marwin s'est distingué par son implication et son enthousiasme. Son engagement en alternance chez Forvia lui a permis de développer un savoir-faire technique solide, tout en appliquant de manière pratique les compétences acquises au département MMI de Montbéliard. Sa capacité à jongler entre les exigences académiques et professionnelles témoigne de sa rigueur, de son sens de l'organisation et de sa passion pour le développement tout en étant à l'aise avec la communication et le design. Outre ses compétences professionnelles, Marwin est toujours d'une compagne agréable."/>
-        <feedback v-if="avis==1" nom="Andréa Lopes" poste="Chef de projet" secteur="FORVIA" link="#" img="/imgs/retours/andrea-lopes.jpeg" alt="test" comments="Marwin a été mon alternant entre septembre 2022 et août 2024 au sein de Forvia. Il a été très efficace et a su prendre en compte les conseils et remarques tout au long de cette période, il a beaucoup évolué et est aujourd'hui plus que jamais prêt à relever des defis. Très polyvalent et toujours volontaire, il sera une force pour votre entreprise"/>
-       
-        <feedback v-if="avis==2" nom="Johan Grandmougin" poste="Directeur Commercial" secteur="ChooseMe" link="#" img="/imgs/retours/johan-grandmougin.jpg" alt="test" comments="Nous avons demandé à Marwin de créer notre projets, Nous lui avons expliqué ce que nous voulions, il a été à l'écoute, nous a poser des questions, ensuite il se projetait en incluant des options auxquels nous avions pas pansé ce qui répondait à nos attentes de plus améliorait de notre projet et nous lui avons approuvé le prototype. Nous sommes content de Marwin."/>
-        <feedback v-if="avis==2" nom="Julien Vissault" poste="Administrateur" secteur="Jadyss" link="#" img="/imgs/retours/julien-vissault.jpeg" alt="test" comments="Marwin est très professionnel dans son travail, on lui a confié la responsabilité du projet de développement de notre site internet. Nous sommes entièrement satisfait sur tous les aspects de ce projet que ce soit sur la partie technique ou gestion de projet."/>
-       
-        <feedback v-if="avis==3" nom="Dany Galmiche" poste="Indépendant en création numérique" secteur="Dany Galmiche Design" link="#" img="/imgs/retours/dany-galmiche.jpeg" alt="test" comments="Efficace et professionnel c'est un très bon collaborateur."/>
-        <feedback v-if="avis==3" nom="Antoine Beluche" poste="Indépendant en débaras" secteur="MTFer" link="#" img="/imgs/retours/antoine-beluche.jpg" alt="test" comments="Marwin a été très compétent et il a répondu à mes attentes qui m'ont permis de me concentrer totalement sur mon activité d'auto-entreprise."/>       
-        <div class="absolute z-20 flex justify-between w-full items-center h-full">
-          <button @click="avis-=1;if(avis<1){avis=3}"><img src="/icons/chevron.svg" alt="" class="w-[64px] rotate-90 scale-100 hover:scale-110 ease-in-out duration-150 transition-all"></button>
-          <button @click="avis+=1;if(avis>3){avis=1}"><img src="/icons/chevron.svg" alt="" class="w-[64px] -rotate-90 scale-100 hover:scale-110 ease-in-out duration-150 transition-all"></button>
-        </div>
-      </div>
+      <CarouselFeedback :feedbacks="feedbackList"/>
     </section>
 
     <section class="grid desktop:grid-cols-2 items-center gap-[2%] desktop:ml-[6%] mr-[6%]">
