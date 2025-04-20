@@ -1,0 +1,79 @@
+[
+    {
+        "id":"PC2017001",
+        "title":"Prod Squad",
+        "img":"/imgs/projects/prodsquad.png",
+        "alt":"Site web promotionnel d'une communauté française du jeux-vidéos minecraft privée",
+        "categ":"prestation"
+    },
+    {
+        "id":"PS2017001",
+        "title":"Trois Cent Team",
+        "img":"/imgs/projects/troiscentteam.jpg",
+        "alt":"Site de présentation d'un groupe de 3 élèves",
+        "categ":"school"
+    },
+    {
+        "id":"PP2022001",
+        "title":"Stweaming",
+        "img":"/imgs/projects/stweaming.jpg",
+        "alt":"Site de streaming",
+        "categ":"perso"
+    },
+    {
+        "id":"PP2022002",
+        "title":"Template Footer - Waves",
+        "img":"/imgs/projects/footer_wave.jpg",
+        "alt":"Template d'un bas de page vague",
+        "categ":"perso"
+    },
+    {
+        "id":"PC2022001",
+        "title":"Citadelle de Besançon",
+        "img":"/imgs/projects/citadelle.jpg",
+        "alt":"Illustration animée de la citadelle de Besançon",
+        "categ":"school"
+    },
+    {
+        "id":"PC2022002",
+        "title":"go-match",
+        "img":"/imgs/projects/gomatch.gif",
+        "alt":"Site web de gestion de terrain de sport",
+        "categ":"school"
+    },
+    {
+        "id":"PS2023001",
+        "title":"e-morphoz",
+        "img":"/imgs/projects/emorphoz.gif",
+        "alt":"Générateur de NFT",
+        "categ":"school"
+    },
+    {
+        "id":"PC2023001",
+        "title":"Carte de visite - MToutFer",
+        "img":"/imgs/projects/Com-MToutFer.jpeg",
+        "alt":"Carte de visite pour un entrepreneur dans le débaras",
+        "categ":"prestation"
+    },
+    {
+        "id":"PC2024001",
+        "title":"Flyer - Tony RODRIGUES",
+        "img":"/imgs/projects/Com-Tony.jpeg",
+        "alt":"Prestation d'une réalisation de flyer",
+        "categ":"prestation"
+    },
+    {
+        "id":"PS2023002",
+        "title":"iut NFC tv",
+        "img":"/imgs/projects/iutNFCTV.gif",
+        "alt":"Projet scolaire d'un site web de la web tv de l'iut nord franche comté",
+        "categ":"school"
+    },
+    {
+        "id":"PC2024002",
+        "title":"Anthony Hecquet Portfolio",
+        "img":"/imgs/projects/AnthonyHecquet-Portfolio.JPG",
+        "alt":"Portfolio d'un étudiant de BTS SIO nommé Anthony Hecquet",
+        "categ":"prestation"
+    }
+]

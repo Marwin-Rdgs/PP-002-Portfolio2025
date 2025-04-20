@@ -2,10 +2,12 @@
 import {ref} from 'vue';
 import CarouselFeedback from '@/components/CarouselFeedback.vue';
 import feedbackListRaw from '@/Data/feedbackIndex.json'
+import projectListRaw from '@/data/projectList.json'
 
 const avis = ref(1);
 
 const feedbackList = ref(feedbackListRaw);
+const projectList = ref(projectListRaw.slice(-4).reverse());
 </script>
 
 <template>
@@ -90,10 +92,11 @@ const feedbackList = ref(feedbackListRaw);
         </div>
       </div>
       <div class="desktop:flex phone:flex-col desktop:flex-row gap-[2%] justify-center mx-[2%] mt-[1%]">
-        <CardProject title="Anthony Hecquet Portfolio" img="/imgs/projects/AnthonyHecquet-Portfolio.JPG" alt="projet"/>
-        <CardProject title="iut NFC tv" img="/imgs/projects/iutNFCTV.gif" alt="projet"/>
-        <CardProject title="Flyer - Tony RODRIGUES" img="/imgs/projects/Com-Tony.jpeg" alt="projet"/>
-        <CardProject title="Carte de visite - MToutFer" img="/imgs/projects/Com-MToutFer.jpeg" alt="projet"/>
+        <CardProject 
+        v-for="(project, index) in projectList" 
+        :key="index" 
+        :project="project"/>
+        
       </div>
       <RouterLink to="/projects"><p class="underline text-right mr-[4%]">Voir plus...</p></RouterLink>
     </section>
