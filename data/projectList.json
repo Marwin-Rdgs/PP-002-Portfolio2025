@@ -75,5 +75,12 @@
         "img":"/imgs/projects/AnthonyHecquet-Portfolio.JPG",
         "alt":"Portfolio d'un étudiant de BTS SIO nommé Anthony Hecquet",
         "categ":"prestation"
+    },
+    {
+        "id":"PC2025001",
+        "title":"ilMago",
+        "img":"/imgs/projects/ilMago.gif",
+        "alt":"Site web promotionnel d'un DJ et producteur de Hardstyle Strasbourgeois",
+        "categ":"prestation"
     }
 ]

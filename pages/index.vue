@@ -7,7 +7,7 @@ import projectListRaw from '@/data/projectList.json'
 const avis = ref(1);
 
 const feedbackList = ref(feedbackListRaw);
-const projectList = ref(projectListRaw.slice(-4).reverse());
+const projectList = ref(projectListRaw.slice(-5, -1).reverse());
 </script>
 
 <template>
