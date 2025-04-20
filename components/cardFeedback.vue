@@ -14,7 +14,7 @@ defineProps({
       :alt="feedback.auteur"
       class="w-full h-48 object-cover rounded-xl shadow-lg shadow-contrast-color"
     />
-    <div class="h-1 bg-yellow-400 mt-4 mb-6 rounded-full border-[2px] border-primary-color"></div>
+    <div class="h-1 bg-yellow-400 mt-4 mb-6 rounded-full bg-primary-color border-2 border-primary-color"></div>
     <p class="text-gray-800 text-sm md:text-base leading-relaxed mb-6">
       {{ feedback.comments }}
     </p>
