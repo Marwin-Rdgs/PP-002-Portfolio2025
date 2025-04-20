@@ -1,67 +1,11 @@
 <script setup>
 import {ref} from 'vue';
 import CarouselFeedback from '@/components/CarouselFeedback.vue';
+import feedbackListRaw from '@/Data/feedbackIndex.json'
 
 const avis = ref(1);
 
-const feedbackList = [
-  {
-    auteur: "Johan Grandmougin",
-    poste: "Directeur Commercial",
-    entreprise: "ChooseMe",
-    link: "#",
-    comments: "Nous avons demandé à Marwin de créer notre projets, Nous lui avons expliqué ce que nous voulions, il a été à l'écoute, nous a poser des questions, ensuite il se projetait en incluant des options auxquels nous avions pas pansé ce qui répondait à nos attentes de plus améliorait de notre projet et nous lui avons approuvé le prototype. Nous sommes content de Marwin.",
-    img: "/imgs/retours/johan-grandmougin.jpg"
-  },
-  {
-    auteur: "Antoine Beluche",
-    poste: "Indépendant en débaras",
-    entreprise: "MTFer",
-    link: "#",
-    comments: "Marwin a été très compétent et il a répondu à mes attentes qui m'ont permis de me concentrer totalement sur mon activité d'auto-entreprise.",
-    img: "/imgs/retours/antoine-beluche.jpg"
-  },
-  {
-    auteur: "Dany Galmiche",
-    poste: "Indépendant en création numérique",
-    entreprise: "Dany Galmiche Design",
-    link: "#",
-    comments: "Efficace et professionnel c'est un très bon collaborateur.",
-    img: "/imgs/retours/dany-galmiche.jpeg"
-  },
-  {
-    auteur: "Julien Vissault",
-    poste: "Administrateur",
-    entreprise: "Jadyss",
-    link: "#",
-    comments: "Marwin est très professionnel dans son travail, on lui a confié la responsabilité du projet de développement de notre site internet. Nous sommes entièrement satisfait sur tous les aspects de ce projet que ce soit sur la partie technique ou gestion de projet.",
-    img: "/imgs/retours/julien-vissault.jpeg"
-  },
-  {
-    auteur: "Andréa Lopes",
-    poste: "Chef de projet",
-    entreprise: "FORVIA",
-    link: "#",
-    comments: "Marwin a été mon alternant entre septembre 2022 et août 2024 au sein de Forvia. Il a été très efficace et a su prendre en compte les conseils et remarques tout au long de cette période, il a beaucoup évolué et est aujourd'hui plus que jamais prêt à relever des defis. Très polyvalent et toujours volontaire, il sera une force pour votre entreprise",
-    img: "/imgs/retours/andrea-lopes.jpeg"
-  },
-  {
-    auteur: "Pascal Chatonnay",
-    poste: "Chef de département",
-    entreprise: "MMI Montbéliard",
-    link: "#",
-    comments: "Marwin s'est distingué par son implication et son enthousiasme. Son engagement en alternance chez Forvia lui a permis de développer un savoir-faire technique solide, tout en appliquant de manière pratique les compétences acquises au département MMI de Montbéliard. Sa capacité à jongler entre les exigences académiques et professionnelles témoigne de sa rigueur, de son sens de l'organisation et de sa passion pour le développement tout en étant à l'aise avec la communication et le design. Outre ses compétences professionnelles, Marwin est toujours d'une compagne agréable.",
-    img: "/imgs/retours/pascal-chatonnay.jpg"
-  },
-  {
-    auteur: "ilMago",
-    poste: "Dj & Producteur Hardstyle",
-    entreprise: "ilMago",
-    link: "http://ilmago.fr/",
-    comments: "J'ai confié la création de mon premier site web à Marwin, et j'ai été bluffé de la qualité de son travail ! Marwin est très carré, force de proposition et rapide. Super personnalité et rapport qualité/prix imbattable, je recommande ++ !",
-    img: "/imgs/retours/ilMago.jpg"
-  },
-]
+const feedbackList = ref(feedbackListRaw);
 </script>
 
 <template>
@@ -96,10 +40,10 @@ const feedbackList = [
     </section>
 
     <section class="relative grid desktop:grid-cols-2 phone:mt-[60%] desktop:mt-[20%]">
-      <div class="grid gap-[8%] ml-[4%]">
+      <div class="grid gap-[6%] ml-[4%]">
         <h3 class="font-Primary font-bold text-dark-color phone:text-2xl desktop:text-5xl">Derrière chaque projet, une histoire. <span class="text-primary-color">Voici la mienne</span>.</h3>
-        <p class="font-Secondary text-dark-color desktop:text-lg phone:text-sm">Lorem ipsum dolor sit amet. Et magnam rerum ut numquam eligendi est debitis odit hic inventore Quis hic possimus totam? Sed nobis reprehenderit cum commodi voluptates et dignissimos beatae. Qui tenetur minus aut illo eligendi qui quisquam quia qui nulla nulla est deserunt voluptas in dolores dolor. Aut sapiente itaque id autem beatae aut iste porro ex aspernatur alias.</p>
-        <p class="font-Secondary text-dark-color desktop:text-lg phone:text-sm">Lorem ipsum dolor sit amet. Et magnam rerum ut numquam eligendi est debitis odit hic inventore Quis hic possimus totam? Sed nobis reprehenderit cum commodi voluptates et dignissimos beatae. Qui tenetur minus aut illo eligendi qui quisquam quia qui nulla nulla est deserunt voluptas in dolores dolor. Aut sapiente itaque id autem beatae aut iste porro ex aspernatur alias.</p>
+        <p class="font-Secondary text-dark-color desktop:text-lg phone:text-sm">Passionné par le digital depuis le collège, je me suis construit un parcours riche et hybride mêlant développement web, design, communication, gestion de projet et entrepreneuriat. Mon but ? Allier la technique à une vision stratégique pour concevoir des projets ambitieux et utiles. Curieux et déterminé, je multiplie les expériences – en entreprise, en freelance ou via mes projets personnels – avec un seul objectif : apprendre chaque jour quelque chose de nouveau.</p>
+        <p class="font-Secondary text-dark-color desktop:text-lg phone:text-sm">Toujours prêt à relever de nouveaux défis, je poursuis aujourd’hui ma montée en compétences avec de grandes ambitions professionnelles et personnelles. Repousser mes limites, me challenger, évoluer constamment : voilà ce qui me motive. Si tu veux en savoir plus sur mon parcours, mes objectifs ou ce qui m’anime au quotidien…</p>
         <RouterLink to="/about"><button class="bg-primary-color text-dark-color rounded-full desktop:px-[24px] phone:px-[10px] phone:text-sm desktop:text-lg py-[1%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:translate-x-6 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-500">Savoir plus</button></RouterLink>      
       </div>
 
@@ -138,20 +82,20 @@ const feedbackList = [
     <section class="desktop:mt-[10%] phone:mt-[20%]">
       <h1 class="text-5xl font-Primary font-bold text-primary-color ml-[2%]">Mon dernier projet</h1>
 
-      <div class="bg-[url(/imgs/projects/iutNFCTV.gif)] bg-cover bg-center mt-[1%] h-[100%]">
+      <div class="bg-[url(/imgs/projects/ilMago.gif)] bg-cover bg-center mt-[1%] h-[100%]">
         <div class="grid items-center bg-light-color bg-opacity-5 rounded-r-full w-[50%] pl-[2%] pr-[4%] pt-[4%] h-[500px]">
-          <h2 class="text-5xl font-Primary font-bold text-primary-color">iut NFC tv</h2>
-          <p class="text-lg font-Secondary font-medium text-light-color">Site répertoriant l’ensemble des contenus multimédias de l’Institut Universitaire et Technologique de Nord Franche-Comté.</p>
+          <h2 class="text-5xl font-Primary font-bold text-primary-color">ilMago</h2>
+          <p class="text-lg font-Secondary font-medium text-light-color">Site promotionnel du DJ et producteur de Hardstyle Strasbourgeois</p>
           <RouterLink to="/projects/iutnfctv"><button class="bg-primary-color text-dark-color rounded-full desktop:px-[24px] phone:px-[10px] phone:text-sm desktop:text-lg py-[1%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:translate-x-6 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-500">Voir plus</button></RouterLink>
         </div>
       </div>
       <div class="desktop:flex phone:flex-col desktop:flex-row gap-[2%] justify-center mx-[2%] mt-[1%]">
+        <CardProject title="Anthony Hecquet Portfolio" img="/imgs/projects/AnthonyHecquet-Portfolio.JPG" alt="projet"/>
+        <CardProject title="iut NFC tv" img="/imgs/projects/iutNFCTV.gif" alt="projet"/>
         <CardProject title="Flyer - Tony RODRIGUES" img="/imgs/projects/Com-Tony.jpeg" alt="projet"/>
         <CardProject title="Carte de visite - MToutFer" img="/imgs/projects/Com-MToutFer.jpeg" alt="projet"/>
-        <CardProject title="Flyer - Devred 1902" img="/imgs/projects/Com-Devred.jpeg" alt="projet"/>
-        <CardProject title="GoMatch" img="/imgs/projects/gomatch.gif" alt="projet"/>
       </div>
-      <RouterLink to="/projects"><p class="underline text-right">Voir plus...</p></RouterLink>
+      <RouterLink to="/projects"><p class="underline text-right mr-[4%]">Voir plus...</p></RouterLink>
     </section>
 
     <section class="mt-[4%]">
