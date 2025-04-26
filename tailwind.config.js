@@ -9,11 +9,15 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'primary-color' : '#EEA500',
-      'secondary-color' : '#F3BB40',
+      'primary-color' : '#F0A500',
+      'secondary-color' : '#FCC35F',
       'contrast-color' : '#2C3236',
       'dark-color' : '#140F03',
       'light-color' : '#FAFAFA',
+      'CMW-primary' : '#6BC4CC',
+      'CMW-secondary' : '#BAE0E6',
+      'CMTC-primary' : '#6CB96A',
+      'CMTC-secondary': '#B2D6A8',
     },
     fontFamily: {
       Primary: ['Reem Kufi', 'sans-serif'],

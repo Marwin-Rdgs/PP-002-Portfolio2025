@@ -30,10 +30,9 @@
 <!-- IMPORTANT : N'oubliez d'insérer les liens de vos pages à la place des "#" -->
 <ul class="menu">
     <li><RouterLink to="/projects">Projets</RouterLink></li>
-    <li><RouterLink to="/veille">Veille</RouterLink></li>
     <li><RouterLink to="/about">À propos</RouterLink></li>
     <li><RouterLink to="/contact">Contact</RouterLink></li>
-    <li><RouterLink to="/chez-marwinUnion">Chez Marwin-Union</RouterLink></li>
+    <li><RouterLink to="/chez-marwinUnion/">Chez Marwin-Union</RouterLink></li>
 </ul>
 
 <!-- Vous trouverez ici la "mention légale" -->
