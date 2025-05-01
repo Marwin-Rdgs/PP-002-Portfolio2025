@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-light-color">
+  <body class="bg-light-color scroll-smooth">
     <NuxtLayout />
-  </div>
+  </body>
 </template>
