@@ -2,7 +2,14 @@
 import {ref} from 'vue';
 import CardArticle from '@/components/cardArticle.vue';
 import articleListRaw from '@/Data/CMU-articles.json'
+import CarouselFeedback from '@/components/CarouselFeedback.vue';
+import feedbackListRaw from '@/Data/feedbackIndex.json'
+import partnerListRaw from '@/Data/CMTC-partners.json'
+import CarouselPartners from '@/components/CMTC-CarouselPartners.vue'
 
+const partnerList = ref(partnerListRaw)
+
+const feedbackList = ref(feedbackListRaw);
 const articleList = ref(articleListRaw);
 </script>
 
@@ -11,11 +18,19 @@ const articleList = ref(articleListRaw);
         <img src="/imgs/Chez-MarwinUnion/CMU.svg" alt="" class="desktop:w-[128px] phone:w-[64px] animate-fadeIn">
         <h1 class="font-Primary desktop:text-8xl phone:text-2xl text-primary-color drop-shadow-lg animate-fadeIn">Chez Marwin-Union</h1>
     </section>
-    <p class="text-justify mx-[10%] text-sm mt-[3%] mb-[6%]">Chez Marwin-Union, je propose une vision humaine et engagée de l’accompagnement professionnel. Fondée sur des valeurs de partage, d’écoute et de challenge, cette auto-entreprise évolue aux côtés de ses clients, en s’adaptant à leurs besoins réels. Aujourd’hui, elle rassemble deux pôles d’expertise : l’un dédié à la digitalisation de la communication, l’autre à la qualité de vie au travail. Deux approches complémentaires, avec un objectif commun : créer du lien, donner du sens, et avancer ensemble.</p>
+    <div class="mt-[3%] mb-[6%] mx-[10%]">
+        <h3 class="text-lg font-Primary font-semibold text-dark-color">Une vision humaine, deux services complémentaires.</h3>
+        <p class="text-base font-Secondary text-dark-color text-justify">Étudiant en communication digitale, j’ai voulu me challenger très tôt. En parallèle de mes études, j’ai lancé Chez Marwin-Web pour proposer des accompagnements personnalisés aux commerçants, artisans et professionnels souhaitant améliorer leur visibilité en ligne. L’idée était simple : appliquer mes apprentissages à des projets concrets, en mettant mes compétences au service de ceux qui font vivre nos territoires.</p>
+        <p class="text-base font-Secondary text-dark-color text-justify">Mais Chez Marwin Union, c’est bien plus qu’un nom d’auto-entreprise : c’est une philosophie. Chaque projet naît d’une vraie collaboration entre vous, avec vos idées, vos envies, vos exigences — et moi, avec mon expertise, ma créativité et mon sens de l’écoute.</p>
+        <p class="text-base font-Secondary text-dark-color text-justify">Deux ans plus tard, voyant les résultats concrets et la fidélité de mes clients, j’ai eu envie de me réinventer. En sortant du 100 % digital, j’ai lancé un deuxième service : <a href="#CMTC" class="hover:underline">Chez Marwin-TeamCare</a>.</p>
+        <p class="text-base font-Secondary text-dark-color text-justify"><span class="font-bold">L’objectif</span> : accompagner les entreprises dans un autre domaine essentiel, souvent négligé — le bien-être de leurs équipes. Car une entreprise épanouie, c’est d’abord une équipe soudée et motivée.</p>
+    </div>
+    <!-- <p class="text-justify mx-[10%] text-sm mt-[3%] mb-[6%]">Chez Marwin-Union, je propose une vision humaine et engagée de l’accompagnement professionnel. Fondée sur des valeurs de partage, d’écoute et de challenge, cette auto-entreprise évolue aux côtés de ses clients, en s’adaptant à leurs besoins réels. Aujourd’hui, elle rassemble deux pôles d’expertise : l’un dédié à la digitalisation de la communication, l’autre à la qualité de vie au travail. Deux approches complémentaires, avec un objectif commun : créer du lien, donner du sens, et avancer ensemble.</p> -->
+    <!-- <p class="text-justify mx-[10%] text-sm mt-[3%] mb-[6%]">Donner vie à votre présence digitale, main dans la main.Chez Marwin-Web est le premier service né de Chez Marwin Union. Il est dédié à la communication digitale sous toutes ses formes : création de sites web promotionnels, identité visuelle, gestion de réseaux sociaux, design print, montage vidéo... Ici, pas de solutions standardisées. Je vous accompagne de A à Z dans la création d’une image qui vous ressemble, avec des outils modernes, un regard extérieur bienveillant et des résultats concrets. Chaque collaboration est pensée comme un projet commun : vous apportez la vision, je propose la structure, les idées, les solutions, et surtout une grande réactivité.</p> -->
     
 
     <section class="mb-[10%]">
-        <h1>articles</h1>
+        <h4 class="text-xl font-Primary text-primary-color uppercase font-semibold ml-[4%] mb-[2%]">articles</h4>
         <div class="grid desktop:grid-cols-3 mx-[4%] gap-[2%]">
             <CardArticle         
                 v-for="(article, index) in articleList" 
@@ -24,27 +39,40 @@ const articleList = ref(articleListRaw);
         </div>
     </section>
 
-    <section class="grid desktop:grid-cols-2 mx-[4%] gap-[10%]">
+    <section class="grid desktop:grid-cols-2 mx-[4%] gap-[10%] items-center">
 
         <div class="grid mx-auto gap-y-[4%]">
             <div class="flex justify-center items-center gap-[2%]">
                 <img src="/imgs/Chez-MarwinUnion/CMW.svg" alt="" class="desktop:w-[64px] phone:w-[32px] animate-fadeIn">
-                <h1 class="font-Primary text-xl text-CMW-primary drop-shadow-lg animate-fadeIn">Chez Marwin-Web</h1>
+                <h2 class="font-Primary text-xl text-CMW-primary drop-shadow-lg animate-fadeIn">Chez Marwin-Web</h2>
             </div>
             <img src="/imgs/projects/citadelle.jpg" alt="" class="w-full">
-            <p class="text-justify">fdklskf</p>
+            <h3 class="text-base font-Primary font-semibold text-dark-color">Donner vie à votre présence digitale, main dans la main.</h3>
+            <p class="text-sm font-Secondary text-dark-color text-justify">Chez Marwin-Web est le premier service né de Chez Marwin Union.</p>
+            <p class="text-sm font-Secondary text-dark-color text-justify">Il est dédié à la communication digitale sous toutes ses formes : création de sites web promotionnels, identité visuelle, gestion de réseaux sociaux, design print, montage vidéo...</p>
+            <p class="text-sm font-Secondary text-dark-color text-justify">Ici, pas de solutions standardisées. Je vous accompagne de A à Z dans la création d’une image qui vous ressemble, avec des outils modernes, un regard extérieur bienveillant et des résultats concrets.</p>
+            <p class="text-sm font-Secondary text-dark-color text-justify">Chaque collaboration est pensée comme un projet commun : vous apportez la vision, je propose la structure, les idées, les solutions, et surtout une grande réactivité.</p>
             <div class="flex justify-center">
                 <NuxtLink to="/chez-marwinUnion/"><button class="bg-primary-color px-6 py-2 rounded-3xl text-lg font-Secondary font-bold text-contrast-color bg-opacity-100 hover:bg-opacity-70 hover:-translate-y-1 hover:shadow-lg hover:shadow-secondary-color transition-all ease-in-out duration-500">Contacter</button></NuxtLink>
             </div>
         </div>
 
-        <div class="grid mx-auto gap-y-[4%]">
+        <div class="grid mx-auto gap-y-[4%]" id="CMTC">
             <div class="flex justify-center items-center gap-[2%]">
                 <img src="/imgs/Chez-MarwinUnion/CMTC.svg" alt="" class="desktop:w-[64px] phone:w-[32px] animate-fadeIn">
-                <h1 class="font-Primary text-xl text-CMTC-primary drop-shadow-lg animate-fadeIn">Chez Marwin-TeamCare</h1>
+                <h2 class="font-Primary text-xl text-CMTC-primary drop-shadow-lg animate-fadeIn">Chez Marwin-TeamCare</h2>
             </div>
             <img src="/imgs/projects/citadelle.jpg" alt="" class="w-full">
-            <p class="text-justify">fdklskf</p>
+            <h3 class="text-base font-Primary font-semibold text-dark-color">Renforcer l’humain au cœur de l’entreprise.</h3>
+            <p class="text-sm font-Secondary text-dark-color text-justify">Lancé en mai 2025, Chez Marwin-TeamCare est un service tourné vers l’humain.</p>
+            <p class="text-sm font-Secondary text-dark-color text-justify">Je vous accompagne dans la conception d’événements sur mesure, adaptés à votre culture d’entreprise, à vos besoins, et à vos envies. Grâce à un réseau de partenaires (bars, restaurants, centres de loisirs, photographes, taxis…), vous bénéficiez d’un service clé en main, d’avantages exclusifs et d’une mise en relation rapide.</p>
+            <p class="text-sm font-Secondary text-dark-color text-justify">Et comme tout est lié, ces partenaires sont également valorisés grâce au service digital de Chez Marwin-Web, dans une logique gagnant-gagnant.</p>
+            <p class="text-sm font-Secondary text-dark-color text-justify">Son <span class="font-bold">objectif</span> : aider les entreprises à renforcer la cohésion d’équipe et à prendre soin du bien-être de leurs collaborateurs, à travers des moments clés comme des team buildings et afterworks.</p>
+
+            <!-- <div class="flex justify-center">
+                <CarouselPartners :partners="partnerList" />
+            </div> -->
+
             <div class="flex justify-center">
                 <NuxtLink to="/chez-marwinUnion/"><button class="bg-primary-color px-6 py-2 rounded-3xl text-lg font-Secondary font-bold text-contrast-color bg-opacity-100 hover:bg-opacity-70 hover:-translate-y-1 hover:shadow-lg hover:shadow-secondary-color transition-all ease-in-out duration-500">Contacter</button></NuxtLink>
             </div>
