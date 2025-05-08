@@ -12,8 +12,8 @@ defineProps({
         <!-- Image en arrière-plan -->
         <img :src="project.img" :alt="project.alt" class="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0"/>
         <!-- Titre en bas -->
-        <h1 class="absolute inset-x-0 bottom-0 text-white text-center bg-black/50 p-2 z-10 font-Primary font-extrabold text-primary-color bg-light-color bg-opacity-25">
+        <h2 class="absolute inset-x-0 bottom-0 text-white text-center bg-black/50 p-2 z-10 font-Primary font-extrabold text-primary-color bg-light-color bg-opacity-25">
             {{ project.title }}
-        </h1>
+        </h2>
     </RouterLink>
 </template>

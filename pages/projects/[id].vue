@@ -9,6 +9,9 @@ const project = projectListRaw.find(p => p.id === projectId)
 </script>
 
 <template>
-    <h1>Page de présentation d'un projet</h1>
+    <section>
+        <img :src="project.img" alt="" class="w-full h-full">
+    </section>
+
     <h2>{{ project.title }}</h2>
 </template>

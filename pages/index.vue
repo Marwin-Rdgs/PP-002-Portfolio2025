@@ -82,7 +82,7 @@ const projectList = ref(projectListRaw.slice(-5, -1).reverse());
     </section> -->
 
     <section class="desktop:mt-[10%] phone:mt-[20%]">
-      <h1 class="text-5xl font-Primary font-bold text-primary-color ml-[2%]">Mon dernier projet</h1>
+      <h3 class="text-5xl font-Primary font-bold text-primary-color ml-[2%]">Mon dernier projet</h3>
 
       <div class="bg-[url(/imgs/projects/ilMago.gif)] bg-cover bg-center mt-[1%] h-[100%]">
         <div class="grid items-center bg-light-color bg-opacity-5 rounded-r-full w-[50%] pl-[2%] pr-[4%] pt-[4%] h-[500px]">
@@ -102,7 +102,7 @@ const projectList = ref(projectListRaw.slice(-5, -1).reverse());
     </section>
 
     <section class="mt-[4%]">
-      <h1 class="text-5xl font-Primary font-bold text-primary-color ml-[2%] mb-[1%]">Des retours satisfaisants</h1>
+      <h3 class="text-5xl font-Primary font-bold text-primary-color ml-[2%] mb-[1%]">Des retours satisfaisants</h3>
       <CarouselFeedback :feedbacks="feedbackList"/>
     </section>
 
