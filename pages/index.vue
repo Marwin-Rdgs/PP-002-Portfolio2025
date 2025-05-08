@@ -88,7 +88,7 @@ const projectList = ref(projectListRaw.slice(-5, -1).reverse());
         <div class="grid items-center bg-light-color bg-opacity-5 rounded-r-full w-[50%] pl-[2%] pr-[4%] pt-[4%] h-[500px]">
           <h2 class="text-5xl font-Primary font-bold text-primary-color">ilMago</h2>
           <p class="text-lg font-Secondary font-medium text-light-color">Site promotionnel du DJ et producteur de Hardstyle Strasbourgeois</p>
-          <RouterLink to="/projects/iutnfctv"><button class="bg-primary-color text-dark-color rounded-full desktop:px-[24px] phone:px-[10px] phone:text-sm desktop:text-lg py-[1%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:translate-x-6 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-500">Voir plus</button></RouterLink>
+          <RouterLink to="/projects/PC2025003"><button class="bg-primary-color text-dark-color rounded-full desktop:px-[24px] phone:px-[10px] phone:text-sm desktop:text-lg py-[1%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:translate-x-6 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-500">Voir plus</button></RouterLink>
         </div>
       </div>
       <div class="desktop:flex phone:flex-col desktop:flex-row gap-[2%] justify-center mx-[2%] mt-[1%]">
