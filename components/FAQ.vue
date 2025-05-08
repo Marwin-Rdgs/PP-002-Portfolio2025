@@ -40,11 +40,11 @@ defineProps({
 
         <div class="grid gap-8 mt-[4%]">
             <div>
-                <div class="flex items-center cursor-pointer hover:opacity-90 hover:scale-110 transition-all ease-in-out duration-200" @click="showQuestion1=!showQuestion1" :class="{ 'opacity-100': showQuestion1, 'opacity-70': !showQuestion1 }">
+                <div class="flex items-center cursor-pointer hover:opacity-90 hover:scale-110 transition-all ease-in-out duration-200" @click="showQuestion1=!showQuestion1" :class="{ 'opacity-100': !showQuestion1, 'opacity-70': showQuestion1 }">
                     <img src="/icons/toggle.svg" alt="" class="w-[32px]">
                     <p class="text-lg font-Primary text-dark-color font-medium">{{ question1 }}</p>
                 </div>
-                    <p v-if="showQuestion1==true" class="text-sm text-dark-color text-opacity-85 font-Secondary">{{ reponse1 }}</p>
+                    <p v-if="showQuestion1==false" class="text-sm text-dark-color text-opacity-85 font-Secondary">{{ reponse1 }}</p>
             </div>
 
             <div>
