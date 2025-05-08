@@ -18,6 +18,7 @@ module.exports = {
       'CMW-secondary' : '#BAE0E6',
       'CMTC-primary' : '#6CB96A',
       'CMTC-secondary': '#B2D6A8',
+      'alert-color': '#FF4242',
     },
     fontFamily: {
       Primary: ['Reem Kufi', 'sans-serif'],
