@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, watch } from 'vue';
 
 const notifOpen = ref(false);
 
@@ -8,6 +8,15 @@ const closePopup = () => {
   notifOpen.value = false;
   sessionStorage.setItem('popupSeen', 'true');
 };
+
+// Bloque ou débloque le scroll selon l'état de notifOpen
+watch(notifOpen, (newVal) => {
+  if (newVal) {
+    document.body.classList.add('overflow-hidden');
+  } else {
+    document.body.classList.remove('overflow-hidden');
+  }
+});
 
 // Ouvre automatiquement la popup une seule fois au début de session
 onMounted(() => {
