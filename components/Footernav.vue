@@ -29,14 +29,14 @@
 <!-- liste des pages, représentant alors un menu du Footer -->
 <!-- IMPORTANT : N'oubliez d'insérer les liens de vos pages à la place des "#" -->
 <ul class="menu">
-    <li><RouterLink to="/projects">Projets</RouterLink></li>
+    <li><RouterLink to="/projects">Portfolio</RouterLink></li>
     <li><RouterLink to="/about">À propos</RouterLink></li>
     <li><RouterLink to="/contact">Contact</RouterLink></li>
     <li><RouterLink to="/chez-marwinUnion/">Chez Marwin-Union</RouterLink></li>
 </ul>
 
 <!-- Vous trouverez ici la "mention légale" -->
-<p>© Copyright 2025 Marwin RODRIGUES – Tous droits réservés – Création Chez Marwin web – Mentions légales – Politique de confidentialité</p>
+<p>© Copyright 2025 Marwin RODRIGUES – Tous droits réservés – Création Chez Marwin web – <span class="hover:underline hover:cursor-pointer" @click="$emit('toggle-legal')">Mentions légales</span> – <span class="hover:underline hover:cursor-pointer"  @click="$emit('toggle-politics')">Politique de confidentialité</span></p>
 
 </footer>
 </template>
@@ -101,7 +101,7 @@ footer p {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 1.1em;   
+    font-size: 0.8em;   
 }
 
 footer .wave {
