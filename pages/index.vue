@@ -3,6 +3,9 @@ import {ref} from 'vue';
 import CarouselFeedback from '@/components/CarouselFeedback.vue';
 import feedbackListRaw from '@/Data/feedbackIndex.json'
 import projectListRaw from '@/data/projectList.json'
+import Calendly from '~/components/Calendly.vue'
+
+const showCalendly = ref(false)
 
 const avis = ref(1);
 
@@ -37,7 +40,14 @@ const projectList = ref(projectListRaw.slice(-5, -1).reverse());
           <h2 class="text-dark-color font-Primary text-center font-bold phone:text-base desktop:text-5xl w-[80%] mx-auto mt-[4%]">Vous souhaitez réaliser votre projet de rêve avec moi ?</h2>
           <div class="desktop:flex phone:grid justify-center gap-[20%] mt-[4%]">
             <RouterLink to="/contact"><button class="bg-light-color rounded-full desktop:px-[64px] phone:px-[10px] phone:text-sm desktop:text-lg py-[4%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:-translate-y-2 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-300">Me contacter</button></RouterLink>
-            <RouterLink to="/contact"><button class="bg-light-color rounded-full desktop:px-[64px] phone:px-[10px] phone:text-sm desktop:text-lg py-[4%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:-translate-y-2 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-300">Planifier une visio</button></RouterLink>
+            <div><button  @click="showCalendly = true" class="bg-light-color rounded-full desktop:px-[64px] phone:px-[10px] phone:text-sm desktop:text-lg py-[4%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:-translate-y-2 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-300">Planifier une visio</button></div>
+          
+                <Calendly
+                  :show="showCalendly"
+                  @close="showCalendly = false"
+                  url="https://calendly.com/contact-aezn/marwin-rodrigues"
+                />
+          
           </div>
     </section>
 
