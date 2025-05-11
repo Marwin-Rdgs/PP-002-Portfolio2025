@@ -50,19 +50,18 @@ onMounted(() => {
           &times;
         </button>
 
-        <h1 class="text-xl font-bold text-primary-color">Recherche d'alternance</h1>
-        <p class="mt-2 text-dark-color">
-          Admis au master MSC Project Management & Business, je suis à la recherche d'une entreprise pour accueillir une alternance de 2 ans dans les alentours de Strasbourg
-        </p>
+        <h1 class="text-xl font-bold text-primary-color">🚀 Un nouveau défi à construire ensemble ?</h1>
+        <p class="mt-2 text-dark-color">À la rentrée d’octobre 2025, je débute un MSc en Project Management & Business à Strasbourg. Je cherche aujourd’hui l’entreprise avec laquelle grandir, expérimenter, et repousser mes limites pendant ces 2 années d’alternance. <br /> <br />
+          🌟 Passionné par le digital, l’IT, la communication, l’événementiel, la mode ou encore l’audiovisuel, je suis prêt à m’investir dans un projet ambitieux <br />— le vôtre.</p>
         <div class="desktop:flex phone:grid justify-center gap-[20%] mt-6">
           <RouterLink to="/about">
             <button @click="closePopup" class="bg-light-color rounded-full desktop:px-[64px] phone:px-[10px] phone:text-sm desktop:text-lg py-[4%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:-translate-y-2 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-300">
-              Voir mon profil
+              Découvrir mon univers
             </button>
           </RouterLink>
           <RouterLink to="/contact">
             <button @click="closePopup" class="bg-light-color rounded-full desktop:px-[64px] phone:px-[10px] phone:text-sm desktop:text-lg py-[4%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:-translate-y-2 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-300">
-              Me contacter
+              Échanger ensemble
             </button>
           </RouterLink>
         </div>
