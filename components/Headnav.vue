@@ -29,7 +29,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <header class="grid desktop:grid-cols-3 phone:grid-cols-2 items-center bg-light-color phone:pt-[4%] desktop:pt-[1%] relative z-50">
+  <header class="grid desktop:grid-cols-3 phone:grid-cols-2 items-center bg-light-color phone:pt-[4%] desktop:pt-[1%] relative z-50 desktop:pb-[1%]">
     <NuxtLink to="/">
       <h1 class="ml-[4%] font-Primary font-bold text-2xl text-dark-color hover:animate-pulse">MarwinR.</h1>
     </NuxtLink>
