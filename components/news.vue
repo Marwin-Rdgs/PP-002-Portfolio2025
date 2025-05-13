@@ -71,7 +71,7 @@ onMounted(() => {
     <!-- Bouton de notification -->
     <button
       class="fixed bottom-6 left-6 z-[1000] rounded-full bg-primary-color px-4 py-2 text-white font-bold animate-bounce shadow-lg"
-      @click="notifOpen = true"
+      @click="notifOpen = !notifOpen"
     >
       1
     </button>
