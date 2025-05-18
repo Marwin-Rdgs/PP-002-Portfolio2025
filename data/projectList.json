@@ -4,90 +4,103 @@
         "title":"Prod Squad",
         "img":"/imgs/projects/prodsquad.png",
         "alt":"Site web promotionnel d'une communauté française du jeux-vidéos minecraft privée",
-        "categ":"prestation"
+        "categ":"prestation",
+        "tools": ["wix"]
     },
     {
         "id":"PS2017001",
         "title":"Trois Cent Team",
         "img":"/imgs/projects/troiscentteam.jpg",
         "alt":"Site de présentation d'un groupe de 3 élèves",
-        "categ":"school"
+        "categ":"school",
+        "tools": ["wordpress"]
     },
     {
         "id":"PP2022001",
         "title":"Stweaming",
         "img":"/imgs/projects/stweaming.jpg",
         "alt":"Site de streaming",
-        "categ":"perso"
+        "categ":"perso",
+        "tools": ["php","bootstrap","bootswatch"]
     },
     {
         "id":"PP2022002",
         "title":"Template Footer - Waves",
         "img":"/imgs/projects/footer_wave.jpg",
         "alt":"Template d'un bas de page vague",
-        "categ":"perso"
+        "categ":"perso",
+        "tools": ["html", "css"]
     },
     {
         "id":"PC2022001",
         "title":"Citadelle de Besançon",
         "img":"/imgs/projects/citadelle.jpg",
         "alt":"Illustration animée de la citadelle de Besançon",
-        "categ":"school"
+        "categ":"school",
+        "tools": ["html", "css", "illustrator"]
     },
     {
         "id":"PC2022002",
         "title":"go-match",
         "img":"/imgs/projects/gomatch.gif",
         "alt":"Site web de gestion de terrain de sport",
-        "categ":"school"
+        "categ":"school",
+        "tools": ["vue","tailwind","js","figma","alpine","firebase","github","trello","openstreetmap"]
     },
     {
         "id":"PS2023001",
         "title":"e-morphoz",
         "img":"/imgs/projects/emorphoz.gif",
         "alt":"Générateur de NFT",
-        "categ":"school"
+        "categ":"school",
+        "tools": ["vue","tailwind","adobe","figma", "github", "supabase", "openweathermap", "trello"]
     },
     {
         "id":"PC2023001",
         "title":"Carte de visite - MToutFer",
         "img":"/imgs/projects/Com-MToutFer.jpeg",
         "alt":"Carte de visite pour un entrepreneur dans le débaras",
-        "categ":"prestation"
+        "categ":"prestation",
+        "tools": ["adobe"]
     },
     {
         "id":"PC2024001",
         "title":"Flyer - Tony RODRIGUES",
         "img":"/imgs/projects/Com-Tony.jpeg",
         "alt":"Prestation d'une réalisation de flyer",
-        "categ":"prestation"
+        "categ":"prestation",
+        "tools": ["adobe"]
     },
     {
         "id":"PS2023002",
         "title":"iut NFC tv",
         "img":"/imgs/projects/iutNFCTV.gif",
         "alt":"Projet scolaire d'un site web de la web tv de l'iut nord franche comté",
-        "categ":"school"
+        "categ":"school",
+        "tools": ["php", "scss","wordpress","tailwind","adobe","figma", "github", "trello", "selenium"]
     },
     {
         "id":"PC2024002",
         "title":"Anthony Hecquet Portfolio",
         "img":"/imgs/projects/AnthonyHecquet-Portfolio.JPG",
         "alt":"Portfolio d'un étudiant de BTS SIO nommé Anthony Hecquet",
-        "categ":"prestation"
+        "categ":"prestation",
+        "tools": ["html","css","js","tailwind"]
     },
     {
         "id":"PC2025001",
         "title":"ANS2P",
         "img":"/imgs/projects/ANS2P.jpg",
         "alt":"Site web promotionnel d'une société de nettoyage",
-        "categ":"prestation"
+        "categ":"prestation",
+        "tools": ["wordpress", "avada", "figma"]
     },
     {
         "id":"PC2025003",
         "title":"ilMago",
         "img":"/imgs/projects/ilMago.gif",
         "alt":"Site web promotionnel d'un DJ et producteur de Hardstyle Strasbourgeois",
-        "categ":"prestation"
+        "categ":"prestation",
+        "tools": ["nuxt","scss","github"]
     }
 ]
