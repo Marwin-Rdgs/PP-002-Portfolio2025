@@ -1,0 +1,3 @@
+<template>
+    phpmyadmin
+</template>

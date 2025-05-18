@@ -1,0 +1,3 @@
+<template>
+    Copilot
+</template>

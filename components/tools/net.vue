@@ -1,0 +1,3 @@
+<template>
+    .NET Core
+</template>
