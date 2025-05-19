@@ -240,7 +240,7 @@ const projectTools = computed(() => {
       >
         <component
           :is="Icon"
-          class="w-full h-full cursor-pointer transition-transform group-hover:scale-110"
+          class="w-full h-full cursor-pointer scale-100 transition-transform group-hover:scale-110"
         />
       </li>
     </ul>
