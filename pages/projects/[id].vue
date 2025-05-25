@@ -242,6 +242,7 @@ const projectTools = computed(() => {
           :is="Icon"
           class="w-full h-full cursor-pointer scale-100 transition-transform group-hover:scale-110"
         />
+        <!-- pourquoi pas mettre juste "img" et paramétrer avec le nom ?! => économie de components -->
       </li>
     </ul>
   </section>

@@ -28,7 +28,7 @@ const articleList = ref(articleListRaw);
     <!-- <p class="text-justify mx-[10%] text-sm mt-[3%] mb-[6%]">Chez Marwin-Union, je propose une vision humaine et engagée de l’accompagnement professionnel. Fondée sur des valeurs de partage, d’écoute et de challenge, cette auto-entreprise évolue aux côtés de ses clients, en s’adaptant à leurs besoins réels. Aujourd’hui, elle rassemble deux pôles d’expertise : l’un dédié à la digitalisation de la communication, l’autre à la qualité de vie au travail. Deux approches complémentaires, avec un objectif commun : créer du lien, donner du sens, et avancer ensemble.</p> -->
     <!-- <p class="text-justify mx-[10%] text-sm mt-[3%] mb-[6%]">Donner vie à votre présence digitale, main dans la main.Chez Marwin-Web est le premier service né de Chez Marwin Union. Il est dédié à la communication digitale sous toutes ses formes : création de sites web promotionnels, identité visuelle, gestion de réseaux sociaux, design print, montage vidéo... Ici, pas de solutions standardisées. Je vous accompagne de A à Z dans la création d’une image qui vous ressemble, avec des outils modernes, un regard extérieur bienveillant et des résultats concrets. Chaque collaboration est pensée comme un projet commun : vous apportez la vision, je propose la structure, les idées, les solutions, et surtout une grande réactivité.</p> -->
     
-
+    
     <section class="mb-[10%]">
         <h4 class="text-xl font-Primary text-primary-color uppercase font-semibold ml-[4%] mb-[2%]">articles</h4>
         <div class="grid desktop:grid-cols-3 mx-[4%] gap-[2%]">
@@ -36,9 +36,10 @@ const articleList = ref(articleListRaw);
                 v-for="(article, index) in articleList" 
                 :key="index" 
                 :article="article"/>
-        </div>
-    </section>
-
+            </div>
+        </section>
+        
+        <!-- MODIFIER LA STRUCTURE (FAIRE 2 BANDEAUX, POUR LES SERVICES, QUI AMENE A UNE PAGE DE PRESENTATION DE SES DERNIERS => QR CODE sur les futurs cartes de visites dédiées ?) -->
     <section class="grid desktop:grid-cols-2 mx-[4%] gap-[10%] items-center">
 
         <div class="grid mx-auto gap-y-[4%]">
