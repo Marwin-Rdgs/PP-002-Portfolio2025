@@ -102,5 +102,13 @@
         "alt":"Site web promotionnel d'un DJ et producteur de Hardstyle Strasbourgeois",
         "categ":"prestation",
         "tools": ["nuxt","scss","github"]
+    },
+    {
+        "id":"PC2025004",
+        "title":"Soirée Canap",
+        "img":"/imgs/projects/SoireeCanap.png",
+        "alt":"Talk Show sur scène à Montbéliard autour de la formation BUT MMI",
+        "categ":"prestation",
+        "tools": ["infomaniakEvents"]
     }
 ]
