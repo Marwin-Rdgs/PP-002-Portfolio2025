@@ -54,6 +54,14 @@
           <h2 class="fw-normal font-swap desktop:text-lg">Scolaire</h2>
           <ul class="timeline mt-4 pr-md-5">
             <li>
+              <div class="title">10/2025 à 10/2027</div>
+              <div class="details">
+                <h5>Msc Project Management & Business</h5>
+                <small class="fg-theme">ISG Strasbourg</small>
+                <p>Formation aux métiers du web, spécialité <b>Développement Web & dispositifs intéractifs</b></p>
+              </div>
+            </li>
+            <li>
               <div class="title">09/2021 à 08/2024</div>
               <div class="details">
                 <h5>BUT MMI</h5>
@@ -98,13 +106,21 @@
             <li>
               <div class="title">05/2023 à aujourd'hui</div>
               <div class="details">
-                <h5><b>Indépendant en Stratégie Digital</b></h5>
-                <small class="fg-theme">Chez Marwin Web</small>
-                <p>Création d'une entreprise individuelle spécialisée dans les services web, offrant des compétences en communication digitale, développement web, design web et audiovisuel</p>
+                <h5><b>Indépendant en Stratégie Digital & QVT</b></h5>
+                <small class="fg-theme">Chez Marwin Union</small>
+                <p>Auto-entreprise à double service, Chez Marwin-web pour la digitalisation de mes clients et Chez Marwin TeamCare pour l'organisation d'événements sur mesure pour entreprise via un réseau de partenaire pour booster la cohésion des équipes et éviter le turnover</p>
               </div>
             </li>
             <li>
-              <div class="title">02/2025 à aujourd'hui</div>
+              <div class="title">09/2025 à aujourd'hui</div>
+              <div class="details">
+                <h5><b>Business Manager</b></h5>
+                <small class="fg-theme">Agilia Technology</small>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam cupiditate ut obcaecati, dicta doloribus incidunt corrupti neque a veniam iure reprehenderit ex libero dolorem! Neque quis dolores itaque pariatur aut?</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">02/2025 à 08/2025</div>
               <div class="details">
                 <h5><b>WebMaster</b></h5>
                 <small class="fg-theme">Groupe SEB</small>
