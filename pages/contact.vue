@@ -1,5 +1,41 @@
+<script setup>
+import { ref } from 'vue'
+import Mail from '~/components/Mail.vue'
+
+const form = ref({
+  name: '',
+  email: '',
+  message: ''
+})
+const loading = ref(false)
+const success = ref(false)
+
+const handleSubmit = async () => {
+  loading.value = true
+  try {
+    const response = await fetch('https://formspree.io/f/xblokwvg', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(form.value)
+    })
+
+    if (response.ok) {
+      success.value = true
+      form.value = { name: '', email: '', message: '' }
+    } else {
+      alert('Une erreur est survenue. Veuillez réessayer.')
+    }
+  } catch (error) {
+    alert('Erreur réseau. Vérifiez votre connexion.')
+  } finally {
+    loading.value = false
+  }
+}
+</script>
+
 <template>
-  <section class="max-w-2xl mx-auto px-4 py-12">
+  <section class="grid desktop:grid-cols-2 mx-[4%] items-center">
+  <div class="max-w-2xl px-4 py-12">
 
     <form @submit.prevent="handleSubmit" class="space-y-6">
       <div>
@@ -54,40 +90,25 @@
 
     <!-- Pop-up de confirmation -->
     <Mail :show="success" @close="success = false" />
+  </div>
+
+  <div class="border-2 border-primary-color shadow-primary-color drop-shadow-2xl px-[2%] py-[3%]">
+    <h2>Informations de contact</h2>
+    <div>
+      <a href="mailto:contact@marwin-rodrigues.fr"><p>contact@marwin-rodrigues.fr</p></a>
+    </div>
+    <div>
+      <p>Montbéliard / Strasbourg / Divonne-les-bains</p>
+    </div>
+    <div>
+      <a href="tel:661012019"><p>+33 6 61 01 20 19</p></a>
+    </div>
+
+    <h3>réseaux sociaux</h3>
+    <div class="flex">
+
+    </div>
+  </div>
   </section>
+
 </template>
-
-<script setup>
-import { ref } from 'vue'
-import Mail from '~/components/Mail.vue'
-
-const form = ref({
-  name: '',
-  email: '',
-  message: ''
-})
-const loading = ref(false)
-const success = ref(false)
-
-const handleSubmit = async () => {
-  loading.value = true
-  try {
-    const response = await fetch('https://formspree.io/f/xblokwvg', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(form.value)
-    })
-
-    if (response.ok) {
-      success.value = true
-      form.value = { name: '', email: '', message: '' }
-    } else {
-      alert('Une erreur est survenue. Veuillez réessayer.')
-    }
-  } catch (error) {
-    alert('Erreur réseau. Vérifiez votre connexion.')
-  } finally {
-    loading.value = false
-  }
-}
-</script>
