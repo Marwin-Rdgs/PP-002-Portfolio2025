@@ -20,7 +20,7 @@ const togglePolitics = () => {
 <template>
     <!-- <news /> -->
     <Headnav/>
-    <News />
+    <!-- <News /> -->
   
     <LegalNotice :visible="showLegalNotice" @close="showLegalNotice = false" />
     <Politics :visible="showPolitics" @close="showPolitics = false" />
