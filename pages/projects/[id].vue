@@ -85,6 +85,7 @@ import wixIcon from '@/components/tools/wix.vue';
 import wordpressIcon from '@/components/tools/wordpress.vue';
 import xdIcon from '@/components/tools/xd.vue';
 import avadaIcon from '@/components/tools/avada.vue';
+import infomaniakEventsIcon from '@/components/tools/infomaniakEvents.vue';
 
 
 const toolComponents: Record<string, any> = {
@@ -156,7 +157,8 @@ const toolComponents: Record<string, any> = {
   wix: wixIcon,
   wordpress: wordpressIcon,
   xd: xdIcon,
-  avada: avadaIcon
+  avada: avadaIcon,
+  infomaniakEvents: infomaniakEventsIcon,
 }
 
 /* ----------------------------------------------------------------
@@ -227,7 +229,7 @@ const projectTools = computed(() => {
   </section>
 
   <!-- --------------------------- Logiciels utilisés --------------------------- -->
-  <section class="mt-8">
+  <section class="mt-8 mx-[2%]">
     <h2 class="font-Primary font-bold text-2xl text-primary-color mb-4">
       Logiciels utilisés
     </h2>
@@ -247,26 +249,24 @@ const projectTools = computed(() => {
   </section>
 
     <!-- --------------------------- Links --------------------------- -->
-  <section class="mt-8">
-    <h2>boutons links</h2>
+  <section class="mt-8 mx-[2%] flex justify-center gap-[10%]">
+    <NuxtLink to="https://www.linkedin.com/feed/" target="_blank" class="w-full bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Documentation</button></NuxtLink>
+    <NuxtLink to="https://www.linkedin.com/feed/" target="_blank" class="w-full bg-primary-color bg-opacity-100 border-2 border-primary-color hover:bg-opacity-30 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-110 hover:scale-100 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm w-full">Le projet</button></NuxtLink>
+    <NuxtLink to="https://www.linkedin.com/feed/" target="_blank" class="w-full bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Repository</button></NuxtLink>
   </section>
 
 
   <!-- --------------------------- Galerie --------------------------- -->
-  <section class="mx-[8%] grid desktop:grid-cols-2 gap-[4%]">
+  <section class="mx-[8%] mt-8 grid desktop:grid-cols-2 gap-[4%]">
     <img src="/imgs/projects/AnthonyHecquet-Portfolio.JPG" alt="" class="w-[700px]" />
     <img src="/imgs/projects/AnthonyHecquet-Portfolio.JPG" alt="" class="w-[700px]" />
-    <img
-      src="/imgs/projects/AnthonyHecquet-Portfolio.JPG"
-      alt=""
-      class="w-full desktop:col-span-2"
-    />
+    <img src="/imgs/projects/AnthonyHecquet-Portfolio.JPG" alt="" class="w-full desktop:col-span-2"/>
   </section>
 
   <!-- --------------------------- Boutons / Navigation --------------------------- -->
-  <section class="flex justify-between desktop:mt-[8%] phone:mt-[14%]">
-    <button>Projet précédent</button>
-    <button>Projet suivant</button>
+  <section class="flex justify-between desktop:mt-[8%] phone:mt-[14%] mx-[4%]">
+        <NuxtLink to="#" class="w-1/4 bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Précédent</button></NuxtLink>
+        <NuxtLink to="/contact" class="w-1/4 bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Suivant</button></NuxtLink>
   </section>
 
 
