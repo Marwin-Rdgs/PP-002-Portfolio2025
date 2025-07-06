@@ -24,10 +24,24 @@
     {
         "id":"PS2017001",
         "title":"Trois Cent Team",
-        "img":"/imgs/projects/troiscentteam.jpg",
+        "img":"/imgs/projects/troiscentteam/troiscentteam.jpg",
         "alt":"Site de présentation d'un groupe de 3 élèves",
+
+        "date":"Été 2018",
+        "role": "Étudiant",
         "categ":"school",
-        "tools": ["wordpress"]
+        "context": "En classe de seconde au lycée Cuvier de Montbéliard, j’ai eu l’opportunité de suivre l’option ICN (Informatique et Création Numérique), une découverte pour moi à l’époque. C’est dans ce cadre qu’un projet de groupe nous a été confié : créer un site web type portfolio en équipe, pour regrouper et présenter l’ensemble des travaux réalisés pendant l’année. Ce fut ma toute première expérience de création numérique dans un cadre scolaire, et surtout l’un des premiers projets où il a fallu collaborer, structurer un site de A à Z, et surtout comprendre l’intérêt de rendre un contenu lisible, accessible et engageant pour les visiteurs.",
+        "description": "Réalisé en 2018 avec Wix, le site Trois Cent Team avait pour vocation de présenter notre parcours en ICN. En équipe avec Thomas et Jordan, nous avons conçu une plateforme simple et complète, présentant chacun des membres, nos projets et nos apprentissages. On y retrouve notamment : une introduction de l’équipe, la liste de nos réalisations durant l’année : une œuvre artistique en fils tendus réalisée sur Scratch, nos premiers pas en HTML/CSS, et une présentation approfondie sur la robotique en entreprise, un blog permettant de suivre l’évolution du projet, un formulaire de contact intégré avec une carte de localisation du lycée, un chat en direct pour discuter en temps réel, et un espace utilisateur pour créer un compte et interagir. Ce projet, bien qu’encadré dans un cadre scolaire, m’a permis de comprendre très tôt le fonctionnement d’un CMS comme Wix, de toucher à des notions concrètes de design, d’UX, d’organisation de contenu et de collaboration. Il a marqué l’un de mes premiers pas vers le monde du web, dans un contexte à la fois ludique, pédagogique et motivant.",
+        "retour": "",
+        "doc": "",
+        "link": "https://marwin-rdgs25.wixsite.com/no-aim",
+        "repos": "",
+        "img1": "/imgs/projects/troiscentteam/img1.JPG",
+        "img2": "/imgs/projects/troiscentteam/img2.JPG",
+        "img3": "/imgs/projects/troiscentteam/img3.JPG",
+        "previous": "PC2017001",
+        "next": "PP2022001",
+        "tools": ["wix"]
     },
     {
         "id":"PP2022001",
