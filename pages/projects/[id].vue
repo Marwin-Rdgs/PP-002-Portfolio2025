@@ -222,6 +222,14 @@ const projectTools = computed(() => {
     </p>
   </section>
 
+  <!-- --------------------------- Description --------------------------- -->
+  <section v-if="project.retour!=''" class="mx-[2%] phone:mt-[18%] desktop:mt-[2%]">
+    <h2 class="font-Primary font-bold text-2xl text-primary-color">Retour</h2>
+    <p class="font-Secondary font-normal text-dark-color italic">
+      {{ project.retour }}
+    </p>
+  </section>
+
   <!-- --------------------------- Logiciels utilisés --------------------------- -->
   <section class="mt-8 mx-[2%]">
     <h2 class="font-Primary font-bold text-2xl text-primary-color mb-4">
