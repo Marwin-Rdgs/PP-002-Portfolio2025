@@ -87,6 +87,35 @@ import xdIcon from '@/components/tools/xd.vue';
 import avadaIcon from '@/components/tools/avada.vue';
 import infomaniakEventsIcon from '@/components/tools/infomaniakEvents.vue';
 
+import AlexandreGarnierIcon from '@/components/collab/AlexandreGarnier.vue';
+import AliciaIversincIcon from '@/components/collab/AliciaIversinc.vue';
+import AllanHienneIcon from '@/components/collab/AllanHienne.vue';
+import BanjaminBobelIcon from '@/components/collab/BanjaminBobel.vue';
+import BenoitFaselIcon from '@/components/collab/BenoitFasel.vue';
+import BryanFerryIcon from '@/components/collab/BryanFerry.vue';
+import DanyGalmicheIcon from '@/components/collab/DanyGalmiche.vue';
+import EliotFeuvrierIcon from '@/components/collab/EliotFeuvrier.vue';
+import EthanHennequinIcon from '@/components/collab/EthanHennnequin.vue';
+import FarisHalepovicIcon from '@/components/collab/FarisHalepovic.vue';
+import FlorianGoerigIcon from '@/components/collab/FlorianGoerig.vue';
+import FlorianHoutmannIcon from '@/components/collab/FLorianHoutmann.vue';
+import GaspardBondyIcon from '@/components/collab/GaspardBondy.vue';
+import HugoBeaurainIcon from '@/components/collab/HugoBeaurain.vue';
+import JaelAmemoutouIcon from '@/components/collab/JaelAmemoutou.vue';
+import JordanIcon from '@/components/collab/Jordan.vue';
+import JulesDupaquierIcon from '@/components/collab/JulesDupaquier.vue';
+import JulesHoubronIcon from '@/components/collab/JulesHoubron.vue';
+import LucasChippauxIcon from '@/components/collab/LucasChipaux.vue';
+import LucaThomesseIcon from '@/components/collab/LucaThomesse.vue';
+import MaximeParisIcon from '@/components/collab/MaximeParis.vue';
+import MorganeChamberlinIcon from '@/components/collab/MorganeChamberlin.vue';
+import NinoDaSilvaIcon from '@/components/collab/NinoDaSilva.vue';
+import SamuelCharasseIcon from '@/components/collab/SamuelCharasse.vue';
+import TheoPasquarelliIcon from '@/components/collab/TheoPasquarelli.vue';
+import ThomasBouvaisIcon from '@/components/collab/ThomasBouvais.vue';
+import TimbeoBindaIcon from '@/components/collab/TimeoBinda.vue';
+import ZoeVicatIcon from '@/components/collab/ZoeVicat.vue';
+
 
 const toolComponents: Record<string, any> = {
   alpine: AlpineIcon,
@@ -161,6 +190,37 @@ const toolComponents: Record<string, any> = {
   infomaniakEvents: infomaniakEventsIcon,
 }
 
+const collabComponents: Record<string, any> = {
+  AlexandreGarnier: AlexandreGarnierIcon,
+  AliciaIversinc: AliciaIversincIcon,
+  AllanHienne: AllanHienneIcon,
+  BanjaminBobel: BanjaminBobelIcon,
+  BenoitFasel: BenoitFaselIcon,
+  BryanFerry: BryanFerryIcon,
+  DanyGalmiche: DanyGalmicheIcon,
+  EliotFeuvrier: EliotFeuvrierIcon,
+  EthanHennequin: EthanHennequinIcon,
+  FarisHalepovic: FarisHalepovicIcon,
+  FlorianGoerig: FlorianGoerigIcon,
+  FlorianHoutmann: FlorianHoutmannIcon,
+  GaspardBondy: GaspardBondyIcon,
+  HugoBeaurain: HugoBeaurainIcon,
+  JaelAmemoutou: JaelAmemoutouIcon,
+  Jordan: JordanIcon,
+  JulesDupaquier: JulesDupaquierIcon,
+  JulesHoubron: JulesHoubronIcon,
+  LucasChipaux: LucasChippauxIcon,
+  LucaThomesse: LucaThomesseIcon,
+  MaximeParis: MaximeParisIcon,
+  MorganeChamberlin: MorganeChamberlinIcon,
+  NinoDaSilva: NinoDaSilvaIcon,
+  SamuelCharasse: SamuelCharasseIcon,
+  TheoPasquarelli: TheoPasquarelliIcon,
+  ThomasBouvais: ThomasBouvaisIcon,
+  TimdeoBinda: TimbeoBindaIcon,
+  ZoeVicat: ZoeVicatIcon,
+}
+
 /* ----------------------------------------------------------------
    Outils utilisés par CE projet (à partir de project.tools)
 ---------------------------------------------------------------- */
@@ -172,6 +232,19 @@ const projectTools = computed(() => {
   return list
     .map(t => t.trim().toLowerCase())
     .map(key => toolComponents[key])
+    .filter(Boolean)              // supprime les clés inconnues
+})
+
+/* ----------------------------------------------------------------
+   Collaborateur présents par CE projet (à partir de project.collabateurs)
+---------------------------------------------------------------- */
+const projectCollab = computed(() => {
+  const list = Array.isArray(project?.collaborateurs)
+    ? project.collaborateurs
+    : (project?.collaborateurs ?? '').split(',')
+
+  return list
+    .map(key => collabComponents[key])
     .filter(Boolean)              // supprime les clés inconnues
 })
 </script>
@@ -222,7 +295,25 @@ const projectTools = computed(() => {
     </p>
   </section>
 
-  <!-- --------------------------- Description --------------------------- -->
+  <!-- --------------------------- Collaborateur(s) --------------------------- -->
+  <section v-if="project.collaborateurs!=''" class="mx-[2%] phone:mt-[18%] desktop:mt-[2%]">
+    <h2 class="font-Primary font-bold text-2xl text-primary-color">Collaborateurs</h2>
+    <ul class="flex flex-wrap gap-[2%] mt-[1%]">
+
+      <li
+        v-for="(Icon, idx) in projectCollab"
+        :key="idx"
+      >
+        <component
+          :is="Icon"
+          class="cursor-pointer"
+        />
+      </li>
+    </ul>
+
+  </section>
+
+  <!-- --------------------------- Retour --------------------------- -->
   <section v-if="project.retour!=''" class="mx-[2%] phone:mt-[18%] desktop:mt-[2%]">
     <h2 class="font-Primary font-bold text-2xl text-primary-color">Retour</h2>
     <p class="font-Secondary font-normal text-dark-color italic">
@@ -231,8 +322,8 @@ const projectTools = computed(() => {
   </section>
 
   <!-- --------------------------- Logiciels utilisés --------------------------- -->
-  <section class="mt-8 mx-[2%]">
-    <h2 class="font-Primary font-bold text-2xl text-primary-color mb-4">
+  <section class="mt-8 mx-[2%] mb-[3%]">
+    <h2 class="font-Primary font-bold text-2xl text-primary-color mb-[1%]">
       Logiciels utilisés
     </h2>
 
