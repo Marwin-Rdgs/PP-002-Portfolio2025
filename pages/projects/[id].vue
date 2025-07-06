@@ -196,12 +196,12 @@ const projectTools = computed(() => {
 
       <div class="border-b-2 border-primary-color flex justify-between py-[2%]">
         <p class="font-Secondary font-semibold text-dark-color">Date</p>
-        <p class="font-Secondary font-normal text-dark-color">Avril 2025</p>
+        <p class="font-Secondary font-normal text-dark-color">{{ project.date }}</p>
       </div>
 
       <div class="flex justify-between py-[2%]">
         <p class="font-Secondary font-semibold text-dark-color">Rôle</p>
-        <p class="font-Secondary font-normal text-dark-color">Chef de projet</p>
+        <p class="font-Secondary font-normal text-dark-color">{{project.role}}</p>
       </div>
     </section>
 
@@ -209,11 +209,7 @@ const projectTools = computed(() => {
     <section class="mx-[4%] desktop:col-span-3">
       <h2 class="font-Primary font-bold text-xl text-dark-color mb-[1%]">Contexte</h2>
       <p class="font-Secondary font-normal text-dark-color text-justify">
-        Ask ip est une agence fictive de développement Web basée à Toulon. Elle propose des services
-        d’UI/UX, de conception, de maintenance et d’hébergement. Nous étions 6 étudiants sur ce
-        projet, dans le cadre de la SAE 201 au cours de notre première année de BUT MMI. En plus de
-        créer entièrement l’identité d’ask ip, nous devions proposer et réaliser sa communication
-        dans son entièreté.
+        {{ project.context }}
       </p>
     </section>
   </div>
@@ -222,9 +218,7 @@ const projectTools = computed(() => {
   <section class="mx-[2%] phone:mt-[18%] desktop:mt-[2%]">
     <h2 class="font-Primary font-bold text-2xl text-primary-color">Description</h2>
     <p class="font-Secondary font-normal text-dark-color">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus reprehenderit ab natus
-      explicabo doloremque ea? Molestiae delectus suscipit et magnam tempora? Blanditiis ut
-      perspiciatis autem asperiores quo inventore porro quod.
+      {{ project.description }}
     </p>
   </section>
 
@@ -249,10 +243,10 @@ const projectTools = computed(() => {
   </section>
 
     <!-- --------------------------- Links --------------------------- -->
-  <section class="mt-8 mx-[2%] flex justify-center gap-[10%]">
-    <NuxtLink to="https://www.linkedin.com/feed/" target="_blank" class="w-full bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Documentation</button></NuxtLink>
-    <NuxtLink to="https://www.linkedin.com/feed/" target="_blank" class="w-full bg-primary-color bg-opacity-100 border-2 border-primary-color hover:bg-opacity-30 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-110 hover:scale-100 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm w-full">Le projet</button></NuxtLink>
-    <NuxtLink to="https://www.linkedin.com/feed/" target="_blank" class="w-full bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Repository</button></NuxtLink>
+  <section class="mt-8 mx-[8%] flex justify-center gap-[10%]">
+    <NuxtLink v-if="project.doc!=''" :to="project.doc" target="_blank" class="w-full bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Documentation</button></NuxtLink>
+    <NuxtLink v-if="project.link!=''" :to="project.link" target="_blank" class="w-full bg-primary-color bg-opacity-100 border-2 border-primary-color hover:bg-opacity-30 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-110 hover:scale-100 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm w-full">Le projet</button></NuxtLink>
+    <NuxtLink v-if="project.repos!=''" :to="project.repos" target="_blank" class="w-full bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Repository</button></NuxtLink>
   </section>
 
 
@@ -265,8 +259,8 @@ const projectTools = computed(() => {
 
   <!-- --------------------------- Boutons / Navigation --------------------------- -->
   <section class="flex justify-between desktop:mt-[8%] phone:mt-[14%] mx-[4%]">
-        <NuxtLink to="#" class="w-1/4 bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Précédent</button></NuxtLink>
-        <NuxtLink to="/contact" class="w-1/4 bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Suivant</button></NuxtLink>
+        <NuxtLink :to="project.previous" class="w-1/4 bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Précédent</button></NuxtLink>
+        <NuxtLink :to="project.next" class="w-1/4 bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Suivant</button></NuxtLink>
   </section>
 
 
