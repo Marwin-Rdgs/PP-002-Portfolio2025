@@ -113,7 +113,7 @@ import NinoDaSilvaIcon from '@/components/collab/NinoDaSilva.vue';
 import SamuelCharasseIcon from '@/components/collab/SamuelCharasse.vue';
 import TheoPasquarelliIcon from '@/components/collab/TheoPasquarelli.vue';
 import ThomasBouvaisIcon from '@/components/collab/ThomasBouvais.vue';
-import TimbeoBindaIcon from '@/components/collab/TimeoBinda.vue';
+import TimeoBindaIcon from '@/components/collab/TimeoBinda.vue';
 import ZoeVicatIcon from '@/components/collab/ZoeVicat.vue';
 
 
@@ -217,7 +217,7 @@ const collabComponents: Record<string, any> = {
   SamuelCharasse: SamuelCharasseIcon,
   TheoPasquarelli: TheoPasquarelliIcon,
   ThomasBouvais: ThomasBouvaisIcon,
-  TimdeoBinda: TimbeoBindaIcon,
+  TimeoBinda: TimeoBindaIcon,
   ZoeVicat: ZoeVicatIcon,
 }
 
