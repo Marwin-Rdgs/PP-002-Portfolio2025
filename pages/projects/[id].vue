@@ -179,7 +179,7 @@ const projectTools = computed(() => {
 <template>
   <!-- --------------------------- Image entête --------------------------- -->
   <section>
-    <img :src="project.img" alt="" class="w-full h-full" />
+    <img :src="project.img" :alt="project.alt" class="w-full h-full" />
   </section>
 
   <!-- --------------------------- Détails & Contexte --------------------------- -->
@@ -252,9 +252,9 @@ const projectTools = computed(() => {
 
   <!-- --------------------------- Galerie --------------------------- -->
   <section class="mx-[8%] mt-8 grid desktop:grid-cols-2 gap-[4%]">
-    <img src="/imgs/projects/AnthonyHecquet-Portfolio.JPG" alt="" class="w-[700px]" />
-    <img src="/imgs/projects/AnthonyHecquet-Portfolio.JPG" alt="" class="w-[700px]" />
-    <img src="/imgs/projects/AnthonyHecquet-Portfolio.JPG" alt="" class="w-full desktop:col-span-2"/>
+    <img :src="project.img1" alt="Image 1 de la gallerie photo du projet" class="w-[700px]" />
+    <img :src="project.img2" alt="Image 2 de la gallerie photo du projet" class="w-[700px]" />
+    <img :src="project.img3" alt="Image 3 de la gallerie photo du projet" class="w-full desktop:col-span-2"/>
   </section>
 
   <!-- --------------------------- Boutons / Navigation --------------------------- -->
