@@ -2,9 +2,23 @@
     {
         "id":"PC2017001",
         "title":"Prod Squad",
-        "img":"/imgs/projects/prodsquad.png",
+        "img":"/imgs/projects/prodsquad/prodsquad.png",
         "alt":"Site web promotionnel d'une communauté française du jeux-vidéos minecraft privée",
+
+        "date" : "Été 2018",
+        "role" : "Conception site web",
         "categ":"prestation",
+        "context": "Avant même mes études ou mes premières expériences professionnelles, j’ai eu la chance de rejoindre une communauté privée de passionnés de Minecraft appelée Prod'Squad. Cette équipe organisait régulièrement des événements en ligne comme des UHC ou des cités, intégralement développés en command blocks. À cette époque, je découvrais tout juste le monde de la création numérique, et j’avais envie de contribuer à faire rayonner notre communauté. C’est dans cet esprit que j’ai proposé de créer un site web vitrine, afin de lui donner une visibilité extérieure, poser une image cohérente et professionnelle, et attirer de nouveaux joueurs. Ce projet a marqué le tout début de mon parcours dans le web, avec l’envie de créer quelque chose de concret et utile pour un groupe auquel je tenais.",
+        "description": "Réalisé en 2018 avec Wix, ce site web a été ma toute première création publique. J’y ai mis toute mon énergie et ma curiosité pour proposer une plateforme claire, structurée et fidèle à l’identité de la communauté. Le site présentait l’univers de Prod'Squad, son équipe, les événements passés et à venir, des témoignages de membres fidèles, ainsi qu’un formulaire de contact, les chaînes Twitch et YouTube des membres, un accès au règlement et même la possibilité de faire un don pour soutenir la communauté. À travers ce projet, j’ai découvert l’importance d’une navigation intuitive, d’une hiérarchie de l’information bien pensée, et d’une cohérence visuelle. Bien qu’il s’agisse d’un projet sans code, cette expérience a été une vraie porte d’entrée dans le monde du web. C’est là que j’ai compris que j’aimais donner vie à des idées et construire des espaces digitaux pensés pour l’utilisateur, dans un cadre humain, passionné et communautaire.",
+        "retour": "",
+        "doc": "",
+        "link": "https://marwin-rdgs25.wixsite.com/prodsquad",
+        "repos": "",
+        "img1": "/imgs/projects/prodsquad/img1.JPG",
+        "img2": "/imgs/projects/prodsquad/img2.JPG",
+        "img3": "",
+        "previous": "PC2025004",
+        "next": "PS2017001",
         "tools": ["wix"]
     },
     {
