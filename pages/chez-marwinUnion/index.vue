@@ -38,46 +38,34 @@ const articleList = ref(articleListRaw);
                 :article="article"/>
             </div>
         </section>
-        
-        <!-- MODIFIER LA STRUCTURE (FAIRE 2 BANDEAUX, POUR LES SERVICES, QUI AMENE A UNE PAGE DE PRESENTATION DE SES DERNIERS => QR CODE sur les futurs cartes de visites dédiées ?) -->
-    <section class="grid desktop:grid-cols-2 mx-[4%] gap-[10%] items-center">
 
-        <div class="grid mx-auto gap-y-[4%]">
-            <div class="flex justify-center items-center gap-[2%]">
-                <img src="/imgs/Chez-MarwinUnion/CMW.svg" alt="" class="desktop:w-[64px] phone:w-[32px] animate-fadeIn">
-                <h2 class="font-Primary text-xl text-CMW-primary drop-shadow-lg animate-fadeIn">Chez Marwin-Web</h2>
+        <!-- Présentation des services -->
+        <section>
+            <!-- CMW -->
+            <div class="bg-CMW-secondary bg-opacity-30 items-center flex gap-[10%] justify-between py-[4%]">
+                <div class="grid pl-[4%] gap-[10%]">
+                    <p class="w-full"><b>Donner vie à votre présence digitale, main dans la main.</b><br />Chez Marwin-Web est le premier service né de Chez Marwin Union. Il est dédié à la communication digitale sous toutes ses formes : création de sites web promotionnels, identité visuelle, gestion de réseaux sociaux, design print, montage vidéo... Ici, pas de solutions standardisées. Je vous accompagne de A à Z dans la création d’une image qui vous ressemble, avec des outils modernes, un regard extérieur bienveillant et des résultats concrets. Chaque collaboration est pensée comme un projet commun : vous apportez la vision, je propose la structure, les idées, les solutions, et surtout une grande réactivité.</p>
+                    <div class="flex justify-center">
+                        <NuxtLink to="/chez-marwin-web" class="border-2 border-CMW-primary rounded-xl px-[4%] py-[0.5%] bg-CMW-primary bg-opacity-0 hover:bg-opacity-100 hover:scale-110 text-dark-color font-Primary hover:text-light-color hover:-translate-y-1 transition-all duration-300"><button>Savoir plus</button></NuxtLink>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center gap-[4%] w-full pr-[4%] animate-fadeIn">
+                    <img src="/imgs/Chez-MarwinUnion/CMW.svg" alt="" class="desktop:w-[64px] phone:w-[32px] animate-pulse">
+                    <h2 class="w-full font-Primary text-3xl text-dark-color drop-shadow-lg">Chez Marwin-Web</h2>
+                </div>
             </div>
-            <img src="/imgs/projects/citadelle.jpg" alt="" class="w-full">
-            <h3 class="text-base font-Primary font-semibold text-dark-color">Donner vie à votre présence digitale, main dans la main.</h3>
-            <p class="text-sm font-Secondary text-dark-color text-justify">Chez Marwin-Web est le premier service né de Chez Marwin Union.</p>
-            <p class="text-sm font-Secondary text-dark-color text-justify">Il est dédié à la communication digitale sous toutes ses formes : création de sites web promotionnels, identité visuelle, gestion de réseaux sociaux, design print, montage vidéo...</p>
-            <p class="text-sm font-Secondary text-dark-color text-justify">Ici, pas de solutions standardisées. Je vous accompagne de A à Z dans la création d’une image qui vous ressemble, avec des outils modernes, un regard extérieur bienveillant et des résultats concrets.</p>
-            <p class="text-sm font-Secondary text-dark-color text-justify">Chaque collaboration est pensée comme un projet commun : vous apportez la vision, je propose la structure, les idées, les solutions, et surtout une grande réactivité.</p>
-            <div class="flex justify-center">
-                <NuxtLink to="/chez-marwinUnion/"><button class="bg-primary-color px-6 py-2 rounded-3xl text-lg font-Secondary font-bold text-contrast-color bg-opacity-100 hover:bg-opacity-70 hover:-translate-y-1 hover:shadow-lg hover:shadow-secondary-color transition-all ease-in-out duration-500">Contacter</button></NuxtLink>
+            <!-- CMTC -->
+            <div class="bg-CMTC-secondary bg-opacity-30 items-center flex gap-[10%] justify-between py-[4%]">
+                <div class="flex justify-center items-center gap-[4%] w-full pl-[4%] animate-fadeIn">
+                    <img src="/imgs/Chez-MarwinUnion/CMTC.svg" alt="" class="desktop:w-[64px] phone:w-[32px] animate-pulse">
+                    <h2 class="w-[450px] font-Primary text-3xl text-dark-color drop-shadow-lg">Chez Marwin-TeamCare</h2>
+                </div>
+                <div class="grid pr-[4%] gap-[10%]">
+                    <p class="w-full"><b>Renforcer l’humain au cœur de l’entreprise.</b><br /> Lancé en mai 2025, Chez Marwin-TeamCare est un service tourné vers l’humain. Je vous accompagne dans la conception d’événements sur mesure, adaptés à votre culture d’entreprise, à vos besoins, et à vos envies. Grâce à un réseau de partenaires (bars, restaurants, centres de loisirs, photographes, taxis…), vous bénéficiez d’un service clé en main, d’avantages exclusifs et d’une mise en relation rapide. Et comme tout est lié, ces partenaires sont également valorisés grâce au service digital de Chez Marwin-Web, dans une logique gagnant-gagnant. Son objectif : aider les entreprises à renforcer la cohésion d’équipe et à prendre soin du bien-être de leurs collaborateurs, à travers des moments clés comme des team buildings et afterworks.</p>
+                    <div class="flex justify-center">
+                        <NuxtLink to="/chez-marwin-teamcare" class="border-2 border-CMTC-primary rounded-xl px-[4%] py-[0.5%] bg-CMTC-primary bg-opacity-0 hover:bg-opacity-100 hover:scale-110 text-dark-color font-Primary hover:text-light-color hover:-translate-y-1 transition-all duration-300"><button>Savoir plus</button></NuxtLink>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="grid mx-auto gap-y-[4%]" id="CMTC">
-            <div class="flex justify-center items-center gap-[2%]">
-                <img src="/imgs/Chez-MarwinUnion/CMTC.svg" alt="" class="desktop:w-[64px] phone:w-[32px] animate-fadeIn">
-                <h2 class="font-Primary text-xl text-CMTC-primary drop-shadow-lg animate-fadeIn">Chez Marwin-TeamCare</h2>
-            </div>
-            <img src="/imgs/projects/citadelle.jpg" alt="" class="w-full">
-            <h3 class="text-base font-Primary font-semibold text-dark-color">Renforcer l’humain au cœur de l’entreprise.</h3>
-            <p class="text-sm font-Secondary text-dark-color text-justify">Lancé en mai 2025, Chez Marwin-TeamCare est un service tourné vers l’humain.</p>
-            <p class="text-sm font-Secondary text-dark-color text-justify">Je vous accompagne dans la conception d’événements sur mesure, adaptés à votre culture d’entreprise, à vos besoins, et à vos envies. Grâce à un réseau de partenaires (bars, restaurants, centres de loisirs, photographes, taxis…), vous bénéficiez d’un service clé en main, d’avantages exclusifs et d’une mise en relation rapide.</p>
-            <p class="text-sm font-Secondary text-dark-color text-justify">Et comme tout est lié, ces partenaires sont également valorisés grâce au service digital de Chez Marwin-Web, dans une logique gagnant-gagnant.</p>
-            <p class="text-sm font-Secondary text-dark-color text-justify">Son <span class="font-bold">objectif</span> : aider les entreprises à renforcer la cohésion d’équipe et à prendre soin du bien-être de leurs collaborateurs, à travers des moments clés comme des team buildings et afterworks.</p>
-
-            <!-- <div class="flex justify-center">
-                <CarouselPartners :partners="partnerList" />
-            </div> -->
-
-            <div class="flex justify-center">
-                <NuxtLink to="/chez-marwinUnion/"><button class="bg-primary-color px-6 py-2 rounded-3xl text-lg font-Secondary font-bold text-contrast-color bg-opacity-100 hover:bg-opacity-70 hover:-translate-y-1 hover:shadow-lg hover:shadow-secondary-color transition-all ease-in-out duration-500">Contacter</button></NuxtLink>
-            </div>
-        </div>
-
-    </section>
+        </section>
 </template>
