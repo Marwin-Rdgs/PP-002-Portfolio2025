@@ -163,7 +163,7 @@
               <div class="details">
                 <h5><b>Modérateur, Gérant Statistiques et Suggestions et UI Designer</b></h5>
                 <small class="fg-theme">Ezaly</small>
-                <p>Gestion de micro-événements(2h), des statistiques, des suggestions des utilisateurs ainsi que designer l'ensemble des interface</p>
+                <p>Gestion de micro-événements(2h), des statistiques, des suggestions des utilisateurs ainsi que designer l'ensemble des interfaces</p>
               </div>
             </li>
           </ul>
