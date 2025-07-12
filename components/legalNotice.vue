@@ -18,7 +18,7 @@
           Chez Marwin Union<br>
           Marwin Rodrigues – Auto-entrepreneur<br>
           SIRET : 92321733500010<br>
-          Adresse : 18 rue wilfrid kilian, Montbéliard 25200, France<br>
+          Adresse : 15 rue de gresswiller, Strasbourg 67200, France<br>
           Email : <a href="mailto:contact@marwin-rodrigues.fr" class="text-primary-color underline">contact@marwin-rodrigues.fr</a>
         </p>
 
