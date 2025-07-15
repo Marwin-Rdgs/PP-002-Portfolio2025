@@ -40,7 +40,7 @@ function handleMouseMove(e) {
 function startWords() {
   isHovering.value = true
   updateWord()
-  wordInterval = setInterval(updateWord, 300)
+  wordInterval = setInterval(updateWord, 900)
 }
 
 function stopWords() {
@@ -88,7 +88,7 @@ function updateWord() {
           </div>
         </div>
 
-        <div class="phone:col-start-1 desktop:flex desktop:justify-end desktop:pr-[4%] desktop:scale-150 desktop:mr-[8%]">
+        <div class="phone:col-start-1 desktop:flex desktop:justify-end desktop:pr-[4%] desktop:scale-[145%] desktop:mr-[8%]">
           <img src="/imgs/Marwin/About_Me.png" alt="">
         </div>
       </div>
@@ -97,7 +97,7 @@ function updateWord() {
     <!-- Section Paragraphe -->
     <section
     ref="hoverArea"
-    class="mt-[14%] mx-[4%] relative cursor-none overflow-hidden grid grid-cols-1 desktop:h-[1200px] phone:gap-[1%]"
+    class="mt-[13%] mx-[4%] relative cursor-none overflow-hidden grid grid-cols-1 desktop:h-[1400px] phone:gap-[1%] desktop:gap-0"
     @mousemove="handleMouseMove"
     @mouseenter="startWords"
     @mouseleave="stopWords">
@@ -109,7 +109,7 @@ function updateWord() {
       <p class="font-Secondary text-base text-dark-color"><b>La formation MMI : le point d’ancrage</b><br />
       C’est en intégrant le BUT Métiers du Multimédia et de l’Internet (MMI) que j’ai compris que ma passion pouvait devenir un métier. Pendant trois ans, j’ai pu explorer toutes les facettes de la création numérique : développement, UX/UI, audiovisuel, communication, gestion de projet, design… Et ce que j’ai adoré, c’est la transversalité de cette formation. Je ne voulais pas choisir entre le fond et la forme, entre l’artistique et le technique. J’ai voulu apprendre les deux. Je me suis nourri de chaque projet. Un concept autour du sport connecté, une plateforme NFT, un serveur Minecraft personnalisé, une plateforme de streaming, un système répertoriant les contenus audiovisuels pour l'IUT, lancement de mon auto-entreprise, un talk-show sur scène, ... Chaque sujet était un prétexte pour tester de nouveaux outils, créer en équipe, sortir de ma zone de confort. C’est aussi pendant ces années que j’ai énormément évolué personnellement : j’ai entrepris davantage, j’ai appris à fédérer des équipes, à assumer un rôle de leader. J’ai participé au conseil des étudiants de MMI Montbéliard, apporté ma vision, partagé mes ambitions. J’ai compris une chose essentielle : nous sommes le reflet des personnes qui nous entourent. En m’entourant de profils inspirants, j’ai gagné en maturité, en exigence et en motivation. Je suis convaincu que tout rêve est atteignable, si l’on travaille avec discipline, si l’on sait s’entourer, et si l’on reste aligné avec ses valeurs. Nous vivons dans une génération où tout est à portée de main, à condition d’oser, d’essayer, de rater, de recommencer.</p>
       <p class="font-Secondary text-base text-dark-color"><b>L’humain avant tout</b><br />
-      Mais au-delà des lignes de code, une chose m’a toujours guidé : l’humain. Le numérique ne m’intéresse que s’il est utile, intelligent, porteur de sens. J’ai toujours refusé de travailler dans le vide. Il me faut une histoire, une cause, un projet collectif. C’est cette envie de créer des choses concrètes pour des gens réels qui m’a poussé à devenir auto-entrepreneur. Sous le nom de Chez Marwin Union, j’ai accompagné des artisans, des marques, des particuliers dans leur communication digitale : création de sites vitrines, stratégie de contenu, optimisation SEO, refonte de branding, design print. Chaque client était une aventure. J’écoutais, je proposais, je créais. Ce travail en indépendant m’a appris la rigueur, la relation client, la gestion de projet, la négociation, mais aussi l’humilité. J’ai aussi fondé TeamCare, un collectif d'entraide et de création entre jeunes passionnés, pour apprendre ensemble, se soutenir, monter en compétence. C’est là que je me suis formé au rôle de leader, en douceur, par l’écoute et l’inspiration.</p>
+      Mais au-delà des lignes de code, une chose m’a toujours guidé : l’humain. Le numérique ne m’intéresse que s’il est utile, intelligent, porteur de sens. J’ai toujours refusé de travailler dans le vide. Il me faut une histoire, une cause, un projet collectif. C’est cette envie de créer des choses concrètes pour des gens réels qui m’a poussé à devenir auto-entrepreneur. Sous le nom de Chez Marwin Union, j’ai accompagné des artisans, des marques, des particuliers dans leur communication digitale : création de sites vitrines, stratégie de contenu, optimisation SEO, refonte de branding, design print. Chaque client était une aventure. J’écoutais, je proposais, je créais. Ce travail en indépendant m’a appris la rigueur, la relation client, la gestion de projet, la négociation, mais aussi l’humilité. Dans cette même logique humaine et collaborative, j’ai lancé un second projet : Chez Marwin TeamCare, un service d’organisation d’événements sur mesure pour les entreprises. Dîners d’équipe, afterworks, team buildings — l’idée était simple : renforcer les liens pour améliorer la cohésion et réduire le turnover. Car soyons honnêtes, travailler dans une entreprise sans bien connaître ses collègues, ce n’est pas très fun ! Ce projet, fondé sur un réseau de partenaires engagés, a vocation à replacer l’humain au cœur de la performance collective. On sous-estime souvent la puissance de l’ambiance de travail : un bon moment partagé, c’est parfois le début d’un grand projet.</p>
       <p class="font-Secondary text-base text-dark-color"><b>Un développeur… mais pas que.</b><br />
       Aujourd’hui, je me définis comme développeur front-end de formation… mais chef de projet dans l’âme. J’aime coder, oui — c’est une forme de poésie logique — mais ce que j’aime encore plus, c’est piloter, réunir, donner du sens. Mon profil technique me permet de comprendre les rouages du développement web, mais ce qui me stimule profondément, c’est de piloter, de fédérer, de donner un cap. C’est à la suite de nombreux entretiens après ma formation MMI que j’ai pris conscience de ma réelle orientation. Sur une dizaine d’échanges professionnels, 8 portaient sur des postes de gestion (chef de projet, product owner, etc.), et tous m’ont renvoyé une image claire : « très bon profil, mais pas assez d’expérience ». Cette répétition m’a poussé à agir : je ne voulais pas attendre que l’opportunité tombe du ciel, j’ai décidé de la créer.</p>
       <p class="font-Secondary text-base text-dark-color"><b>Nouvelle vie à Strasbourg : la transition assumée</b><br />
@@ -119,7 +119,7 @@ function updateWord() {
     <span
       v-if="isHovering"
       :style="{ top: mouseY + 'px', left: mouseX + 'px' }"
-      class="absolute pointer-events-none select-none text-9xl font-semibold font-Primary text-primary-color transition-opacity duration-200 overflow-hidden uppercase"
+      class="absolute pointer-events-none select-none text-8xl font-semibold font-Primary text-primary-color transition-opacity duration-200 overflow-hidden uppercase opacity-25"
     >
       {{ currentWord }}
     </span>
