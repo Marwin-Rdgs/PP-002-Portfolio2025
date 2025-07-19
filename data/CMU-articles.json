@@ -3,8 +3,17 @@
         "id": "2025001",
         "title": "Evolution",
         "cover": "",
-        "content": "",
         "date": "",
-        "link": ["test1","test2"]
+        "categ": "",
+        "auteur": "",
+        "new": true,
+
+        "intro": "",
+        "content": "",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "previous": "",
+        "next": ""
     }
 ]
