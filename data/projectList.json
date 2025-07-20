@@ -20,7 +20,9 @@
         "img3": "",
         "previous": "PC2025004",
         "next": "PS2017001",
-        "tools": ["wix"]
+        "tools": ["wix"],
+
+        "presta": ""
     },
     {
         "id":"PS2017001",
@@ -43,7 +45,9 @@
         "img3": "/imgs/projects/troiscentteam/img3.JPG",
         "previous": "PC2017001",
         "next": "PP2022001",
-        "tools": ["wix"]
+        "tools": ["wix"],
+
+        "presta": ""
     },
     {
         "id":"PP2022001",
@@ -66,7 +70,9 @@
         "img3": "",
         "previous": "PS2017001",
         "next": "PP2022002",
-        "tools": ["html", "css", "js", "php","bootstrap","bootswatch", "phpmyadmin", "SQLite"]
+        "tools": ["html", "css", "js", "php","bootstrap","bootswatch", "phpmyadmin", "SQLite"],
+
+        "presta": ""
     },
     {
         "id":"PP2022002",
@@ -89,7 +95,9 @@
         "img3": "",
         "previous": "PP2022001",
         "next": "PC2022001",
-        "tools": ["html", "css", "js"]
+        "tools": ["html", "css", "js"],
+
+        "presta": ""
     },
     {
         "id":"PC2022001",
@@ -112,7 +120,9 @@
         "img3": "",
         "previous": "PP2022002",
         "next": "PC2022002",
-        "tools": ["html", "css", "illustrator"]
+        "tools": ["html", "css", "illustrator"],
+
+        "presta": ""
     },
     {
         "id":"PC2022002",
@@ -135,7 +145,9 @@
         "img3": "",
         "previous": "PC2022001",
         "next": "PS2023001",
-        "tools": ["vue","tailwind","js","figma","alpine","firebase","github","trello","openstreetmap"]
+        "tools": ["vue","tailwind","js","figma","alpine","firebase","github","trello","openstreetmap"],
+
+        "presta": ""
     },
     {
         "id":"PS2023001",
@@ -158,7 +170,9 @@
         "img3": "/imgs/projects/emorphoz/img3.JPG",
         "previous": "PC2022002",
         "next": "PC2023001",
-        "tools": ["vue","tailwind","adobe","figma", "github", "supabase", "openweathermap", "trello"]
+        "tools": ["vue","tailwind","adobe","figma", "github", "supabase", "openweathermap", "trello"],
+
+        "presta": ""
     },
     {
         "id":"PC2023001",
@@ -181,7 +195,9 @@
         "img3": "",
         "previous": "PS2023001",
         "next": "PC2024001",
-        "tools": ["adobe"]
+        "tools": ["adobe"],
+
+        "presta": "web"
     },
     {
         "id":"PC2024001",
@@ -204,7 +220,9 @@
         "img3": "",
         "previous": "PC2023001",
         "next": "PS2023002",
-        "tools": ["adobe"]
+        "tools": ["adobe"],
+
+        "presta": "web"
     },
     {
         "id":"PS2023002",
@@ -227,7 +245,9 @@
         "img3": "/imgs/projects/iutnfctv/img3.JPG",
         "previous": "PC2024001",
         "next": "PC2024002",
-        "tools": ["php", "scss","wordpress","tailwind","adobe","figma", "github", "trello", "selenium"]
+        "tools": ["php", "scss","wordpress","tailwind","adobe","figma", "github", "trello", "selenium"],
+
+        "presta": ""
     },
     {
         "id":"PC2024002",
@@ -250,7 +270,9 @@
         "img3": "",
         "previous": "PS2023002",
         "next": "PC2025001",
-        "tools": ["html","css","js","tailwind"]
+        "tools": ["html","css","js","tailwind"],
+
+        "presta": "web"
     },
     {
         "id":"PC2025001",
@@ -273,7 +295,9 @@
         "img3": "/imgs/projects/ANS2P/img3.JPG",
         "previous": "PC2024002",
         "next": "PC2025003",
-        "tools": ["wordpress", "avada", "figma"]
+        "tools": ["wordpress", "avada", "figma"],
+
+        "presta": "web"
     },
     {
         "id":"PC2025003",
@@ -296,7 +320,9 @@
         "img3": "/imgs/projects/ilMago/gallerie.jpg",
         "previous": "PC2025001",
         "next": "PC2025004",
-        "tools": ["nuxt","scss","github"]
+        "tools": ["nuxt","scss","github"],
+
+        "presta": "web"
     },
     {
         "id":"PC2025004",
@@ -319,6 +345,8 @@
         "img3": "/imgs/projects/SoireeCanap/img3.png",
         "previous":"PC2025003",
         "next":"PC2017001",
-        "tools": ["infomaniakEvents"]
+        "tools": ["infomaniakEvents"],
+
+        "presta": "web"
     }
 ]

@@ -5,7 +5,8 @@
       "entreprise": "ChooseMe",
       "link": "#",
       "comments": "Nous avons demandé à Marwin de créer notre projets, Nous lui avons expliqué ce que nous voulions, il a été à l'écoute, nous a poser des questions, ensuite il se projetait en incluant des options auxquels nous avions pas pansé ce qui répondait à nos attentes de plus améliorait de notre projet et nous lui avons approuvé le prototype. Nous sommes content de Marwin.",
-      "img": "/imgs/retours/johan-grandmougin.jpg"
+      "img": "/imgs/retours/johan-grandmougin.jpg",
+      "categ": "presta"
     },
     {
       "auteur": "Antoine Beluche",
@@ -13,7 +14,8 @@
       "entreprise": "MTFer",
       "link": "#",
       "comments": "Marwin a été très compétent et il a répondu à mes attentes qui m'ont permis de me concentrer totalement sur mon activité d'auto-entreprise.",
-      "img": "/imgs/retours/antoine-beluche.jpg"
+      "img": "/imgs/retours/antoine-beluche.jpg",
+      "categ": "presta"
     },
     {
       "auteur": "Dany Galmiche",
@@ -21,7 +23,8 @@
       "entreprise": "Dany Galmiche Design",
       "link": "#",
       "comments": "Efficace et professionnel c'est un très bon collaborateur.",
-      "img": "/imgs/retours/dany-galmiche.jpeg"
+      "img": "/imgs/retours/dany-galmiche.jpeg",
+      "categ": "presta"
     },
     {
       "auteur": "Julien Vissault",
@@ -29,7 +32,8 @@
       "entreprise": "Jadyss",
       "link": "#",
       "comments": "Marwin est très professionnel dans son travail, on lui a confié la responsabilité du projet de développement de notre site internet. Nous sommes entièrement satisfait sur tous les aspects de ce projet que ce soit sur la partie technique ou gestion de projet.",
-      "img": "/imgs/retours/julien-vissault.jpeg"
+      "img": "/imgs/retours/julien-vissault.jpeg",
+      "categ": "presta"
     },
     {
      "auteur": "Andréa Lopes",
@@ -37,7 +41,8 @@
       "entreprise": "FORVIA",
       "link": "#",
       "comments": "Marwin a été mon alternant entre septembre 2022 et août 2024 au sein de Forvia. Il a été très efficace et a su prendre en compte les conseils et remarques tout au long de cette période, il a beaucoup évolué et est aujourd'hui plus que jamais prêt à relever des defis. Très polyvalent et toujours volontaire, il sera une force pour votre entreprise",
-      "img": "/imgs/retours/andrea-lopes.jpeg"
+      "img": "/imgs/retours/andrea-lopes.jpeg",
+      "categ": "pro"
     },
     {
      "auteur": "Tony RODRIGUES",
@@ -45,7 +50,8 @@
       "entreprise": "TR Clean",
       "link": "#",
       "comments": "J'ai fait appel à Marwin pour des flyers, et je suis ravi du résultat. Créatif et efficace, il a parfaitement compris mes besoins. Je recommande vivement ses services ! ",
-      "img": "/imgs/retours/tony-rodrigues.jpg"
+      "img": "/imgs/retours/tony-rodrigues.jpg",
+      "categ": "presta"
     },
     {
       "auteur": "Pascal Chatonnay",
@@ -53,7 +59,8 @@
       "entreprise": "MMI Montbéliard",
       "link": "#",
       "comments": "Marwin s'est distingué par son implication et son enthousiasme. Son engagement en alternance chez Forvia lui a permis de développer un savoir-faire technique solide, tout en appliquant de manière pratique les compétences acquises au département MMI de Montbéliard. Sa capacité à jongler entre les exigences académiques et professionnelles témoigne de sa rigueur, de son sens de l'organisation et de sa passion pour le développement tout en étant à l'aise avec la communication et le design. Outre ses compétences professionnelles, Marwin est toujours d'une compagne agréable.",
-      "img": "/imgs/retours/pascal-chatonnay.jpg"
+      "img": "/imgs/retours/pascal-chatonnay.jpg",
+      "categ": "school"
     },
     {
       "auteur": "Anthony Hecquet",
@@ -61,7 +68,8 @@
       "entreprise": "BTS SIO",
       "link": "https://anthony-hecquet.netlify.app/",
       "comments": "J’ai demandé à Marwin de m’aider pour le projet de mon portfolio dans un délai de 4 jours. Il a su parfaitement réagir et prendre en compte toutes mes demandes  tout en me proposant des idées d’optimisation",
-      "img": "/imgs/retours/AnthonyHecquet.jpg"
+      "img": "/imgs/retours/AnthonyHecquet.jpg",
+      "categ": "presta"
     },
     {
      "auteur": "ilMago",
@@ -69,6 +77,7 @@
      "entreprise": "ilMago",
      "link": "http://ilmago.fr/",
      "comments": "J'ai confié la création de mon premier site web à Marwin, et j'ai été bluffé de la qualité de son travail ! Marwin est très carré, force de proposition et rapide. Super personnalité et rapport qualité/prix imbattable, je recommande ++ !",
-     "img": "/imgs/retours/ilMago.jpg"
+     "img": "/imgs/retours/ilMago.jpg",
+      "categ": "presta"
     }
   ]
