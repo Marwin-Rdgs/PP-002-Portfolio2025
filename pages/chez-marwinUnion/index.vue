@@ -4,8 +4,10 @@ import CardArticle from '@/components/cardArticle.vue';
 import articleListRaw from '@/Data/CMU-articles.json';
 import feedbackListRaw from '@/Data/feedbackIndex.json';
 import projectListRaw from '@/data/projectList.json';
-import Swiper from 'swiper/bundle'
-import CardFeedback from '/components/cardFeedback.vue'
+import Swiper from 'swiper/bundle';
+import CardFeedback from '/components/cardFeedback.vue';
+import CardProject from '/components/cardProject.vue';
+import FAQ from '/components/faq.vue';
 
 const feedbackList = ref(feedbackListRaw);
 const articleList = ref(articleListRaw);
@@ -25,12 +27,11 @@ const filteredProjectList = computed(() => {
   return filtered.slice(0, 3); // Seulement les 3 derniers projets
 });
 
-const props = defineProps({
-  feedbacks: {
-    type: Array,
-    required: true,
-  },
-})
+// ✅ Correction ici : destructuration directe des props
+const feedbacks = ref(
+  feedbackListRaw.filter(fb => fb.categ === 'presta')
+)
+
 
 const swiperRef = ref(null)
 
@@ -155,18 +156,18 @@ onMounted(() => {
     </div>
   </section>
   
-  <section class="-mt-[40%]">
-    <h3 class="text-5xl font-Primary font-bold text-primary-color mr-[2%] text-right">Les retours clients</h3>
+    <section class="-mt-[40%]">
+      <h3 class="text-5xl font-Primary font-bold text-primary-color mr-[2%] text-right">Les retours clients</h3>
       <div class="max-w-6xl mx-auto px-4">
-    <div ref="swiperRef" class="swiper">
-      <div class="swiper-wrapper mb-16">
-        <div v-for="(feedback, index) in feedbacks" :key="index" class="swiper-slide">
-          <CardFeedback :feedback="feedback" />
+        <div ref="swiperRef" class="swiper">
+          <div class="swiper-wrapper mb-16">
+            <div v-for="(feedback, index) in feedbacks" :key="index" class="swiper-slide">
+              <CardFeedback :feedback="feedback" />
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  </section>
+    </section>
 
       <section class="grid desktop:grid-cols-2 items-center gap-[2%] desktop:ml-[6%] mr-[6%]">
       <FAQ 
