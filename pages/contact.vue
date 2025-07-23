@@ -135,21 +135,19 @@ const handleSubmit = async () => {
       ]"
     />
 
-    <div class="border-2 border-primary-color shadow-primary-color drop-shadow-2xl px-[2%] py-[3%] mt-6 w-full max-w-2xl">
-      <h2 class="text-xl font-bold font-Primary text-primary-color mb-2">Informations de contact</h2>
-      <div class="mb-1">
-        <a href="mailto:contact@marwin-rodrigues.fr"><p>contact@marwin-rodrigues.fr</p></a>
-      </div>
-      <div class="mb-1">
-        <p>Montbéliard / Strasbourg / Divonne-les-bains</p>
-      </div>
-      <div class="mb-4">
-        <a href="tel:661012019"><p>+33 6 61 01 20 19</p></a>
-      </div>
+    <div class="border-2 border-primary-color shadow-primary-color drop-shadow-2xl px-[2%] py-[3%] mt-6 w-full rounded-lg">
+        <h2 class="desktop:text-5xl phone:text-2xl font-bold font-Primary text-primary-color mb-2 text-center">Me contacter autrement</h2>
+        <p class="italic -mt-2% text-center">Montbéliard / Strasbourg / Divonne-les-bains</p>
+        <div class="flex phone:flex-col desktop:flex-row mx-auto justify-center gap-[20%] mt-[2%]">
+          <a href="mailto:contact@marwin-rodrigues.fr"><p class="text-center font-Secondary font-semibold hover:text-opacity-70 hover:scale-100 hover:scale-105 text-dark-color text-opacity-90 hover:text-opacity-100 transition-all delay-100">contact@marwin-rodrigues.fr</p></a>
+          <a href="tel:661012019"><p class="text-center font-Secondary font-semibold hover:text-opacity-70 hover:scale-100 hover:scale-105 text-dark-color text-opacity-90 hover:text-opacity-100 transition-all delay-100">+33 6 61 01 20 19</p></a>
+        </div>
 
-      <h3 class="text-lg font-semibold font-Primary text-dark-color">Réseaux sociaux</h3>
-      <div class="flex mt-2">
-        <!-- Ajoute ici tes icônes de réseaux sociaux -->
+      <h3 class="text-lg font-semibold font-Primary text-dark-color">Disponible aussi sur</h3>
+      <div class="flex mt-[2%] gap-[20%] justify-center">
+        <RouterLink to="https://github.com/Marwin-Rdgs" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"><img src="/public/icons/socials/github_dark.png" alt="Icon of Github" class="text-white"></RouterLink>
+        <RouterLink to="https://www.linkedin.com/in/marwin-rodrigues/" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"> <img src="/icons/socials/linkedin_dark.png" alt="Icon of Linkedin" class="text-white"> </RouterLink>
+        <RouterLink to="https://www.instagram.com/marwin.rdgs/" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"> <img src="/icons/socials/instagram_dark.png" alt="Iconf of Instagram" class="text-white"> </RouterLink>
       </div>
     </div>
   </section>
