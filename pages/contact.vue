@@ -1,6 +1,9 @@
 <script setup>
 import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
 import Mail from '~/components/Mail.vue'
+import Calendly from '~/components/Calendly.vue'
+const showCalendly = ref(false)
+
 
 const form = ref({
   name: '',
@@ -138,9 +141,10 @@ const handleSubmit = async () => {
     <div class="border-2 border-primary-color shadow-primary-color drop-shadow-2xl px-[2%] py-[3%] mt-6 w-full rounded-lg">
         <h2 class="desktop:text-5xl phone:text-2xl font-bold font-Primary text-primary-color mb-2 text-center">Me contacter autrement</h2>
         <p class="italic -mt-2% text-center">Montbéliard / Strasbourg / Divonne-les-bains</p>
-        <div class="flex phone:flex-col desktop:flex-row mx-auto justify-center gap-[20%] mt-[2%]">
-          <a href="mailto:contact@marwin-rodrigues.fr"><p class="text-center font-Secondary font-semibold hover:text-opacity-70 hover:scale-100 hover:scale-105 text-dark-color text-opacity-90 hover:text-opacity-100 transition-all delay-100">contact@marwin-rodrigues.fr</p></a>
-          <a href="tel:661012019"><p class="text-center font-Secondary font-semibold hover:text-opacity-70 hover:scale-100 hover:scale-105 text-dark-color text-opacity-90 hover:text-opacity-100 transition-all delay-100">+33 6 61 01 20 19</p></a>
+        <div class="flex phone:flex-col gap-y-4 desktop:flex-row mx-auto justify-center gap-[20%] mt-[2%]">
+          <RouterLink to="mailto:contact@marwin-rodrigues.fr"><p class="text-center font-Secondary font-semibold hover:text-opacity-70 hover:scale-100 hover:scale-105 text-dark-color text-opacity-90 hover:text-opacity-100 transition-all delay-100">contact@marwin-rodrigues.fr</p></RouterLink>
+          <div @click="showCalendly = true" class="desktop:w-1/6 phone:w-full text-center phone:mx-auto desktop:mr-[12%]"><button class="border-2 border-primary-color rounded-xl px-[8%] py-[1%] bg-secondary-color bg-opacity-10 hover:bg-opacity-50 hover:scale-100 hover:scale-105 transition-all delay-100"><p class="text-center font-Secondary font-semibold hover:text-opacity-70 text-dark-color text-opacity-90 hover:text-opacity-100">Planifier une visio</p></button></div>
+          <RouterLink to="tel:661012019"><p class="text-center font-Secondary font-semibold hover:text-opacity-70 hover:scale-100 hover:scale-105 text-dark-color text-opacity-90 hover:text-opacity-100 transition-all delay-100">+33 6 61 01 20 19</p></RouterLink>
         </div>
 
       <h3 class="text-lg font-semibold font-Primary text-dark-color">Disponible aussi sur</h3>
@@ -151,4 +155,9 @@ const handleSubmit = async () => {
       </div>
     </div>
   </section>
+                 <Calendly
+                  :show="showCalendly"
+                  @close="showCalendly = false"
+                  url="https://calendly.com/contact-aezn/marwin-rodrigues"
+                />
 </template>
