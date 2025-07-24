@@ -89,7 +89,7 @@ function updateWord() {
         </div>
 
         <div class="phone:col-start-1 desktop:flex desktop:justify-end desktop:pr-[4%] desktop:scale-[145%] desktop:mr-[8%]">
-          <img src="/imgs/Marwin/About_Me.png" alt="">
+          <img src="/assets/imgs/Marwin/About_Me.png" alt="">
         </div>
       </div>
     </section>

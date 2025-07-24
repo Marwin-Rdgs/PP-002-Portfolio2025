@@ -23,7 +23,7 @@ const projectList = ref(projectListRaw.slice(-5, -1).reverse());
   
       <div class="flex justify-center -mt-[20%]">
         <img 
-          src="/imgs/Marwin/Marwin-index.png" 
+          src="/assets/imgs/Marwin/Marwin-index.png" 
           alt="Image de Marwin RODRIGUES" 
           class="w-full h-auto object-cover z-0"
         />
