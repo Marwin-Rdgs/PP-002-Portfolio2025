@@ -79,9 +79,9 @@ onMounted(() => {
   </section>
 
   <!-- Présentation des services -->
-  <section>
+  <section class="w-full">
     <!-- CMW -->
-    <div class="bg-CMW-secondary bg-opacity-30 items-center flex gap-[10%] justify-between py-[4%]">
+    <div class="bg-CMW-secondary bg-opacity-30 items-center flex phone:flex-col desktop:flex-row gap-[10%] justify-between py-[4%]">
       <div class="grid pl-[4%] gap-[10%]">
         <p class="w-full"><b>Donner vie à votre présence digitale, main dans la main.</b><br />Chez Marwin-Web est le premier service né de Chez Marwin Union. Il est dédié à la communication digitale sous toutes ses formes : création de sites web promotionnels, identité visuelle, gestion de réseaux sociaux, design print, montage vidéo... Ici, pas de solutions standardisées. Je vous accompagne de A à Z dans la création d’une image qui vous ressemble, avec des outils modernes, un regard extérieur bienveillant et des résultats concrets. Chaque collaboration est pensée comme un projet commun : vous apportez la vision, je propose la structure, les idées, les solutions, et surtout une grande réactivité.</p>
         <div class="flex justify-center">
@@ -190,4 +190,5 @@ onMounted(() => {
         </div>
       </div>
     </section>
+    
 </template>
