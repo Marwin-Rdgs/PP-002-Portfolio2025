@@ -38,11 +38,11 @@ const filteredProjectList = computed(() => {
     <div class="container mx-auto flex flex-col items-start desktop:flex-row my-12 md:my-24">
       <div class="flex flex-col w-full sticky desktop:top-36 desktop:w-1/3 mt-2 desktop:mt-12 px-8">
         <p class="ml-2 text-yellow-300 uppercase tracking-loose">Chez Marwin Web</p>
-        <p class="text-3xl desktop:text-4xl leading-normal desktop:leading-relaxed mb-2">l'accompagnement Chez Marwin Web</p>
+        <p class="text-2xl desktop:text-3xl leading-normal desktop:leading-relaxed mb-2">L'accompagnement Chez Marwin Web</p>
         <p class="text-sm desktop:text-base text-gray-50 mb-4">
           Vous êtes un artisant, une TPE, PME et vous cherchez à booster votre présence ?
         </p>
-        <RouterLink to="contact" class="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">Contactez-moi</RouterLink>
+        <RouterLink to="/contact" class="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">Contactez-moi</RouterLink>
       </div>
       <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
         <div class="container mx-auto w-full h-full">
@@ -54,33 +54,30 @@ const filteredProjectList = computed(() => {
             <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
               <div class="order-1 w-5/12"></div>
               <div class="order-1 w-5/12 px-1 py-4 text-right">
-                <p class="mb-3 text-base text-yellow-300">1er Etape</p>
-                <h4 class="mb-3 font-bold text-lg desktop:text-2xl">Première échange téléphonique</h4>
+                <p class="mb-3 text-base text-yellow-300">Étape 1</p>
+                <h4 class="mb-3 font-bold text-lg desktop:text-2xl">Premier contact humain</h4>
                 <p class="text-sm desktop:text-base leading-snug text-gray-50 text-opacity-100">
-                  Pick your favourite event(s) and register in that event by filling the form corresponding to that
-                  event. Its that easy :)
+                  Un premier échange par téléphone, mail ou en personne pour vous présenter mes services, découvrir vos besoins et créer un premier lien de confiance. On parle simplement, humainement, sans jargon.
                 </p>
               </div>
             </div>
             <div class="mb-8 flex justify-between items-center w-full right-timeline">
               <div class="order-1 w-5/12"></div>
               <div class="order-1  w-5/12 px-1 py-4 text-left">
-                <p class="mb-3 text-base text-yellow-300">2ème étape</p>
-                <h4 class="mb-3 font-bold text-lg desktop:text-2xl">Rdv commercial</h4>
+                <p class="mb-3 text-base text-yellow-300">Étape 2</p>
+                <h4 class="mb-3 font-bold text-lg desktop:text-2xl">Rendez-vous de co-construction</h4>
                 <p class="text-sm desktop:text-base leading-snug text-gray-50 text-opacity-100">
-                  Participate online. The links for your registered events will be sent to you via email and whatsapp
-                  groups. Use those links and show your talent.
+                  En visio ou en face à face, je vous présente une première maquette personnalisée et une offre claire. Un compte-rendu avec devis vous est ensuite envoyé pour vous laisser le temps de réfléchir sereinement.
                 </p>
               </div>
             </div>
             <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
               <div class="order-1 w-5/12"></div>
               <div class="order-1 w-5/12 px-1 py-4 text-right">
-                <p class="mb-3 text-base text-yellow-300"> 3ème étape</p>
-                <h4 class="mb-3 font-bold text-lg desktop:text-2xl">Lancement du projet</h4>
+                <p class="mb-3 text-base text-yellow-300"> Étape 3</p>
+                <h4 class="mb-3 font-bold text-lg desktop:text-2xl">Lancement du projet et suivi</h4>
                 <p class="text-sm desktop:text-base leading-snug text-gray-50 text-opacity-100">
-                  The ultimate genius will be revealed by our judging panel on 10th May, 2021 and the resukts will be
-                  announced on the whatsapp groups and will be mailed to you.
+                  Après validation, le projet démarre étape par étape : maquette, création, technique,… Vous recevez des suivis réguliers, et une mini-formation vous est proposée pour apprendre à gérer votre site.
                 </p>
               </div>
             </div>
@@ -89,16 +86,15 @@ const filteredProjectList = computed(() => {
               <div class="order-1 w-5/12"></div>
 
               <div class="order-1  w-5/12 px-1 py-4">
-                <p class="mb-3 text-base text-yellow-300">4ème étape</p>
-                <h4 class="mb-3 font-bold  text-lg desktop:text-2xl text-left">Réalisation Projet</h4>
+                <p class="mb-3 text-base text-yellow-300">Étape 4</p>
+                <h4 class="mb-3 font-bold  text-lg desktop:text-2xl text-left">Mise en ligne & accompagnement dans la durée</h4>
                 <p class="text-sm desktop:text-base leading-snug text-gray-50 text-opacity-100">
-                  The winners will be contacted by our team for their addresses and the winning goodies will be sent at
-                  their addresses.
+                  Une fois le site publié, je reste à vos côtés avec un suivi annuel : maintenance, mises à jour et évolutions.
                 </p>
               </div>
             </div>
           </div>
-          <img class="mx-auto -mt-[5%]" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" />
+          <img class="mx-auto -mt-[5%] w-[256px]" src="/public/imgs/Chez-MarwinUnion/CMW-Signature.svg" />
         </div>
       </div>
     </div>
