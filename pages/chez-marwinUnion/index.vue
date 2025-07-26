@@ -79,10 +79,10 @@ onMounted(() => {
   </section>
 
   <!-- Présentation des services -->
-  <section class="w-full">
+  <section class="w-full phone:mb-[20%] desktop:mb-0">
     <!-- CMW -->
-    <div class="bg-CMW-secondary bg-opacity-30 items-center flex phone:flex-col desktop:flex-row gap-[10%] justify-between py-[4%]">
-      <div class="grid pl-[4%] gap-[10%]">
+    <div class="bg-CMW-secondary bg-opacity-30 items-center desktop:flex phone:grid phone:grid-cols-1 desktop:gap-[10%] justify-between py-[4%] phone:h-[600px] desktop:h-full">
+      <div class="grid pl-[4%] gap-[10%] phone:order-2 desktop:order-1">
         <p class="w-full"><b>Donner vie à votre présence digitale, main dans la main.</b><br />Chez Marwin-Web est le premier service né de Chez Marwin Union. Il est dédié à la communication digitale sous toutes ses formes : création de sites web promotionnels, identité visuelle, gestion de réseaux sociaux, design print, montage vidéo... Ici, pas de solutions standardisées. Je vous accompagne de A à Z dans la création d’une image qui vous ressemble, avec des outils modernes, un regard extérieur bienveillant et des résultats concrets. Chaque collaboration est pensée comme un projet commun : vous apportez la vision, je propose la structure, les idées, les solutions, et surtout une grande réactivité.</p>
         <div class="flex justify-center">
           <NuxtLink to="chez-marwin-web" class="border-2 border-CMW-primary rounded-xl px-[4%] py-[0.5%] bg-CMW-primary bg-opacity-0 hover:bg-opacity-100 hover:scale-110 text-dark-color font-Primary hover:text-light-color hover:-translate-y-1 transition-all duration-300">
@@ -90,20 +90,20 @@ onMounted(() => {
           </NuxtLink>
         </div>
       </div>
-      <div class="flex justify-center items-center gap-[4%] w-full pr-[4%] animate-fadeIn">
-        <img src="public//imgs/Chez-MarwinUnion/CMW.svg" alt="" class="desktop:w-[64px] phone:w-[32px] animate-pulse">
-        <h2 class="w-[450px] font-Primary text-3xl text-dark-color drop-shadow-lg">Chez Marwin-Web</h2>
+      <div class="flex justify-center items-center gap-[4%] w-full phone:pl-[10%] desktop:pl-0 pr-[4%] animate-fadeIn phone:order-1 desktop:order-2">
+        <img src="public/imgs/Chez-MarwinUnion/CMW.svg" alt="" class="w-[64px] animate-pulse">
+        <h2 class="w-[450px] font-Primary desktop:text-3xl phone:text-2xl text-dark-color drop-shadow-lg">Chez Marwin-Web</h2>
       </div>
     </div>
 
     <!-- CMTC -->
-    <div class="bg-CMTC-secondary bg-opacity-30 items-center flex gap-[10%] justify-between py-[4%]">
+    <div class="bg-CMTC-secondary bg-opacity-30 items-center flex phone:flex-col desktop:flex-row desktop:gap-[10%] justify-between py-[4%] phone:h-[330px] desktop:h-full">
       <div class="flex justify-center items-center gap-[4%] w-full pl-[4%] animate-fadeIn">
         <img src="public/imgs/Chez-MarwinUnion/CMTC.svg" alt="" class="desktop:w-[64px] phone:w-[32px] animate-pulse">
         <h2 class="w-[450px] font-Primary text-3xl text-dark-color drop-shadow-lg">Chez Marwin-TeamCare</h2>
       </div>
-      <div class="grid pr-[4%] gap-[10%]">
-        <p class="w-full"><b>Renforcer l’humain au cœur de l’entreprise.</b><br /> Lancé en mai 2025, Chez Marwin-TeamCare est un service tourné vers l’humain. Je vous accompagne dans la conception d’événements sur mesure, adaptés à votre culture d’entreprise, à vos besoins, et à vos envies. Grâce à un réseau de partenaires (bars, restaurants, centres de loisirs, photographes, taxis…), vous bénéficiez d’un service clé en main, d’avantages exclusifs et d’une mise en relation rapide. Et comme tout est lié, ces partenaires sont également valorisés grâce au service digital de Chez Marwin-Web, dans une logique gagnant-gagnant. Son objectif : aider les entreprises à renforcer la cohésion d’équipe et à prendre soin du bien-être de leurs collaborateurs, à travers des moments clés comme des team buildings et afterworks.</p>
+      <div class="grid pr-[4%] gap-[10%] mx-[4%]">
+        <p class="w-full phone:text-xs desktop:text-base"><b>Renforcer l’humain au cœur de l’entreprise.</b><br /> Lancé en mai 2025, Chez Marwin-TeamCare est un service tourné vers l’humain. Je vous accompagne dans la conception d’événements sur mesure, adaptés à votre culture d’entreprise, à vos besoins, et à vos envies. Grâce à un réseau de partenaires (bars, restaurants, centres de loisirs, photographes, taxis…), vous bénéficiez d’un service clé en main, d’avantages exclusifs et d’une mise en relation rapide. Et comme tout est lié, ces partenaires sont également valorisés grâce au service digital de Chez Marwin-Web, dans une logique gagnant-gagnant. Son objectif : aider les entreprises à renforcer la cohésion d’équipe et à prendre soin du bien-être de leurs collaborateurs, à travers des moments clés comme des team buildings et afterworks.</p>
         <div class="flex justify-center">
           <NuxtLink to="chez-marwin-teamcare" class="border-2 border-CMTC-primary rounded-xl px-[4%] py-[0.5%] bg-CMTC-primary bg-opacity-0 hover:bg-opacity-100 hover:scale-110 text-dark-color font-Primary hover:text-light-color hover:-translate-y-1 transition-all duration-300">
             <button>Savoir plus</button>
@@ -146,7 +146,7 @@ onMounted(() => {
     </div>
 
     <!-- Cartes projets filtrées -->
-    <div class="grid desktop:grid-cols-3 phone:gap-[4%] desktop:gap-[10%] mx-[10%] phone:mb-[250%] desktop:mb-[50%] mt-[2%]">
+    <div class="grid desktop:grid-cols-3 phone:gap-[4%] desktop:gap-[10%] mx-[10%] phone:mb-[80%] desktop:mb-[50%] mt-[2%]">
       <CardProject
         class="w-full"
         v-for="(project, index) in filteredProjectList"
@@ -190,5 +190,5 @@ onMounted(() => {
         </div>
       </div>
     </section>
-    
+
 </template>
