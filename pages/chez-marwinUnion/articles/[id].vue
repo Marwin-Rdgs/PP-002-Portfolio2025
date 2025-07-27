@@ -19,10 +19,10 @@ const article = articleListRaw.find(a => a.id === articleId)
     <!-- Colonne gauche : détails -->
     <section class="mx-[4%] desktop:col-span-1">
       <h2 class="font-Primary font-bold text-2xl text-primary-color">{{ article.title }}</h2>
-      <h2 class="font-Primary font-bold text-xl text-dark-color">Détails du projet</h2>
+      <h2 class="font-Primary font-bold text-xl text-dark-color">Détails de l'article</h2>
 
       <div class="border-b-2 border-primary-color flex justify-between py-[2%]">
-        <p class="font-Secondary font-semibold text-dark-color">Type de projet</p>
+        <p class="font-Secondary font-semibold text-dark-color">Catégorie de l'article</p>
         <p class="font-Secondary font-normal text-dark-color uppercase">{{ article.categ }}</p>
       </div>
 
