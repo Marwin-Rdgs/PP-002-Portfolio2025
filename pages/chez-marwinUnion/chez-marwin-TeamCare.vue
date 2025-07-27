@@ -50,6 +50,7 @@ const filteredProjectList = computed(() => {
         />
       </div>
     </div>
+    <RouterLink to="partner"><p class="underline text-right mr-[4%]">Voir plus...</p></RouterLink>
   </section>
 
 
