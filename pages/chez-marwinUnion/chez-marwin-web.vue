@@ -13,7 +13,7 @@ const filteredProjectList = computed(() => {
     .reverse()
     .filter(project =>
       selectedPresta.value === 'all'
-        ? ['web', 'teamcare'].includes(project.presta?.toLowerCase())
+        ? ['web'].includes(project.presta?.toLowerCase())
         : project.presta?.toLowerCase() === selectedPresta.value
     );
   return filtered.slice(0, 3); // Seulement les 3 derniers projets
