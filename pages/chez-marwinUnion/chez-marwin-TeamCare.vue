@@ -1,13 +1,14 @@
 <script setup>
-import { ref, computed, onMounted } from 'vue'
-import projectListRaw from '@/data/projectList.json';
-import CardProject from '/components/cardProject.vue';
-import FAQ from '/components/faq.vue';
+import { ref, computed } from 'vue'
+import projectListRaw from '@/data/projectList.json'
+import partnersListRaw from '@/data/partners.json'
+import CardProject from '@/components/cardProject.vue'
+import FAQ from '@/components/faq.vue'
+import Partner from '@/components/Partner.vue'
 
-// 🔍 Sélection du type de prestation (filtre)
-const selectedPresta = ref('all');
+const partnerList = ref([...partnersListRaw].reverse())
+const selectedPresta = ref('all')
 
-// 🔁 Projets filtrés selon la prestation sélectionnée et limités à 3
 const filteredProjectList = computed(() => {
   let filtered = [...projectListRaw]
     .reverse()
@@ -15,9 +16,9 @@ const filteredProjectList = computed(() => {
       selectedPresta.value === 'all'
         ? ['teamcare'].includes(project.presta?.toLowerCase())
         : project.presta?.toLowerCase() === selectedPresta.value
-    );
-  return filtered.slice(0, 3); // Seulement les 3 derniers projets
-});
+    )
+  return filtered.slice(0, 3)
+})
 </script>
 <template>
     <section class="flex justify-center items-center gap-[2%] mt-[6%] animate-pulse w-[90%] mx-auto">
@@ -32,7 +33,25 @@ const filteredProjectList = computed(() => {
       <p class="text-base font-Secondary text-dark-color text-justify">Mais l’accompagnement va plus loin : vos événements sont pensés dans une logique de valorisation globale. Grâce à Chez Marwin Web, je peux également vous aider à mettre en lumière ces moments sur vos réseaux, via des supports visuels ou du contenu dédié.</p>
       <p class="text-base font-Secondary text-dark-color text-justify">Mon objectif est simple : aider les entreprises à rassembler, fédérer et fidéliser leurs collaborateurs, à travers des expériences fortes, authentiques et impactantes.</p>
       <p class="text-base font-Secondary text-dark-color text-justify">Chez Marwin TeamCare, chaque événement est une histoire, et chaque collaboration une relation de confiance. Ensemble, prenons soin de votre équipe autrement.</p>
-    </div>   
+    </div>
+    
+  <section class="desktop:mt-[10%] phone:mt-[26%] mx-[10%]">
+    <h3 class="text-5xl font-Primary font-bold text-CMTC-primary ml-[2%]">
+      La famille TeamCare
+    </h3>
+
+    <!-- Carousel défilant -->
+    <div class="relative overflow-hidden mt-10">
+      <div class="flex gap-6 w-max"> <!--  rajouter la class="animate-marquee" si > 3  -->
+        <Partner
+          v-for="(partner, index) in partnerList"
+          :key="index"
+          :partner="partner"
+        />
+      </div>
+    </div>
+  </section>
+
 
     <section>
     <div class="bg-black text-white py-8">
