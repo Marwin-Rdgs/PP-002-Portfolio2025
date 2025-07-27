@@ -76,6 +76,7 @@ onMounted(() => {
         :article="article"
       />
     </div>
+    <RouterLink to="articles"><p class="underline text-right mr-[4%]">Voir plus...</p></RouterLink>
   </section>
 
   <!-- Présentation des services -->
