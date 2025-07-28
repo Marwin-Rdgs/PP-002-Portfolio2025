@@ -1,4 +1,4 @@
-<script setup>
+<script setup> 
 import { ref, computed, onMounted } from 'vue';
 import CardArticle from '@/components/cardArticle.vue';
 import articleListRaw from '@/Data/CMU-articles.json';
@@ -12,10 +12,8 @@ import FAQ from '/components/faq.vue';
 const feedbackList = ref(feedbackListRaw);
 const articleList = ref(articleListRaw);
 
-// 🔍 Sélection du type de prestation (filtre)
 const selectedPresta = ref('all');
 
-// 🔁 Projets filtrés selon la prestation sélectionnée et limités à 3
 const filteredProjectList = computed(() => {
   let filtered = [...projectListRaw]
     .reverse()
@@ -24,18 +22,17 @@ const filteredProjectList = computed(() => {
         ? ['web', 'teamcare'].includes(project.presta?.toLowerCase())
         : project.presta?.toLowerCase() === selectedPresta.value
     );
-  return filtered.slice(0, 3); // Seulement les 3 derniers projets
+  return filtered.slice(0, 3);
 });
 
-// ✅ Correction ici : destructuration directe des props
 const feedbacks = ref(
   feedbackListRaw.filter(fb => fb.categ === 'presta')
-)
-
+);
 
 const swiperRef = ref(null)
 
 onMounted(() => {
+  // Swiper
   new Swiper(swiperRef.value, {
     loop: true,
     slidesPerView: 2,
@@ -48,7 +45,17 @@ onMounted(() => {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-  })
+  });
+
+  // Elfsight script loader (évite les doublons)
+  const scriptId = 'elfsight-widget-script'
+  if (!document.getElementById(scriptId)) {
+    const script = document.createElement('script')
+    script.id = scriptId
+    script.src = 'https://apps.elfsight.com/p/platform.js'
+    script.defer = true
+    document.body.appendChild(script)
+  }
 })
 </script>
 
@@ -157,18 +164,24 @@ onMounted(() => {
     </div>
   </section>
   
-    <section class="-mt-[40%]">
-      <h3 class="text-5xl font-Primary font-bold text-primary-color mr-[2%] text-right">Les retours clients</h3>
-      <div class="max-w-6xl mx-auto px-4">
-        <div ref="swiperRef" class="swiper">
-          <div class="swiper-wrapper mb-16">
-            <div v-for="(feedback, index) in feedbacks" :key="index" class="swiper-slide">
-              <CardFeedback :feedback="feedback" />
-            </div>
-          </div>
+<section class="-mt-[40%]">
+  <h3 class="text-5xl font-Primary font-bold text-primary-color mr-[2%] text-right">Les retours clients</h3>
+  <div class="max-w-6xl mx-auto px-4">
+    <div ref="swiperRef" class="swiper">
+      <div class="swiper-wrapper mb-16">
+        <div v-for="(feedback, index) in feedbacks" :key="index" class="swiper-slide">
+          <CardFeedback :feedback="feedback" />
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+
+  <!-- Avis Google via Elfsight (corrigé) -->
+  <div class="w-full mx-auto pt-[2%] mt-[1%] desktop:mb-[6%] phone:mb-[10%] p-4 rounded-2xl shadow-lg overflow-hidden">
+    <div class="elfsight-app-0bd48dc2-2c0c-4964-b27a-d47483d2624f" data-elfsight-app-lazy></div>
+  </div>
+
+</section>
 
       <section class="grid desktop:grid-cols-2 items-center gap-[2%] desktop:ml-[6%] mr-[6%]">
       <FAQ 
