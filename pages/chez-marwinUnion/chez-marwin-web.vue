@@ -126,12 +126,8 @@ const filteredProjectList = computed(() => {
       reponse3="Oui, le référencement naturel, aussi appelé SEO, fait partie intégrante de mes services lorsque je développe un site internet. Mon objectif est de vous rendre visible sur Google et d’attirer du trafic qualifié vers votre site. J’intègre les bonnes pratiques SEO dès la conception : structure optimisée, mots-clés pertinents, performance technique, et bien plus encore. J’utilise également des outils basés sur l’intelligence artificielle pour affiner la stratégie de contenu, maximiser la conversion et améliorer la visibilité de votre activité sur le web. Pour moi, un site sans stratégie SEO, c’est comme un beau magasin sans vitrine : il mérite d’être vu, et bien positionné !"/>
     
       <div class="grid items-center gap-x-5">
-        <div class="h-1/2 -mb-[20%]">
-          <img src="/imgs/envato/FAQ1.jpg" alt="" class="rounded-xl h-full object-cover object-top w-full items-end">
-        </div>
-        <div class="grid grid-cols-2 gap-[2%] items-center">
-          <img src="/imgs/envato/FAQ2.jpg" alt="" class="rounded-xl w-[500px] h-[250px] object-cover">
-          <img src="/imgs/envato/FAQ3.jpg" alt="" class="rounded-xl w-[500px] h-[250px] object-cover">
+        <div class="h-full -mb-[20%]">
+          <img src="/imgs/envato/FAQ6.jpg" alt="" class="rounded-xl h-full object-cover object-top w-full items-end">
         </div>
       </div>
     </section>

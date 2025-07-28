@@ -182,12 +182,9 @@ onMounted(() => {
       reponse3="Absolument ! L’une des forces de Chez Marwin Union, c’est justement de pouvoir proposer une synergie entre les deux univers. Vous organisez un séminaire d’entreprise avec Chez Marwin TeamCare ? Vous pouvez bénéficier d’une réduction sur votre futur site web ou une prestation digitale avec Chez Marwin Web. Et si vous avez besoin des deux services en même temps, c’est tout à fait possible. Nous établissons deux devis distincts, pensés pour s’adapter à vos besoins et à votre budget. Tout est fait pour simplifier votre organisation, avec un seul interlocuteur, à l’écoute de vos idées."/>
     
       <div class="grid items-center gap-x-5">
-        <div class="h-1/2 -mb-[20%]">
-          <img src="/imgs/envato/FAQ1.jpg" alt="" class="rounded-xl h-full object-cover object-top w-full items-end">
-        </div>
         <div class="grid grid-cols-2 gap-[2%] items-center">
-          <img src="/imgs/envato/FAQ2.jpg" alt="" class="rounded-xl w-[500px] h-[250px] object-cover">
-          <img src="/imgs/envato/FAQ3.jpg" alt="" class="rounded-xl w-[500px] h-[250px] object-cover">
+          <img src="/imgs/envato/FAQ4.jpg" alt="" class="rounded-xl w-[500px] h-[250px] object-cover">
+          <img src="/imgs/envato/FAQ5.jpg" alt="" class="rounded-xl w-[500px] h-[250px] object-cover">
         </div>
       </div>
     </section>
