@@ -19,9 +19,9 @@
 <ul class="social_icon gap-4">
 
     <!-- Icône Facebook -->
-    <li><a href="https://github.com/Marwin-Rdgs" target="_blank"> <img src="/icons/socials/github.png" alt="Icon of Github" class="text-white"> </a></li>
-    <li><a href="https://www.linkedin.com/in/marwin-rodrigues/" target="_blank"> <img src="/icons/socials/linkedin.png" alt="Icon of Linkedin" class="text-white"> </a></li>
-    <li><a href="https://www.instagram.com/marwin.rdgs/" target="_blank"> <img src="/icons/socials/instagram.png" alt="Iconf of Instagram" class="text-white"> </a></li>
+    <li><a href="https://github.com/Marwin-Rdgs" target="_blank"> <img src="/icons/socials/github.svg" alt="Icon of Github" class="text-white w-[38px]"> </a></li>
+    <li><a href="https://www.linkedin.com/in/marwin-rodrigues/" target="_blank"> <img src="/icons/socials/linkedin.svg" alt="Icon of Linkedin" class="text-white w-[32px]"> </a></li>
+    <li><a href="https://www.instagram.com/marwin.rdgs/" target="_blank"> <img src="/icons/socials/instagram.svg" alt="Iconf of Instagram" class="text-white w-[32px]"> </a></li>
 
 </ul>
 
