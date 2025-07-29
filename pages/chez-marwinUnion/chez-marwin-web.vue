@@ -114,7 +114,7 @@ const filteredProjectList = computed(() => {
       </div>
     </section>
 
-        <section class="grid desktop:grid-cols-2 items-center gap-[2%] desktop:ml-[6%] mr-[6%]">
+        <section class="grid desktop:grid-cols-2 items-center gap-[2%] mx-[6%] phone:mt-[20%] desktop:mt-[4%]">
       <FAQ 
       question1="Est-ce que vous assurez le suivi et la maintenance du site après sa mise en ligne ?"
       reponse1="Absolument. Chez Marwin Web, la création d’un site web ne s’arrête pas à sa mise en ligne. Je propose un véritable accompagnement dans la durée, à travers un abonnement annuel personnalisé. Cela comprend les mises à jour techniques, la maintenance régulière du site, ainsi qu’une disponibilité en cas de besoin pour effectuer des modifications ou des ajustements. Ce suivi fait partie intégrante de ma vision du métier : construire des relations durables et rassurantes avec mes clients, même après la livraison. Vous n’êtes jamais laissé seul face à votre site : je reste à vos côtés."

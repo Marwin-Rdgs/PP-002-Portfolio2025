@@ -135,7 +135,7 @@ const filteredProjectList = computed(() => {
       </div>
     </section>
 
-        <section class="grid desktop:grid-cols-2 items-center gap-[2%] desktop:ml-[6%] mr-[6%]">
+        <section class="grid desktop:grid-cols-2 items-center gap-[2%] mx-[6%] phone:mt-[20%] desktop:mt-[4%">
       <FAQ 
       question1="Comment sont sélectionnés vos partenaires de confiance ?"
       reponse1="Chez Marwin TeamCare, le réseau de partenaires fonctionne comme une véritable famille. Chaque partenaire est choisi pour la qualité de son service, son sens de l’accueil et sa volonté de faire vivre une belle expérience humaine. Grâce à des accords de confiance, mes partenaires s’engagent à proposer des avantages exclusifs et des réductions pour chaque événement organisé. Leur satisfaction client, tout comme la vôtre, est une priorité partagée."

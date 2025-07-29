@@ -183,7 +183,7 @@ onMounted(() => {
 
 </section>
 
-      <section class="grid desktop:grid-cols-2 items-center gap-[2%] desktop:ml-[6%] mr-[6%]">
+      <section class="grid desktop:grid-cols-2 items-center gap-[2%] mx-[6%]">
       <FAQ 
       question1="Pourquoi avoir créé une entreprise double service alliant digital et événementiel ?"
       reponse1="J’ai créé Chez Marwin Union comme un projet de vie, né d’un défi personnel : construire, en totale autonomie, une entreprise qui me ressemble, en parallèle de mes études, de mes emplois et de mes engagements associatifs. Ce projet incarne une ambition profonde : mettre mes compétences au service des autres, avec sens et authenticité. À travers le digital et l'événementiel, je souhaite rassembler les idées, valoriser les parcours, créer du lien et accompagner des projets à impact humain. Chez Marwin Union, c’est l’union entre vos envies, vos valeurs et mon expertise"
