@@ -47,7 +47,7 @@ const article = articleListRaw.find(a => a.id === articleId)
   </div>
 
   <!-- --------------------------- Description --------------------------- -->
-  <section class="mx-[2%] phone:mt-[18%] desktop:mt-[2%]">
+  <section class="mx-[2%] phone:mt-[26%] desktop:mt-[2%]">
     <h2 class="font-Primary font-bold text-2xl text-primary-color">Contenu</h2>
     <p class="font-Secondary font-normal text-dark-color">
       {{ article.content }}
