@@ -57,7 +57,7 @@ const filteredProjects = computed(() => {
   </div>
 
   <!-- Affichage des projets filtrés -->
-  <div class="grid desktop:grid-cols-3 phone:gap-[4%] desktop:gap-[10%] mx-[10%] phone:mb-[250%] desktop:mb-[50%] mt-[6%]">
+  <div class="grid desktop:grid-cols-3 phone:gap-[4%] desktop:gap-[10%] mx-[10%] phone:mb-[450%] desktop:mb-[50%] mt-[6%]">
     <CardProject
       class="w-full"
       v-for="(project, index) in filteredProjects"
