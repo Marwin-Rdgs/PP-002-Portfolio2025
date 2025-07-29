@@ -131,7 +131,7 @@ function updateWord() {
         <div class="w-full px-4 md:px-6 py-24">
           <div class="divide-y divide-primary-color [&>*]:py-16">
             
-            <div class="w-full desktop:flex phone:grid mx-[4%] desktop:gap-[2%] desktop:justify-center">
+            <div class="w-full desktop:flex phone:grid phone:gap-y-[2%] phone:mb-[40%] desktop:mb-[2%] mx-[4%] desktop:gap-[2%] desktop:justify-center">
                   
               
               <!-- Vertical Timeline #1 - SCOLAIRE -->
