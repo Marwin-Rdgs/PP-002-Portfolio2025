@@ -66,7 +66,7 @@ onBeforeUnmount(() => {
   <nav v-show="menuOpen" class="desktop:hidden fixed top-0 left-0 w-full h-full bg-light-color z-40 overflow-y-auto pt-[18%] px-[5%] transition-all duration-300">
     <ul class="flex flex-col gap-8">
       <li class="font-Secondary font-semibold text-2xl text-dark-color">
-        <NuxtLink to="/projects/" @click="menuOpen = false">Projets</NuxtLink>
+        <NuxtLink to="/projects/" @click="menuOpen = false">Portfolio</NuxtLink>
       </li>
       <li class="font-Secondary font-semibold text-2xl text-dark-color">
         <NuxtLink to="/about" @click="menuOpen = false">À Propos</NuxtLink>
