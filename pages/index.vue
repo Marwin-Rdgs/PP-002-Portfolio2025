@@ -1,17 +1,33 @@
 <script setup>
-import {ref} from 'vue';
-import CarouselFeedback from '@/components/CarouselFeedback.vue';
+import { ref, onMounted, onUnmounted } from 'vue'
+import CarouselFeedback from '@/components/CarouselFeedback.vue'
 import feedbackListRaw from '@/Data/feedbackIndex.json'
 import projectListRaw from '@/data/projectList.json'
 import Calendly from '~/components/Calendly.vue'
 
 const showCalendly = ref(false)
+const avis = ref(1)
+const feedbackList = ref(feedbackListRaw)
+const projectList = ref([]) // on initialise vide
 
-const avis = ref(1);
+// Fonction de mise à jour du nombre de projets selon l'écran
+const updateProjectList = () => {
+  const isMobile = window.matchMedia('(max-width: 768px)').matches
+  projectList.value = isMobile
+    ? projectListRaw.slice(-2,-1).reverse()   // 2 projets si mobile
+    : projectListRaw.slice(-5, -1).reverse() // 4 projets sinon
+}
 
-const feedbackList = ref(feedbackListRaw);
-const projectList = ref(projectListRaw.slice(-5, -1).reverse());
+onMounted(() => {
+  updateProjectList()
+  window.addEventListener('resize', updateProjectList)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', updateProjectList)
+})
 </script>
+
 
 <template>
     <section class="relative h-full pt-[6%] flex flex-col items-center">
@@ -64,12 +80,12 @@ const projectList = ref(projectListRaw.slice(-5, -1).reverse());
     </section>
 
     <section class="desktop:mt-[10%] phone:mt-[20%]">
-      <h3 class="text-5xl font-Primary font-bold text-primary-color ml-[2%]">Mon dernier projet</h3>
+      <h3 class="desktop:text-5xl phone:text-4xl font-Primary font-bold text-primary-color ml-[2%]">Mon dernier projet</h3>
 
       <div class="bg-[url(/imgs/projects/SoireeCanap/SoireeCanap.png)] bg-cover bg-center mt-[1%] h-[100%]">
         <div class="grid items-center bg-light-color bg-opacity-5 rounded-r-full w-[50%] pl-[2%] pr-[4%] pt-[4%] h-[500px]">
-          <h2 class="text-5xl font-Primary font-bold text-primary-color drop-shadow-xl">Soirée Canap</h2>
-          <p class="text-lg font-Secondary font-medium text-light-color drop-shadow-md">Talk Show sur scène à Montbéliard autour de la formation BUT MMI</p>
+          <h2 class="desktop:text-5xl phone:text-3xl font-Primary font-bold text-primary-color drop-shadow-xl">Soirée Canap</h2>
+          <p class="desktop:text-lg phone:text-base font-Secondary font-medium text-light-color drop-shadow-md">Talk Show sur scène à Montbéliard autour de la formation BUT MMI</p>
           <RouterLink to="/projects/PC2025004"><button class="bg-primary-color text-dark-color rounded-full desktop:px-[24px] phone:px-[10px] phone:text-sm desktop:text-lg py-[1%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:translate-x-6 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-500">Voir plus</button></RouterLink>
         </div>
       </div>
