@@ -288,7 +288,7 @@ const projectCollab = computed(() => {
   </div>
 
   <!-- --------------------------- Description --------------------------- -->
-  <section class="mx-[2%] phone:mt-[18%] desktop:mt-[2%]">
+  <section class="mx-[2%] phone:mt-[26%] desktop:mt-[2%]">
     <h2 class="font-Primary font-bold text-2xl text-primary-color">Description</h2>
     <p class="font-Secondary font-normal text-dark-color">
       {{ project.description }}
@@ -298,7 +298,7 @@ const projectCollab = computed(() => {
   <!-- --------------------------- Collaborateur(s) --------------------------- -->
   <section v-if="project.collaborateurs!=''" class="mx-[2%] phone:mt-[18%] desktop:mt-[2%]">
     <h2 class="font-Primary font-bold text-2xl text-primary-color">Collaborateurs</h2>
-    <ul class="flex flex-wrap gap-[2%] mt-[1%]">
+    <ul class="flex flex-wrap gap-[2%] mt-[1%] justify-center">
 
       <li
         v-for="(Icon, idx) in projectCollab"
