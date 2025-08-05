@@ -1,6 +1,5 @@
 <script setup>
 import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
-import Mail from '~/components/Mail.vue'
 import Calendly from '~/components/Calendly.vue'
 const showCalendly = ref(false)
 

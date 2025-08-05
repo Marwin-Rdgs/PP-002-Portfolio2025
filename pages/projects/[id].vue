@@ -164,7 +164,6 @@ const toolComponents: Record<string, any> = {
   postgresql: postgresqlIcon,
   powerapps: powerappsIcon,
   powerautomate: powerautomateIcon,
-  powerapps: powerappsIcon,
   prismic: prismicIcon,
   python: pythonIcon,
   scss: scssIcon,
