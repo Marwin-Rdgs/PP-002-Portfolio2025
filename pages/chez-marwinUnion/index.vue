@@ -1,8 +1,8 @@
 <script setup> 
 import { ref, computed, onMounted } from 'vue';
 import CardArticle from '@/components/cardArticle.vue';
-import articleListRaw from '@/Data/CMU-articles.json';
-import feedbackListRaw from '@/Data/feedbackIndex.json';
+import articleListRaw from '@/data/CMU-articles.json';
+import feedbackListRaw from '@/data/feedbackIndex.json';
 import projectListRaw from '@/data/projectList.json';
 import Swiper from 'swiper/bundle';
 import CardFeedback from '/components/cardFeedback.vue';

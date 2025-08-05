@@ -1,7 +1,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import CardArticle from '@/components/cardArticle.vue'
-import articleListRaw from '@/Data/CMU-articles.json'
+import articleListRaw from '@/data/CMU-articles.json'
 
 const articleList = ref(articleListRaw)
 
