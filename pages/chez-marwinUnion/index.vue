@@ -89,7 +89,7 @@ onMounted(() => {
         :article="article"
       />
     </div>
-    <NuxtLink to="articles"><p class="underline text-right mr-[4%]">Voir plus...</p></NuxtLink>
+    <NuxtLink to="/chez-marwinUnion/articles"><p class="underline text-right mr-[4%]">Voir plus...</p></NuxtLink>
   </section>
 
   <!-- Présentation des services -->
@@ -99,7 +99,7 @@ onMounted(() => {
       <div class="grid pl-[4%] gap-[10%] phone:order-2 desktop:order-1">
         <p class="w-full"><b>Donner vie à votre présence digitale, main dans la main.</b><br />Chez Marwin-Web est le premier service né de Chez Marwin Union. Il est dédié à la communication digitale sous toutes ses formes : création de sites web promotionnels, identité visuelle, gestion de réseaux sociaux, design print, montage vidéo... Ici, pas de solutions standardisées. Je vous accompagne de A à Z dans la création d’une image qui vous ressemble, avec des outils modernes, un regard extérieur bienveillant et des résultats concrets. Chaque collaboration est pensée comme un projet commun : vous apportez la vision, je propose la structure, les idées, les solutions, et surtout une grande réactivité.</p>
         <div class="flex justify-center">
-          <NuxtLink to="chez-marwin-web" class="border-2 border-CMW-primary rounded-xl px-[4%] py-[0.5%] bg-CMW-primary bg-opacity-0 hover:bg-opacity-100 hover:scale-110 text-dark-color font-Primary hover:text-light-color hover:-translate-y-1 transition-all duration-300">
+          <NuxtLink to="/chez-marwinUnion/chez-marwin-web" class="border-2 border-CMW-primary rounded-xl px-[4%] py-[0.5%] bg-CMW-primary bg-opacity-0 hover:bg-opacity-100 hover:scale-110 text-dark-color font-Primary hover:text-light-color hover:-translate-y-1 transition-all duration-300">
             <button>Savoir plus</button>
           </NuxtLink>
         </div>
@@ -119,7 +119,7 @@ onMounted(() => {
       <div class="grid pr-[4%] gap-[10%] mx-[4%]">
         <p class="w-full phone:text-xs desktop:text-base"><b>Renforcer l’humain au cœur de l’entreprise.</b><br /> Lancé en mai 2025, Chez Marwin-TeamCare est un service tourné vers l’humain. Je vous accompagne dans la conception d’événements sur mesure, adaptés à votre culture d’entreprise, à vos besoins, et à vos envies. Grâce à un réseau de partenaires (bars, restaurants, centres de loisirs, photographes, taxis…), vous bénéficiez d’un service clé en main, d’avantages exclusifs et d’une mise en relation rapide. Et comme tout est lié, ces partenaires sont également valorisés grâce au service digital de Chez Marwin-Web, dans une logique gagnant-gagnant. Son objectif : aider les entreprises à renforcer la cohésion d’équipe et à prendre soin du bien-être de leurs collaborateurs, à travers des moments clés comme des team buildings et afterworks.</p>
         <div class="flex justify-center">
-          <NuxtLink to="chez-marwin-teamcare" class="border-2 border-CMTC-primary rounded-xl px-[4%] py-[0.5%] bg-CMTC-primary bg-opacity-0 hover:bg-opacity-100 hover:scale-110 text-dark-color font-Primary hover:text-light-color hover:-translate-y-1 transition-all duration-300">
+          <NuxtLink to="/chez-marwinUnion/chez-marwin-teamcare" class="border-2 border-CMTC-primary rounded-xl px-[4%] py-[0.5%] bg-CMTC-primary bg-opacity-0 hover:bg-opacity-100 hover:scale-110 text-dark-color font-Primary hover:text-light-color hover:-translate-y-1 transition-all duration-300">
             <button>Savoir plus</button>
           </NuxtLink>
         </div>
