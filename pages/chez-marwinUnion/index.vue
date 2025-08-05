@@ -7,7 +7,6 @@ import projectListRaw from '@/data/projectList.json';
 import Swiper from 'swiper/bundle';
 import CardFeedback from '/components/cardFeedback.vue';
 import CardProject from '/components/cardProject.vue';
-import FAQ from '/components/faq.vue';
 
 const feedbackList = ref(feedbackListRaw);
 const articleList = ref(articleListRaw);

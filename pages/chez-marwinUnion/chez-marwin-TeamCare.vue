@@ -3,7 +3,6 @@ import { ref, computed } from 'vue'
 import projectListRaw from '@/data/projectList.json'
 import partnersListRaw from '@/data/partners.json'
 import CardProject from '@/components/cardProject.vue'
-import FAQ from '@/components/faq.vue'
 import Partner from '@/components/Partner.vue'
 
 const partnerList = ref([...partnersListRaw].reverse())
