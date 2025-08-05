@@ -42,7 +42,7 @@ const filteredProjectList = computed(() => {
         <p class="text-sm desktop:text-base text-gray-50 mb-4">
           Vous êtes un artisant, une TPE, PME et vous cherchez à booster votre présence ?
         </p>
-        <RouterLink to="/contact" class="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">Contactez-moi</RouterLink>
+        <NuxtLink to="/contact" class="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">Contactez-moi</NuxtLink>
       </div>
       <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
         <div class="container mx-auto w-full h-full">

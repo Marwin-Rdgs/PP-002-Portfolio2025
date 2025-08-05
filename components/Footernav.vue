@@ -19,9 +19,9 @@
 <ul class="social_icon gap-4">
 
     <!-- Icône Facebook -->
-    <li><RouterLink to="https://github.com/Marwin-Rdgs" target="_blank"> <img src="/icons/socials/github.svg" alt="Icon of Github" class="text-white w-[38px]"> </RouterLink></li>
-    <li><RouterLink to="https://www.linkedin.com/in/marwin-rodrigues/" target="_blank"> <img src="/icons/socials/linkedin.svg" alt="Icon of Linkedin" class="text-white w-[32px]"> </RouterLink></li>
-    <li><RouterLink to="https://www.instagram.com/marwin.rdgs/" target="_blank"> <img src="/icons/socials/instagram.svg" alt="Iconf of Instagram" class="text-white w-[32px]"> </RouterLink></li>
+    <li><NuxtLink to="https://github.com/Marwin-Rdgs" target="_blank"> <img src="/icons/socials/github.svg" alt="Icon of Github" class="text-white w-[38px]"> </NuxtLink></li>
+    <li><NuxtLink to="https://www.linkedin.com/in/marwin-rodrigues/" target="_blank"> <img src="/icons/socials/linkedin.svg" alt="Icon of Linkedin" class="text-white w-[32px]"> </NuxtLink></li>
+    <li><NuxtLink to="https://www.instagram.com/marwin.rdgs/" target="_blank"> <img src="/icons/socials/instagram.svg" alt="Iconf of Instagram" class="text-white w-[32px]"> </NuxtLink></li>
 
 </ul>
 
@@ -29,10 +29,10 @@
 <!-- liste des pages, représentant alors un menu du Footer -->
 <!-- IMPORTANT : N'oubliez d'insérer les liens de vos pages à la place des "#" -->
 <ul class="menu">
-    <li><RouterLink to="/projects">Portfolio</RouterLink></li>
-    <li><RouterLink to="/about">À propos</RouterLink></li>
-    <li><RouterLink to="/contact">Contact</RouterLink></li>
-    <li><RouterLink to="/chez-marwinUnion/">Chez Marwin-Union</RouterLink></li>
+    <li><NuxtLink to="/projects">Portfolio</NuxtLink></li>
+    <li><NuxtLink to="/about">À propos</NuxtLink></li>
+    <li><NuxtLink to="/contact">Contact</NuxtLink></li>
+    <li><NuxtLink to="/chez-marwinUnion/">Chez Marwin-Union</NuxtLink></li>
 </ul>
 
 <!-- Vous trouverez ici la "mention légale" -->

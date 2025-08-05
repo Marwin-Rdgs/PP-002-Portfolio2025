@@ -141,7 +141,7 @@ function updateWord() {
                         <!-- Item #1 -->
                         <div class="relative pl-8 sm:pl-32 py-6 group">
                             <!-- Purple label -->
-                            <RouterLink to="https://www.isg.fr/campus/ecole-commerce-strasbourg/" target="_blank"><div class="font-Primary font-medium text-2xl text-primary-color mb-1 sm:mb-0 hover:underline">ISG</div></RouterLink>
+                            <NuxtLink to="https://www.isg.fr/campus/ecole-commerce-strasbourg/" target="_blank"><div class="font-Primary font-medium text-2xl text-primary-color mb-1 sm:mb-0 hover:underline">ISG</div></NuxtLink>
                             <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
                             <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:border-4 after:box-content after:border-secondary-color after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                                 <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold font-Primary uppercase px-[2%] h-6 mb-3 sm:mb-0 text-light-color bg-secondary-color rounded-full">Octobre 2025 à aujourd'hui</time>
@@ -154,7 +154,7 @@ function updateWord() {
                         <!-- Item #2 -->
                         <div class="relative pl-8 sm:pl-32 py-6 group">
                             <!-- Purple label -->
-                            <RouterLink to="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/" target="_blank"><div class="font-Primary font-medium text-2xl text-primary-color mb-1 sm:mb-0 hover:underline">BUT MMI</div></RouterLink>
+                            <NuxtLink to="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/" target="_blank"><div class="font-Primary font-medium text-2xl text-primary-color mb-1 sm:mb-0 hover:underline">BUT MMI</div></NuxtLink>
                             <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
                             <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:border-4 after:box-content after:border-secondary-color after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                                 <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold font-Primary uppercase px-[2%] h-6 mb-3 sm:mb-0 text-light-color bg-secondary-color rounded-full">Septembre 2021 à Aout 2024</time>
@@ -162,13 +162,13 @@ function updateWord() {
                             </div>
                             <!-- Content -->
                             <div class="text-dark-color font-Secondary w-5/6">Cette formation professionnalisante en 3 ans (180 ECTS) mêle design graphique, communication digitale, et codage front-end. Dès la 2ᵉ année, j’ai pris part à des projets concrets (sites, applis, jeux simples, VR), avec une pédagogie par projet très marquée. Les cours couvraient les langages front‑end (VueJS, NuxtJS, TailwindCSS, SCSS), back‑end(NoSQL), l’intégration, l’ergonomie, la vidéo, la gestion de projet, et même une immersion dans la réalité virtuelle et la data visualization. Ce cursus m’a permis de devenir un véritable couteau suisse du web : polyvalent, créatif et autonome.</div>
-                            <RouterLink to="https://marwin-rodrigues.fr/MMI/" target="_blank" class="hover:underline hover:animate-pulse">>> Projets Réalisés en MMI</RouterLink>
+                            <NuxtLink to="https://marwin-rodrigues.fr/MMI/" target="_blank" class="hover:underline hover:animate-pulse">>> Projets Réalisés en MMI</NuxtLink>
                         </div>
 
                         <!-- Item #3 -->
                         <div class="relative pl-8 sm:pl-32 py-6 group">
                             <!-- Purple label -->
-                            <RouterLink to="https://dossier.parcoursup.fr/Candidats/public/fiches/afficherFicheFormation?g_ta_cod=10806" target="_blank"><div class="font-Primary font-medium text-2xl text-primary-color mb-1 sm:mb-0 hover:underline">BTS SIO</div></RouterLink>
+                            <NuxtLink to="https://dossier.parcoursup.fr/Candidats/public/fiches/afficherFicheFormation?g_ta_cod=10806" target="_blank"><div class="font-Primary font-medium text-2xl text-primary-color mb-1 sm:mb-0 hover:underline">BTS SIO</div></NuxtLink>
                             <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
                             <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:border-4 after:box-content after:border-secondary-color after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                                 <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold font-Primary uppercase px-[2%] h-6 mb-3 sm:mb-0 text-light-color bg-secondary-color rounded-full">Septembre 2020 à Juillet 2021</time>
@@ -205,7 +205,7 @@ function updateWord() {
                             <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
                             <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:border-4 after:box-content after:border-secondary-color after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                                 <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold font-Primary uppercase px-[2%] h-6 mb-3 sm:mb-0 text-light-color bg-secondary-color rounded-full">Septembre 2025 à aujourd'hui</time>
-                                <RouterLink to="https://agilia-technology.com/" target="_blank"><div class="text-xl font-bold font-Primary text-dark-color hover:underline">Agilia Technology</div></RouterLink>
+                                <NuxtLink to="https://agilia-technology.com/" target="_blank"><div class="text-xl font-bold font-Primary text-dark-color hover:underline">Agilia Technology</div></NuxtLink>
                             </div>
                             <!-- Content -->
                             <div class="text-dark-color font-Secondary w-5/6">Au sein d’une entreprise jeune, dynamique et profondément humaine, j’aurai l’opportunité de développer un vrai rôle d’intrapreneur, entre développement commercial, recrutement et accompagnement des talents. Mon objectif ? Créer des liens durables avec les clients et les consultants, en m’appuyant sur des valeurs fortes : confiance, agilité et respect. Une aventure professionnelle qui s’annonce aussi exigeante qu’excitante !</div>
@@ -218,11 +218,11 @@ function updateWord() {
                             <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
                             <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:border-4 after:box-content after:border-secondary-color after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                                 <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold font-Primary uppercase px-[2%] h-6 mb-3 sm:mb-0 text-light-color bg-secondary-color rounded-full">Mai 2023 à Aujourd'hui</time>
-                                <RouterLink to="/chez-marwinUnion" target="_blank"><div class="text-xl font-bold font-Primary text-dark-color hover:underline">Chez Marwin Union</div></RouterLink>
+                                <NuxtLink to="/chez-marwinUnion" target="_blank"><div class="text-xl font-bold font-Primary text-dark-color hover:underline">Chez Marwin Union</div></NuxtLink>
                             </div>
                             <!-- Content -->
                             <div class="text-dark-color font-Secondary w-5/6">Auto-entreprise à double service, Chez Marwin-web pour la digitalisation de mes clients et Chez Marwin TeamCare pour l'organisation d'événements sur mesure pour entreprise via un réseau de partenaire pour booster la cohésion des équipes et éviter le turnover.</div>
-                            <RouterLink to="/chez-marwinUnion" class="hover:underline hover:animate-pulse">>> En savoir plus</RouterLink>
+                            <NuxtLink to="/chez-marwinUnion" class="hover:underline hover:animate-pulse">>> En savoir plus</NuxtLink>
                         </div>
 
                         <!-- Item #3 -->
@@ -232,7 +232,7 @@ function updateWord() {
                             <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
                             <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:border-4 after:box-content after:border-secondary-color after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                                 <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold font-Primary uppercase px-[2%] h-6 mb-3 sm:mb-0 text-light-color bg-secondary-color rounded-full">Février 2025 à Aout 2025</time>
-                                <RouterLink to="https://www.groupeseb.com/fr" target="_blank"><div class="text-xl font-bold font-Primary text-dark-color hover:underline">Groupe SEB</div></RouterLink>
+                                <NuxtLink to="https://www.groupeseb.com/fr" target="_blank"><div class="text-xl font-bold font-Primary text-dark-color hover:underline">Groupe SEB</div></NuxtLink>
                             </div>
                             <!-- Content -->
                             <div class="text-dark-color font-Secondary w-5/6">Au sein d’une équipe passionnée et bienveillante, j’ai contribué à la mise en ligne des contenus produits, à l’optimisation des pages de vente, et à l’amélioration continue de l’expérience utilisateur sur plusieurs sites web du groupe. Une immersion riche dans l’univers du digital au sein d’un grand nom de l’industrie, où j’ai développé rigueur, autonomie… et une vraie culture orientée client.</div>
@@ -245,7 +245,7 @@ function updateWord() {
                             <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
                             <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:border-4 after:box-content after:border-secondary-color after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                                 <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold font-Primary uppercase px-[2%] h-6 mb-3 sm:mb-0 text-light-color bg-secondary-color rounded-full">Septembre 2022 à Aout 2024</time>
-                                <RouterLink to="https://www.forvia.com/fr" target="_blank"><div class="text-xl font-bold font-Primary text-dark-color">Forvia</div></RouterLink>
+                                <NuxtLink to="https://www.forvia.com/fr" target="_blank"><div class="text-xl font-bold font-Primary text-dark-color">Forvia</div></NuxtLink>
                             </div>
                             <!-- Content -->
                             <div class="text-dark-color font-Secondary w-5/6">Alternance chez Forvia en tant que Développeur Web, avec pour responsabilité la création d'applications web en utilisant des outils tels que Microsoft Power, AngularJS et .NET. J'ai également assumé les rôles de Chef de Projet, Analyste UX/UI, Webdesigner et Vidéaste lors de certaines missions.</div>
@@ -258,7 +258,7 @@ function updateWord() {
                             <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
                             <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:border-4 after:box-content after:border-secondary-color after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                                 <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold font-Primary uppercase px-[2%] h-6 mb-3 sm:mb-0 text-light-color bg-secondary-color rounded-full">Septembre 2020 à Juillet 2021</time>
-                                <RouterLink to="https://www.stellantis.com/fr" target="_blank"><div class="text-xl font-bold font-Primary text-dark-color hover:underline">Stellantis</div></RouterLink>
+                                <NuxtLink to="https://www.stellantis.com/fr" target="_blank"><div class="text-xl font-bold font-Primary text-dark-color hover:underline">Stellantis</div></NuxtLink>
                             </div>
                             <!-- Content -->
                             <div class="text-dark-color font-Secondary w-5/6">Une année d alternance chez Stellantis en tant que Pilote Système d'Information, avec pour responsabilité la création de fichiers Excel comportant des macros développées en VBA.</div>
@@ -290,7 +290,7 @@ function updateWord() {
                             <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
                             <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:border-4 after:box-content after:border-secondary-color after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                                 <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold font-Primary uppercase px-[2%] h-6 mb-3 sm:mb-0 text-light-color bg-secondary-color rounded-full">Aout 2021 à Mars 2024</time>
-                                <RouterLink to="https://ekalia.fr/" target="_blank"><div class="text-xl font-bold font-Primary text-dark-color hover:underline">Ekalia</div></RouterLink>
+                                <NuxtLink to="https://ekalia.fr/" target="_blank"><div class="text-xl font-bold font-Primary text-dark-color hover:underline">Ekalia</div></NuxtLink>
                             </div>
                             <!-- Content -->
                             <div class="text-dark-color font-Secondary w-5/6">Expérience en tant qu'Arbitre Événementiel et Community Manager au sein de l'association Ekalia, organisatrice d'événements de jeux vidéo en ligne, conformément à la loi 1901.</div>

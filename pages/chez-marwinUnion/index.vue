@@ -66,10 +66,10 @@ onMounted(() => {
     <h1 class="font-Primary desktop:text-8xl phone:text-2xl text-primary-color drop-shadow-lg animate-fadeIn">Chez Marwin-Union</h1>
   </section>
         <div class="flex mt-[2%] gap-[20%] justify-center">
-          <RouterLink to="https://www.instagram.com/marwin.rdgs/" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"> <img src="/icons/socials/instagram_primary.svg" alt="Iconf of Instagram" class="w-[32px]"> </RouterLink>
-          <RouterLink to="https://www.linkedin.com/in/marwin-rodrigues/" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"> <img src="/icons/socials/linkedin_primary.svg" alt="Icon of Linkedin" class="w-[32px]"> </RouterLink>
-          <RouterLink to="https://github.com/Marwin-Rdgs" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"><img src="/icons/socials/facebook_primary.svg" alt="Icon of Facebook" class="w-[38px]"></RouterLink>
-          <RouterLink to="https://github.com/Marwin-Rdgs" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"><img src="/icons/socials/tiktok_primary.svg" alt="Icon of Tiktok" class="w-[38px]"></RouterLink>
+          <NuxtLink to="https://www.instagram.com/marwin.rdgs/" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"> <img src="/icons/socials/instagram_primary.svg" alt="Iconf of Instagram" class="w-[32px]"> </NuxtLink>
+          <NuxtLink to="https://www.linkedin.com/in/marwin-rodrigues/" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"> <img src="/icons/socials/linkedin_primary.svg" alt="Icon of Linkedin" class="w-[32px]"> </NuxtLink>
+          <NuxtLink to="https://github.com/Marwin-Rdgs" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"><img src="/icons/socials/facebook_primary.svg" alt="Icon of Facebook" class="w-[38px]"></NuxtLink>
+          <NuxtLink to="https://github.com/Marwin-Rdgs" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"><img src="/icons/socials/tiktok_primary.svg" alt="Icon of Tiktok" class="w-[38px]"></NuxtLink>
       </div>
 
   <div class="mt-[3%] mb-[6%] mx-[10%]">
@@ -89,7 +89,7 @@ onMounted(() => {
         :article="article"
       />
     </div>
-    <RouterLink to="articles"><p class="underline text-right mr-[4%]">Voir plus...</p></RouterLink>
+    <NuxtLink to="articles"><p class="underline text-right mr-[4%]">Voir plus...</p></NuxtLink>
   </section>
 
   <!-- Présentation des services -->
