@@ -1,6 +1,5 @@
 <script setup>
 import { ref, computed } from 'vue'
-import Partner from '@/components/Partner.vue'
 import partnersListRaw from '@/data/partners.json'
 
 const partnerList = ref([...partnersListRaw].reverse())

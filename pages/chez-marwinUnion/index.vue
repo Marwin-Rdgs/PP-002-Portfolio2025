@@ -1,12 +1,9 @@
 <script setup> 
 import { ref, computed, onMounted } from 'vue';
-import CardArticle from '@/components/cardArticle.vue';
 import articleListRaw from '@/data/CMU-articles.json';
 import feedbackListRaw from '@/data/feedbackIndex.json';
 import projectListRaw from '@/data/projectList.json';
 import Swiper from 'swiper/bundle';
-import CardFeedback from '/components/cardFeedback.vue';
-import CardProject from '/components/cardProject.vue';
 
 const feedbackList = ref(feedbackListRaw);
 const articleList = ref(articleListRaw);

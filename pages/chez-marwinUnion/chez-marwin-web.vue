@@ -1,7 +1,6 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import projectListRaw from '@/data/projectList.json';
-import CardProject from '/components/cardProject.vue';
 
 // 🔍 Sélection du type de prestation (filtre)
 const selectedPresta = ref('all');

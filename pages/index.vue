@@ -1,9 +1,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
-import CarouselFeedback from '@/components/CarouselFeedback.vue'
 import feedbackListRaw from '@/data/feedbackIndex.json'
 import projectListRaw from '@/data/projectList.json'
-import Calendly from '~/components/Calendly.vue'
 
 const showCalendly = ref(false)
 const avis = ref(1)
