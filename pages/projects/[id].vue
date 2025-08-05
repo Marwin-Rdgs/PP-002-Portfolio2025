@@ -98,7 +98,7 @@ import EliotFeuvrierIcon from '@/components/collab/EliotFeuvrier.vue';
 import EthanHennequinIcon from '@/components/collab/EthanHennnequin.vue';
 import FarisHalepovicIcon from '@/components/collab/FarisHalepovic.vue';
 import FlorianGoerigIcon from '@/components/collab/FlorianGoerig.vue';
-import FlorianHoutmannIcon from '@/components/collab/FLorianHoutmann.vue';
+import FlorianHoutmannIcon from '@/components/collab/FlorianHoutmann.vue';
 import GaspardBondyIcon from '@/components/collab/GaspardBondy.vue';
 import HugoBeaurainIcon from '@/components/collab/HugoBeaurain.vue';
 import JaelAmemoutouIcon from '@/components/collab/JaelAmemoutou.vue';
