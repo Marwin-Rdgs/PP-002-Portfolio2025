@@ -2,7 +2,6 @@
 import { ref, onMounted } from 'vue'
 import Swiper from 'swiper/bundle'
 import 'swiper/css/bundle'
-import CardFeedback from './CardFeedback.vue'
 
 const props = defineProps({
   feedbacks: {
