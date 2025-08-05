@@ -57,8 +57,8 @@ onBeforeUnmount(() => {
     </div>
 
     <div class="flex justify-end pr-10 desktop:hidden">
-      <img src="/public/icons/menu-dark.svg" alt="Open menu" class="w-[38px]" v-show="!menuOpen" @click="menuOpen = true">
-      <img src="/public/icons/close-dark.svg" alt="Close menu" class="w-[32px]" v-show="menuOpen" @click="menuOpen = false">
+      <img src="/icons/menu-dark.svg" alt="Open menu" class="w-[38px]" v-show="!menuOpen" @click="menuOpen = true">
+      <img src="/icons/close-dark.svg" alt="Close menu" class="w-[32px]" v-show="menuOpen" @click="menuOpen = false">
     </div>
   </header>
 

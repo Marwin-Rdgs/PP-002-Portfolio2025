@@ -130,7 +130,7 @@ const handleSubmit = async () => {
 
     <!-- Image animée -->
     <img
-      src="/public/imgs/Marwin/PhoneMarwin.png"
+      src="/imgs/Marwin/PhoneMarwin.png"
       alt=""
       :class="[
         'absolute desktop:right-[6%] phone:right-0 desktop:top-[24%] phone:top-[20%] desktop:h-3/4 phone:h-1/3 transition-all duration-500 ease-in-out z-10',
@@ -149,7 +149,7 @@ const handleSubmit = async () => {
 
       <h3 class="text-lg font-semibold font-Primary text-dark-color">Disponible aussi sur</h3>
       <div class="flex mt-[2%] gap-[20%] justify-center">
-        <RouterLink to="https://github.com/Marwin-Rdgs" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"><img src="/public/icons/socials/github_dark.svg" alt="Icon of Github" class="text-white w-[38px]"></RouterLink>
+        <RouterLink to="https://github.com/Marwin-Rdgs" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"><img src="/icons/socials/github_dark.svg" alt="Icon of Github" class="text-white w-[38px]"></RouterLink>
         <RouterLink to="https://www.linkedin.com/in/marwin-rodrigues/" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"> <img src="/icons/socials/linkedin_dark.svg" alt="Icon of Linkedin" class="text-white w-[32px]"> </RouterLink>
         <RouterLink to="https://www.instagram.com/marwin.rdgs/" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"> <img src="/icons/socials/instagram_dark.svg" alt="Iconf of Instagram" class="text-white w-[32px]"> </RouterLink>
       </div>

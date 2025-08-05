@@ -337,7 +337,7 @@ function updateWord() {
     <hr class="px-10 border-primary-color border-2 shadow-lg shadow-primary-color w-1/3 desktop:mr-4"/>
     <div>
       <h2 class="text-center mb-4 text-primary-color desktop:text-4xl font-Primary font-extralight">Marwin c'est</h2>
-      <img src="/public/imgs/Marwin/Marwin-Stats.png" alt="Image Me with duotone">
+      <img src="/imgs/Marwin/Marwin-Stats.png" alt="Image Me with duotone">
     </div>
     <hr class="px-10 border-primary-color border-2 shadow-lg shadow-primary-color w-1/3"/>
 
