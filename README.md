@@ -1,75 +1,137 @@
-# Nuxt Minimal Starter
+# PP-002 - Portfolio Marwin Rodrigues
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 🧠 Présentation
 
-## Setup
+**PP-002** est le nom de code du site personnel de Marwin Rodrigues — Business Manager & Entrepreneur.  
+Ce site met en avant son parcours professionnel, son profil hybride entre management et développement web, ainsi que son auto-entreprise **Chez Marwin Union**.  
+Le site comprend plusieurs sections clés : présentation personnelle, portfolio de projets, contact, et vitrine de l’entreprise et de ses services.
 
-Make sure to install dependencies:
+Le projet est construit avec **NuxtJS** pour le framework frontend, et **TailwindCSS** pour le design, dans une optique de performance, d'accessibilité et de SEO.
+
+---
+
+## 📚 Sommaire
+
+- [Installation](#installation)
+- [Utilisation](#utilisation)
+- [Structure du projet](#structure-du-projet)
+- [Auteur](#auteur)
+- [Licence](#licence)
+
+---
+
+## 🛠️ Installation
+
+### Prérequis
+
+- Node.js v16 ou plus récent
+- Git
+
+### Étapes
+
+#### Clonez le projet :
 
 ```bash
-# npm
+git clone https://github.com/marwin-rodrigues/PP-002-Portfolio2025.git
+cd PP-002-Portfolio2025
+```
+
+#### Installez les dépendances :
+
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
+# ou
 yarn install
-
-# bun
-bun install
+# ou
+pnpm install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+#### Lancez le serveur de développement :
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
+Accédez à l'application : http://localhost:3000
 
-## Production
+## ▶️ Utilisation
 
-Build the application for production:
+### Commandes utiles
+
+- Développement : ```bash npm run dev```
+
+Build production : ```bash npm run build puis npm run start```
+
+Lint (analyse du code) : ```bash npm run lint```
+
+Prévisualisation production : ```bash npm run preview```
+
+## 🧱 Structure du projet
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+PP-002-Portfolio2025/
+├── assets/                     # Ressources visuelles et CSS
+│   ├── main.css
+│   ├── img/
+│   └── icon/
+├── components/                 # Composants réutilisables
+│   ├── cardProject.vue         # Carte de projet du portfolio
+│   ├── cardFeedback.vue        # Avis/retours clients, collaborateurs, professeurs
+│   ├── calendly.vue            # Pop-up de prise de rendez-vous
+│   ├── footernav.vue
+│   ├── headnav.vue
+│   ├── mail.vue                # Pop-up de confirmation d’envoi
+│   ├── politics.vue            # Politique de confidentialité
+│   ├── news.vue                # Pop-up annonce de nouveautés
+│   ├── legalNotic.vue
+│   ├── partner.vue             # Affichage des partenaires
+│   ├── FAQ.vue                 # FAQ optimisée SEO
+│   ├── cardArticle.vue         # Carte d’article Chez Marwin Union
+│   ├── inprogress.vue          # Affichage maintenance
+│   ├── tools/                  # Composants outils utilisés dans les projets
+│   └── collab/                 # Composants collaborateurs des projets
+├── layouts/
+│   └── default.vue
+├── pages/
+│   ├── index.vue
+│   ├── about.vue
+│   ├── contact.vue
+│   ├── chez-marwinUnion/
+│   │   ├── index.vue
+│   │   ├── chez-marwin-web.vue
+│   │   ├── chez-marwin-teamcare.vue
+│   │   ├── articles/
+│   │   │   ├── index.vue
+│   │   │   └── [id].vue
+│   │   └── partner/
+│   │       ├── index.vue
+│   │       └── [id].vue
+│   └── project/
+│       ├── index.vue
+│       └── [id].vue
+├── data/                       # Données en JSON
+│   ├── CMU-articles.json
+│   ├── feedbackIndex.json
+│   ├── partner.json
+│   └── projectList.json
+├── public/
+│   ├── icons/
+│   └── imgs/
+├── serveur/                    # Médias liés à l’auto-entreprise
+├── tailwind.config.js
+├── nuxt.config.js
+└── app.vue
 ```
 
-Locally preview production build:
+## 👤 Auteur
+### Marwin Rodrigues
 
-```bash
-# npm
-npm run preview
+Business Manager & Entrepreneur
+📍 Basé entre France & Suisse
+🌐 marwin-rodrigues.fr
+📧 contact@marwin-rodrigues.fr
 
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+## 📄 Licence
+Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d’informations.
+```yaml
+💡 Tu peux coller ce contenu directement dans ton `README.md`. Si tu veux l’enrichir avec des badges (ex. : déploiement, framework utilisé), je peux aussi t’en générer. Tu veux une version anglophone aussi ?
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
