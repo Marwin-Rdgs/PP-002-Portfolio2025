@@ -59,11 +59,11 @@ Accédez à l'application : http://localhost:3000
 
 - Développement : ```bash npm run dev```
 
-Build production : ```bash npm run build puis npm run start```
+- Build production : ```bash npm run build puis npm run start```
 
-Lint (analyse du code) : ```bash npm run lint```
+- Lint (analyse du code) : ```bash npm run lint```
 
-Prévisualisation production : ```bash npm run preview```
+- Prévisualisation production : ```bash npm run preview```
 
 ## 🧱 Structure du projet
 
@@ -126,8 +126,11 @@ PP-002-Portfolio2025/
 ### Marwin Rodrigues
 
 Business Manager & Entrepreneur
+
 📍 Basé entre France & Suisse
+
 🌐 marwin-rodrigues.fr
+
 📧 contact@marwin-rodrigues.fr
 
 ## 📄 Licence
