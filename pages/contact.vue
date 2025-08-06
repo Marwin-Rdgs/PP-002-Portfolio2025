@@ -141,7 +141,7 @@ const handleSubmit = async () => {
         <p class="italic -mt-2% text-center">Montbéliard / Strasbourg / Divonne-les-bains</p>
         <div class="flex phone:flex-col gap-y-4 desktop:flex-row mx-auto justify-center gap-[20%] mt-[2%]">
           <NuxtLink to="mailto:contact@marwin-rodrigues.fr"><p class="text-center font-Secondary font-semibold hover:text-opacity-70 hover:scale-100 hover:scale-105 text-dark-color text-opacity-90 hover:text-opacity-100 transition-all delay-100">contact@marwin-rodrigues.fr</p></NuxtLink>
-          <div @click="showCalendly = true" class="desktop:w-1/6 phone:w-full text-center phone:mx-auto desktop:mr-[12%]"><button class="border-2 border-primary-color rounded-xl px-[8%] py-[1%] bg-secondary-color bg-opacity-10 hover:bg-opacity-50 hover:scale-100 hover:scale-105 transition-all delay-100"><p class="text-center font-Secondary font-semibold hover:text-opacity-70 text-dark-color text-opacity-90 hover:text-opacity-100">Planifier une visio</p></button></div>
+          <div @click="showCalendly = true" class="desktop:w-1/6 phone:w-full text-center phone:mx-auto desktop:mr-[12%]"><button class="border-2 border-primary-color rounded-xl px-[8%] py-[1%] bg-secondary-color bg-opacity-10 hover:bg-opacity-50  hover:scale-110 hover:rotate-[5deg] transition-all delay-100"><p class="text-center font-Secondary font-semibold hover:text-opacity-70 text-dark-color text-opacity-90 hover:text-opacity-100">Planifier une visio</p></button></div>
           <NuxtLink to="tel:661012019"><p class="text-center font-Secondary font-semibold hover:text-opacity-70 hover:scale-100 hover:scale-105 text-dark-color text-opacity-90 hover:text-opacity-100 transition-all delay-100">+33 6 61 01 20 19</p></NuxtLink>
         </div>
 
