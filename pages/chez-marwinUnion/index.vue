@@ -58,7 +58,7 @@ onMounted(() => {
 <template>
   <section>
       <section class="flex justify-center items-center gap-[2%] mt-[6%] animate-pulse w-[90%] mx-auto">
-    <img src="/imgs/Chez-MarwinUnion/CMU.svg" alt="" class="desktop:w-[128px] phone:w-[64px] animate-fadeIn">
+    <img src="/imgs/Chez-MarwinUnion/CMU.svg" alt="logo de Chez Marwin Union entreprise de Marwin RODRIGUES" class="desktop:w-[128px] phone:w-[64px] animate-fadeIn">
     <h1 class="font-Primary desktop:text-8xl phone:text-2xl text-primary-color drop-shadow-lg animate-fadeIn">Chez Marwin-Union</h1>
   </section>
         <div class="flex mt-[2%] gap-[20%] justify-center">
@@ -101,7 +101,7 @@ onMounted(() => {
         </div>
       </div>
       <div class="flex justify-center items-center gap-[4%] w-full phone:pl-[10%] desktop:pl-0 pr-[4%] animate-fadeIn phone:order-1 desktop:order-2">
-        <img src="public/imgs/Chez-MarwinUnion/CMW.svg" alt="" class="w-[64px] animate-pulse">
+        <img src="public/imgs/Chez-MarwinUnion/CMW.svg" alt="logo de Chez Marwin Web service de Chez Marwin Union entreprise de Marwin RODRIGUES" class="w-[64px] animate-pulse">
         <h2 class="w-[450px] font-Primary desktop:text-3xl phone:text-2xl text-dark-color drop-shadow-lg">Chez Marwin-Web</h2>
       </div>
     </div>
@@ -109,7 +109,7 @@ onMounted(() => {
     <!-- CMTC -->
     <div class="bg-CMTC-secondary bg-opacity-30 items-center flex phone:flex-col desktop:flex-row desktop:gap-[10%] justify-between py-[4%] phone:h-[330px] desktop:h-full">
       <div class="flex justify-center items-center gap-[4%] w-full pl-[4%] animate-fadeIn">
-        <img src="public/imgs/Chez-MarwinUnion/CMTC.svg" alt="" class="desktop:w-[64px] phone:w-[32px] animate-pulse">
+        <img src="public/imgs/Chez-MarwinUnion/CMTC.svg" alt="logo de Chez Marwin TeamCare service de Chez Marwin Union entreprise de Marwin RODRIGUES" class="desktop:w-[64px] phone:w-[32px] animate-pulse">
         <h2 class="w-[450px] font-Primary text-3xl text-dark-color drop-shadow-lg">Chez Marwin-TeamCare</h2>
       </div>
       <div class="grid pr-[4%] gap-[10%] mx-[4%]">
@@ -198,8 +198,8 @@ onMounted(() => {
     
       <div class="grid items-center gap-x-5">
         <div class="grid grid-cols-2 gap-[2%] items-center">
-          <img src="/imgs/envato/FAQ4.jpg" alt="" class="rounded-xl w-[500px] h-[250px] object-cover">
-          <img src="/imgs/envato/FAQ5.jpg" alt="" class="rounded-xl w-[500px] h-[250px] object-cover">
+          <img src="/imgs/envato/FAQ4.jpg" alt="Image d'exemple de FAQ" class="rounded-xl w-[500px] h-[250px] object-cover">
+          <img src="/imgs/envato/FAQ5.jpg" alt="Image d'exemple de FAQ" class="rounded-xl w-[500px] h-[250px] object-cover">
         </div>
       </div>
     </section>

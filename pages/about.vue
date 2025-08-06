@@ -60,15 +60,15 @@ function updateWord() {
 
         <div class="phone:col-start-2 desktop:w-1/2 z-10 pl-[4%]">
           <p class="relative z-10 font-Secondary text-lg animate__animated animate__fadeInLeft">« C’est en repoussant ses limites que l’on découvre qui l’on est vraiment. » Cette conviction guide mon parcours. Diplômé d’un BUT MMI spécialisé en développement web et dispositifs interactifs, j’ai enrichi mes compétences techniques et artistiques lors de projets pédagogiques concrets. <br /> <br /> Depuis, je poursuis des formations variées (IT, design, communication, management, commerce, comptabilité) pour bâtir une posture polyvalente et stratégique. Aujourd’hui, mon ambition est claire : quitter le croquis pour piloter des projets, fédérer des équipes et valoriser l’humain au cœur de chaque action – de la conception d’un site à la coordination globale de projets. Mes expériences m’ont préparé à cela : La direction de projets et la création d’entreprise (Chez Marwin Union).</p>
-          <img src="/imgs/shapes/Blob.svg" alt="" class="absolute z-0 left-0 phone:top-[10%] desktop:top-[45%] opacity-50">
+          <img src="/imgs/shapes/Blob.svg" alt="Icone de fond" class="absolute z-0 left-0 phone:top-[10%] desktop:top-[45%] opacity-50">
           <div class="phone:grid phone:grid-cols-2 desktop:flex desktop:justify-center desktop:gap-10 mt-[2%] items-center">
             <div class="flex gap-4 desktop:w-3/4 items-center phone:px-[10%] desktop:px-0">
-              <img src="/icons/about/house.svg" alt="" class="w-[32px]">
+              <img src="/icons/about/house.svg" alt="Icone Maison" class="w-[32px]">
               <p class="text-primary-color font-extrabold text-2xl">|</p>
               <p class="phone:text-sm desktop:text-base font-Secondary">Strasbourg, 67200, France</p>
             </div>
             <div class="flex desktop:w-1/3 gap-4 items-center phone:px-[10%] desktop:px-0">
-              <img src="/icons/about/calendar.svg" alt="" class="w-[32px]">
+              <img src="/icons/about/calendar.svg" alt="Icone Calendrier" class="w-[32px]">
               <p class="text-primary-color font-extrabold text-2xl">|</p>
               <p class="phone:text-lg desktop:text-base font-Secondary">{{ age }} ans</p>
             </div>
@@ -89,7 +89,7 @@ function updateWord() {
         </div>
 
         <div class="phone:col-start-1 desktop:flex desktop:justify-end desktop:pr-[4%] desktop:scale-[145%] desktop:mr-[8%]">
-          <img src="/imgs/Marwin/About_Me.png" alt="">
+          <img src="/imgs/Marwin/About_Me.png" alt="Photo de Marwin RODRIGUES">
         </div>
       </div>
     </section>

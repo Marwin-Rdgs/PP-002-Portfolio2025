@@ -129,7 +129,7 @@ const handleSubmit = async () => {
     <!-- Image animée -->
     <img
       src="/imgs/Marwin/PhoneMarwin.png"
-      alt=""
+      alt="Image d'un téléphone"
       :class="[
         'absolute desktop:right-[6%] phone:right-0 desktop:top-[24%] phone:top-[20%] desktop:h-3/4 phone:h-1/3 transition-all duration-500 ease-in-out z-10',
         isFormFocused ? 'translate-x-[35%] opacity-70' : 'translate-x-0 opacity-100'

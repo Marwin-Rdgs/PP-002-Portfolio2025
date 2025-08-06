@@ -19,7 +19,7 @@ const filteredProjectList = computed(() => {
 </script>
 <template>
     <section class="flex justify-center items-center gap-[2%] mt-[6%] animate-pulse w-[90%] mx-auto">
-      <img src="/imgs/Chez-MarwinUnion/CMW.svg" alt="" class="desktop:w-[128px] phone:w-[64px] animate-fadeIn">
+      <img src="/imgs/Chez-MarwinUnion/CMW.svg" alt="logo de Chez Marwin Web service de Chez Marwin Union entreprise de Marwin RODRIGUES" class="desktop:w-[128px] phone:w-[64px] animate-fadeIn">
       <h1 class="font-Primary desktop:text-8xl phone:text-2xl text-CMW-primary drop-shadow-lg animate-fadeIn">Chez Marwin-Web</h1>
     </section>
     <div class="mt-[3%] mb-[6%] mx-[10%] phone:gap-y-[1%] desktop:gap-y-[6%] grid">
@@ -125,7 +125,7 @@ const filteredProjectList = computed(() => {
     
       <div class="grid items-center gap-x-5">
         <div class="h-full -mb-[20%]">
-          <img src="/imgs/envato/FAQ6.jpg" alt="" class="rounded-xl h-full object-cover object-top w-full items-end">
+          <img src="/imgs/envato/FAQ6.jpg" alt="Image d'exemple de FAQ" class="rounded-xl h-full object-cover object-top w-full items-end">
         </div>
       </div>
     </section>

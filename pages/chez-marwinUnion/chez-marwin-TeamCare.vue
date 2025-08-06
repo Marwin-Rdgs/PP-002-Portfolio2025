@@ -19,7 +19,7 @@ const filteredProjectList = computed(() => {
 </script>
 <template>
     <section class="flex justify-center items-center gap-[2%] mt-[6%] animate-pulse w-[90%] mx-auto">
-      <img src="/imgs/Chez-MarwinUnion/CMTC.svg" alt="" class="desktop:w-[128px] phone:w-[64px] animate-fadeIn">
+      <img src="/imgs/Chez-MarwinUnion/CMTC.svg" alt="Logo de Chez Marwin TeamCare service de Chez Marwin Union entreprise de Marwin RODRIGUES" class="desktop:w-[128px] phone:w-[64px] animate-fadeIn">
       <h1 class="font-Primary desktop:text-8xl phone:text-2xl text-CMTC-primary drop-shadow-lg animate-fadeIn">Chez Marwin-TeamCare</h1>
     </section>
     <div class="mt-[3%] mb-[6%] mx-[10%] phone:gap-y-[1%] desktop:gap-y-[6%] grid">
@@ -145,11 +145,11 @@ const filteredProjectList = computed(() => {
     
       <div class="grid items-center gap-x-5">
         <div class="h-1/2 -mb-[20%]">
-          <img src="/imgs/envato/FAQ5.jpg" alt="" class="rounded-xl h-full object-cover object-top w-full items-end">
+          <img src="/imgs/envato/FAQ5.jpg" alt="Image d'exemple de FAQ" class="rounded-xl h-full object-cover object-top w-full items-end">
         </div>
         <div class="grid grid-cols-2 gap-[2%] items-center">
-          <img src="/imgs/envato/FAQ4.jpg" alt="" class="rounded-xl w-[500px] h-[250px] object-cover">
-          <img src="/imgs/envato/FAQ3.jpg" alt="" class="rounded-xl w-[500px] h-[250px] object-cover">
+          <img src="/imgs/envato/FAQ4.jpg" alt="Image d'exemple de FAQ" class="rounded-xl w-[500px] h-[250px] object-cover">
+          <img src="/imgs/envato/FAQ3.jpg" alt="Image d'exemple de FAQ" class="rounded-xl w-[500px] h-[250px] object-cover">
         </div>
       </div>
     </section>
