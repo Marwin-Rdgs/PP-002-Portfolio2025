@@ -245,7 +245,7 @@ function updateWord() {
                             <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
                             <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:border-4 after:box-content after:border-secondary-color after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                                 <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold font-Primary uppercase px-[2%] h-6 mb-3 sm:mb-0 text-light-color bg-secondary-color rounded-full">Septembre 2022 à Aout 2024</time>
-                                <NuxtLink to="https://www.forvia.com/fr" target="_blank"><div class="text-xl font-bold font-Primary text-dark-color">Forvia</div></NuxtLink>
+                                <NuxtLink to="https://www.forvia.com/fr" target="_blank"><div class="text-xl font-bold font-Primary text-dark-color hover:underline">Forvia</div></NuxtLink>
                             </div>
                             <!-- Content -->
                             <div class="text-dark-color font-Secondary w-5/6">Alternance chez Forvia en tant que Développeur Web, avec pour responsabilité la création d'applications web en utilisant des outils tels que Microsoft Power, AngularJS et .NET. J'ai également assumé les rôles de Chef de Projet, Analyste UX/UI, Webdesigner et Vidéaste lors de certaines missions.</div>
