@@ -23,9 +23,9 @@ defineProps({
     </div>
     <div class="text-xs text-gray-500">
       {{ feedback.poste }} chez
-      <a :href="feedback.link" target="_blank" class="text-blue-600 hover:underline">
+      <NuxtLink :to="feedback.link" target="_blank" class="text-blue-600 hover:underline">
         {{ feedback.entreprise }}
-      </a>
+      </NuxtLink>
     </div>
   </div>
 </template>
