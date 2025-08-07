@@ -62,10 +62,10 @@ onMounted(() => {
     <h1 class="font-Primary desktop:text-8xl phone:text-2xl text-primary-color drop-shadow-lg animate-fadeIn">Chez Marwin-Union</h1>
   </section>
         <div class="flex mt-[2%] gap-[20%] justify-center">
-          <NuxtLink to="https://www.instagram.com/marwin.rdgs/" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"> <img src="/icons/socials/instagram_primary.svg" alt="Iconf of Instagram" class="w-[32px]"> </NuxtLink>
-          <NuxtLink to="https://www.linkedin.com/in/marwin-rodrigues/" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"> <img src="/icons/socials/linkedin_primary.svg" alt="Icon of Linkedin" class="w-[32px]"> </NuxtLink>
-          <NuxtLink to="https://github.com/Marwin-Rdgs" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"><img src="/icons/socials/facebook_primary.svg" alt="Icon of Facebook" class="w-[38px]"></NuxtLink>
-          <NuxtLink to="https://github.com/Marwin-Rdgs" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"><img src="/icons/socials/tiktok_primary.svg" alt="Icon of Tiktok" class="w-[38px]"></NuxtLink>
+          <NuxtLink to="https://www.instagram.com/chez_marwinunion/" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"> <img src="/icons/socials/instagram_primary.svg" alt="Iconf of Instagram" class="w-[32px]"> </NuxtLink>
+          <NuxtLink to="https://www.linkedin.com/company/chez-marwin-union/" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"> <img src="/icons/socials/linkedin_primary.svg" alt="Icon of Linkedin" class="w-[32px]"> </NuxtLink>
+          <NuxtLink to="https://www.facebook.com/profile.php?id=61578350613803" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"><img src="/icons/socials/facebook_primary.svg" alt="Icon of Facebook" class="w-[38px]"></NuxtLink>
+          <NuxtLink to="https://www.tiktok.com/@chez_marwin_union" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"><img src="/icons/socials/tiktok_primary.svg" alt="Icon of Tiktok" class="w-[38px]"></NuxtLink>
       </div>
 
   <div class="mt-[3%] mb-[6%] mx-[10%]">
