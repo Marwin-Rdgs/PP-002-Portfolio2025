@@ -6,7 +6,7 @@ import projectListRaw from '@/data/projectList.json';
 import Swiper from 'swiper/bundle';
 
 const feedbackList = ref(feedbackListRaw);
-const articleList = ref(articleListRaw);
+const articleList = ref([...articleListRaw].reverse().slice(0, 3));
 
 const selectedPresta = ref('all');
 
