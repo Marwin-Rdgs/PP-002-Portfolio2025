@@ -25,7 +25,7 @@
         <p><strong>Hébergement :</strong><br>
           Infomaniak Network SA<br>
            Rue Eugène-Marziano 25, 1227 Les Acacias, Genève, Suisse<br>
-          Site web : <a href="https://www.infomaniak.com" target="_blank" class="text-primary-color underline">www.infomaniak.com</a>
+          Site web : <NuxtLink href="https://www.infomaniak.com" target="_blank" class="text-primary-color underline">www.infomaniak.com</NuxtLink>
         </p>
 
         <p><strong>Responsable de la publication :</strong><br>

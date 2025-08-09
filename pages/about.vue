@@ -79,11 +79,11 @@ function updateWord() {
               </button>
             </NuxtLink>
 
-            <!-- <a href="/CV-FR-Marwin_RODRIGUES-MEDIUM_QUALITY.pdf" target="_blank" class="desktop:w-1/3">
+            <!-- <NuxtLink href="/CV-FR-Marwin_RODRIGUES-MEDIUM_QUALITY.pdf" target="_blank" class="desktop:w-1/3">
               <button class="phone:mt-[10%] desktop:mt-[2%] bg-light-color rounded-2xl items-center px-[6%] py-[4%] border-2 border-primary-color group hover:bg-primary-color">
                 <p class="uppercase font-Primary text-center font-bold text-primary-color group-hover:text-light-color">voir mon cv</p>
               </button>
-            </a> -->
+            </NuxtLink> -->
 
           </div>
         </div>
