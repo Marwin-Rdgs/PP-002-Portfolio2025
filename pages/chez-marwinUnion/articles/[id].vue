@@ -11,7 +11,7 @@ const article = articleListRaw.find(a => a.id === articleId)
 <template>
   <!-- --------------------------- Image entête --------------------------- -->
   <section>
-    <img :src="article.cover" :alt="article.alt" class="w-full h-full" />
+    <img loading="lazy" :src="article.cover" :alt="article.alt" class="w-full h-full" />
   </section>
 
   <!-- --------------------------- Détails & Contexte --------------------------- -->
@@ -56,9 +56,9 @@ const article = articleListRaw.find(a => a.id === articleId)
 
   <!-- --------------------------- Galerie --------------------------- -->
   <section class="mx-[8%] mt-8 grid desktop:grid-cols-2 gap-[4%] items-center">
-    <img v-if="article.img1!=''" :src="article.img1" alt="Image 1 de la gallerie photo du projet" class="w-[700px]" />
-    <img v-if="article.img2!=''" :src="article.img2" alt="Image 2 de la gallerie photo du projet" class="w-[700px]" />
-    <img v-if="article.img3!=''" :src="article.img3" alt="Image 3 de la gallerie photo du projet" class="w-full desktop:col-span-2"/>
+    <img loading="lazy" v-if="article.img1!=''" :src="article.img1" alt="Image 1 de la gallerie photo du projet" class="w-[700px]" />
+    <img loading="lazy" v-if="article.img2!=''" :src="article.img2" alt="Image 2 de la gallerie photo du projet" class="w-[700px]" />
+    <img loading="lazy" v-if="article.img3!=''" :src="article.img3" alt="Image 3 de la gallerie photo du projet" class="w-full desktop:col-span-2"/>
   </section>
 
   <!-- --------------------------- Boutons / Navigation --------------------------- -->

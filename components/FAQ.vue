@@ -41,7 +41,7 @@ defineProps({
         <div class="grid gap-8 mt-[4%]">
             <div>
                 <div class="flex items-center cursor-pointer hover:opacity-90 hover:scale-110 transition-all ease-in-out duration-200" @click="showQuestion1=!showQuestion1" :class="{ 'opacity-100': !showQuestion1, 'opacity-70': showQuestion1 }">
-                    <img src="/icons/toggle.svg" alt="Icone de question pour la FAQ" class="w-[32px]">
+                    <img loading="lazy" src="/icons/toggle.svg" alt="Icone de question pour la FAQ" class="w-[32px]">
                     <p class="text-lg font-Primary text-dark-color font-medium">{{ question1 }}</p>
                 </div>
                     <p v-if="showQuestion1==false" class="text-sm text-dark-color text-opacity-85 font-Secondary">{{ reponse1 }}</p>
@@ -49,14 +49,14 @@ defineProps({
 
             <div>
                 <div class="flex items-center cursor-pointer hover:opacity-90 hover:scale-110 transition-all ease-in-out duration-200" @click="showQuestion2=!showQuestion2" :class="{ 'opacity-100': showQuestion2, 'opacity-70': !showQuestion2 }">
-                    <img src="/icons/toggle.svg" alt="Icone de question pour la FAQ" class="w-[32px]">
+                    <img loading="lazy" src="/icons/toggle.svg" alt="Icone de question pour la FAQ" class="w-[32px]">
                     <p class="text-lg font-Primary text-dark-color font-medium">{{ question2 }}</p>
                 </div>
                     <p v-if="showQuestion2==true" class="text-sm text-dark-color text-opacity-85 font-Secondary">{{ reponse2 }}</p>
             </div>
             <div>
                 <div class="flex items-center cursor-pointer hover:opacity-90 hover:scale-110 transition-all ease-in-out duration-200" @click="showQuestion3=!showQuestion3" :class="{ 'opacity-100': showQuestion3, 'opacity-70': !showQuestion3 }">
-                    <img src="/icons/toggle.svg" alt="Icone de question pour la FAQ" class="w-[32px]">
+                    <img loading="lazy" src="/icons/toggle.svg" alt="Icone de question pour la FAQ" class="w-[32px]">
                     <p class="text-lg font-Primary text-dark-color font-medium">{{ question3 }}</p>
                 </div>
                     <p v-if="showQuestion3==true" class="text-sm text-dark-color text-opacity-85 font-Secondary">{{ reponse3 }}</p>

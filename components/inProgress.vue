@@ -4,7 +4,7 @@
        <div class="progess__content">
            <div class="progress__content-text">
                <div class="putCenter">
-                   <img class="logoprincipal" src="/imgs/Chez-MawinUnion/CMU.svg" alt="Logo de Marwin RODRIGUES, Business Manager & Entrepreneur">
+                   <img loading="lazy" class="logoprincipal" src="/imgs/Chez-MawinUnion/CMU.svg" alt="Logo de Marwin RODRIGUES, Business Manager & Entrepreneur">
                </div>
                <h1>Coming Soon</h1>
                <p>Le futur site web de Marwin RODRIGUES prend vie… Restez connectés pour une expérience innovante à venir !</p>

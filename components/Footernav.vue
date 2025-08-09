@@ -19,9 +19,9 @@
 <ul class="social_icon gap-4">
 
     <!-- Icône Facebook -->
-    <li><NuxtLink to="https://github.com/Marwin-Rdgs" target="_blank"> <img src="/icons/socials/github.svg" alt="Icon of Github" class="text-white w-[38px]"> </NuxtLink></li>
-    <li><NuxtLink to="https://www.linkedin.com/in/marwin-rodrigues/" target="_blank"> <img src="/icons/socials/linkedin.svg" alt="Icon of Linkedin" class="text-white w-[32px]"> </NuxtLink></li>
-    <li><NuxtLink to="https://www.instagram.com/marwin.rdgs/" target="_blank"> <img src="/icons/socials/instagram.svg" alt="Iconf of Instagram" class="text-white w-[32px]"> </NuxtLink></li>
+    <li><NuxtLink to="https://github.com/Marwin-Rdgs" target="_blank"> <img loading="lazy" src="/icons/socials/github.svg" alt="Icon of Github" class="text-white w-[38px]"> </NuxtLink></li>
+    <li><NuxtLink to="https://www.linkedin.com/in/marwin-rodrigues/" target="_blank"> <img loading="lazy" src="/icons/socials/linkedin.svg" alt="Icon of Linkedin" class="text-white w-[32px]"> </NuxtLink></li>
+    <li><NuxtLink to="https://www.instagram.com/marwin.rdgs/" target="_blank"> <img loading="lazy" src="/icons/socials/instagram.svg" alt="Iconf of Instagram" class="text-white w-[32px]"> </NuxtLink></li>
 
 </ul>
 

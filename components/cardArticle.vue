@@ -27,7 +27,7 @@ const truncateIntro = (text, wordLimit = 25) => {
     </div>
 
     <!-- Image avec effet pulse -->
-    <img
+    <img loading="lazy"
       :src="article.cover"
       :alt="article.title"
       class="w-full h-52 object-cover group-hover:animate-pulse transition duration-200"

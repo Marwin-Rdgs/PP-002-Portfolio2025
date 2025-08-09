@@ -36,7 +36,7 @@ onUnmounted(() => {
       </h1>
   
       <div class="flex justify-center -mt-[20%]">
-        <img 
+        <img loading="lazy"
           src="/imgs/Marwin/Marwin-Index.png" 
           alt="Image de Marwin RODRIGUES" 
           class="w-full h-auto object-cover z-0"
@@ -73,7 +73,7 @@ onUnmounted(() => {
         <NuxtLink to="/a-propos"><button class="bg-primary-color text-dark-color rounded-full desktop:px-[24px] phone:px-[10px] phone:text-sm desktop:text-lg py-[1%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:translate-x-6 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-500">Savoir plus</button></NuxtLink>      
       </div>
 
-      <img src="/imgs/Marwin/Marwin-IndexBio.png" alt="Image de Marwin RODRIGUES" class=" desktop:absolute desktop:right-0 desktop:-top-64 object-cover z-0">
+      <img loading="lazy" src="/imgs/Marwin/Marwin-IndexBio.png" alt="Image de Marwin RODRIGUES" class=" desktop:absolute desktop:right-0 desktop:-top-64 object-cover z-0">
       
     </section>
 
@@ -115,11 +115,11 @@ onUnmounted(() => {
     
       <div class="grid items-center gap-x-5">
         <div class="h-1/2 -mb-[20%]">
-          <img src="/imgs/envato/FAQ1.jpg" alt="Image d'exemple de FAQ" class="rounded-xl h-full object-cover object-top w-full items-end">
+          <img loading="lazy" src="/imgs/envato/FAQ1.jpg" alt="Image d'exemple de FAQ" class="rounded-xl h-full object-cover object-top w-full items-end">
         </div>
         <div class="grid grid-cols-2 gap-[2%] items-center">
-          <img src="/imgs/envato/FAQ2.jpg" alt="Image d'exemple de FAQ" class="rounded-xl w-[500px] h-[250px] object-cover">
-          <img src="/imgs/envato/FAQ3.jpg" alt="Image d'exemple de FAQ" class="rounded-xl w-[500px] h-[250px] object-cover">
+          <img loading="lazy" src="/imgs/envato/FAQ2.jpg" alt="Image d'exemple de FAQ" class="rounded-xl w-[500px] h-[250px] object-cover">
+          <img loading="lazy" src="/imgs/envato/FAQ3.jpg" alt="Image d'exemple de FAQ" class="rounded-xl w-[500px] h-[250px] object-cover">
         </div>
       </div>
     </section>

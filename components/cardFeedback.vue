@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <div class="bg-white rounded-3xl shadow-xl p-5 md:p-6 max-w-md mx-auto border-2 border-primary-color border-opacity-20">
-    <img
+    <img loading="lazy"
       :src="feedback.img"
       :alt="feedback.auteur"
       class="w-full h-48 object-cover rounded-xl shadow-lg shadow-contrast-color"

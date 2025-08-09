@@ -10,7 +10,7 @@ const partner = partnerListRaw.find(p => p.id === partnerId)
 
 <template>
     <div class="border-2 border-primary-color border-opacity-40 shadow-md shadow-secondary-color desktop:w-1/2 phone:w-5/6 mx-auto pt-[2%] desktop:pb-[10%] phone:pb-[32%] px-[4%] animate-pulse desktop:mt-[6%] phone:mt-[12%] grid gap-[4%]">
-            <img :src="partner.logo" :alt="partner.name" class="w-[256px] rounded-full mx-auto">
+            <img loading="lazy" :src="partner.logo" :alt="partner.name" class="w-[256px] rounded-full mx-auto">
             <h1 class="text-center font-Primary text-2xl font-bold">{{ partner.name }}</h1>
             <p class="text-justify font-Secondary text-sm">{{ partner.description }}</p>
 
