@@ -39,7 +39,7 @@ onBeforeUnmount(() => {
         <NuxtLink to="/projects/">Portfolio</NuxtLink>
       </li>
       <li class="font-Secondary font-semibold text-lg text-dark-color hover:opacity-70 transition-all duration-300">
-        <NuxtLink to="/about">À Propos</NuxtLink>
+        <NuxtLink to="/a-propos">À Propos</NuxtLink>
       </li>
     </ul>
 
@@ -69,7 +69,7 @@ onBeforeUnmount(() => {
         <NuxtLink to="/projects/" @click="menuOpen = false">Portfolio</NuxtLink>
       </li>
       <li class="font-Secondary font-semibold text-2xl text-dark-color">
-        <NuxtLink to="/about" @click="menuOpen = false">À Propos</NuxtLink>
+        <NuxtLink to="/a-propos" @click="menuOpen = false">À Propos</NuxtLink>
       </li>
       <li class="font-Secondary font-semibold text-2xl text-dark-color">
         <NuxtLink to="/contact" @click="menuOpen = false">Me contacter</NuxtLink>

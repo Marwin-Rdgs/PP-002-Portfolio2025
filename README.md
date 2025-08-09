@@ -93,7 +93,7 @@ PP-002-Portfolio2025/
 │   └── default.vue
 ├── pages/
 │   ├── index.vue
-│   ├── about.vue
+│   ├── a-propos.vue
 │   ├── contact.vue
 │   ├── chez-marwinUnion/
 │   │   ├── index.vue

@@ -30,7 +30,7 @@
 <!-- IMPORTANT : N'oubliez d'insérer les liens de vos pages à la place des "#" -->
 <ul class="menu">
     <li><NuxtLink to="/projects">Portfolio</NuxtLink></li>
-    <li><NuxtLink to="/about">À propos</NuxtLink></li>
+    <li><NuxtLink to="/a-propos">À propos</NuxtLink></li>
     <li><NuxtLink to="/contact">Contact</NuxtLink></li>
     <li><NuxtLink to="/chez-marwinUnion/">Chez Marwin-Union</NuxtLink></li>
 </ul>
