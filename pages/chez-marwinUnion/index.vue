@@ -56,11 +56,11 @@ onMounted(() => {
 </script>
 
 <template>
-  <section>
-      <section class="flex justify-center items-center gap-[2%] mt-[6%] animate-pulse w-[90%] mx-auto">
+  <section aria-label="Hero de la page de l'entreprise Chez Marwin Union">
+      <div class="flex justify-center items-center gap-[2%] mt-[6%] animate-pulse w-[90%] mx-auto">
     <img loading="lazy" src="/imgs/Chez-MarwinUnion/CMU.svg" alt="logo de Chez Marwin Union entreprise de Marwin RODRIGUES" class="desktop:w-[128px] phone:w-[64px] animate-fadeIn">
     <h1 class="font-Primary desktop:text-8xl phone:text-2xl text-primary-color drop-shadow-lg animate-fadeIn">Chez Marwin-Union</h1>
-  </section>
+      </div>
         <div class="flex mt-[2%] gap-[20%] justify-center">
           <NuxtLink to="https://www.instagram.com/chez_marwinunion/" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"> <img loading="lazy" src="/icons/socials/instagram_primary.svg" alt="Iconf of Instagram" class="w-[32px]"> </NuxtLink>
           <NuxtLink to="https://www.linkedin.com/company/chez-marwin-union/" target="_blank" class="hover:-translate-y-2 hover:scale-110 transition-all delay-100"> <img loading="lazy" src="/icons/socials/linkedin_primary.svg" alt="Icon of Linkedin" class="w-[32px]"> </NuxtLink>
@@ -89,7 +89,7 @@ onMounted(() => {
   </section>
 
   <!-- Présentation des services -->
-  <section class="w-full phone:mb-[20%] desktop:mb-0">
+  <section aria-label="Présentation des services de l'entreprise Chez Marwin Union" class="w-full phone:mb-[20%] desktop:mb-0">
     <!-- CMW -->
     <div class="bg-CMW-secondary bg-opacity-30 items-center desktop:flex phone:grid phone:grid-cols-1 desktop:gap-[10%] justify-between py-[4%] phone:h-[600px] desktop:h-full">
       <div class="grid pl-[4%] gap-[10%] phone:order-2 desktop:order-1">
@@ -166,7 +166,7 @@ onMounted(() => {
     </div>
   </section>
   
-<section class="-mt-[40%]">
+<section aria-label="Les retours clients de l'entreprise Chez Marwin Union" class="-mt-[40%]">
   <h3 class="text-5xl font-Primary font-bold text-primary-color mr-[2%] text-right">Les retours clients</h3>
   <div class="max-w-6xl mx-auto px-4">
     <div ref="swiperRef" class="swiper">
@@ -185,7 +185,7 @@ onMounted(() => {
 
 </section>
 
-      <section class="grid desktop:grid-cols-2 items-center gap-[2%] mx-[6%]">
+      <section aria-label="FAQ de l'entreprise Chez Marwin Union" class="grid desktop:grid-cols-2 items-center gap-[2%] mx-[6%]">
       <FAQ 
       question1="Pourquoi avoir créé une entreprise double service alliant digital et événementiel ?"
       reponse1="J’ai créé Chez Marwin Union comme un projet de vie, né d’un défi personnel : construire, en totale autonomie, une entreprise qui me ressemble, en parallèle de mes études, de mes emplois et de mes engagements associatifs. Ce projet incarne une ambition profonde : mettre mes compétences au service des autres, avec sens et authenticité. À travers le digital et l'événementiel, je souhaite rassembler les idées, valoriser les parcours, créer du lien et accompagner des projets à impact humain. Chez Marwin Union, c’est l’union entre vos envies, vos valeurs et mon expertise"

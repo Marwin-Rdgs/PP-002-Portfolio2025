@@ -18,7 +18,7 @@ const filteredProjectList = computed(() => {
 })
 </script>
 <template>
-    <section class="flex justify-center items-center gap-[2%] mt-[6%] animate-pulse w-[90%] mx-auto">
+    <section aria-label="Hero de la page Chez Marwin TeamCare service de l'entreprise Chez Marwin Union" class="flex justify-center items-center gap-[2%] mt-[6%] animate-pulse w-[90%] mx-auto">
       <img loading="lazy" src="/imgs/Chez-MarwinUnion/CMTC.svg" alt="Logo de Chez Marwin TeamCare service de Chez Marwin Union entreprise de Marwin RODRIGUES" class="desktop:w-[128px] phone:w-[64px] animate-fadeIn">
       <h1 class="font-Primary desktop:text-8xl phone:text-2xl text-CMTC-primary drop-shadow-lg animate-fadeIn">Chez Marwin-TeamCare</h1>
     </section>
@@ -32,7 +32,7 @@ const filteredProjectList = computed(() => {
       <p class="text-base font-Secondary text-dark-color text-justify">Chez Marwin TeamCare, chaque événement est une histoire, et chaque collaboration une relation de confiance. Ensemble, prenons soin de votre équipe autrement.</p>
     </div>
     
-  <section class="desktop:mt-[10%] phone:mt-[26%] mx-[10%]">
+  <section aria-label="Liste des partenaires de Chez Marwin TeamCare service de l'entreprise Chez Marwin Union" class="desktop:mt-[10%] phone:mt-[26%] mx-[10%]">
     <h3 class="text-5xl font-Primary font-bold text-CMTC-primary ml-[2%]">
       La famille TeamCare
     </h3>
@@ -51,7 +51,7 @@ const filteredProjectList = computed(() => {
   </section>
 
 
-    <section>
+    <section aria-label="l'accompagnement du service de Chez Marwin TeamCare de l'entreprise Chez Marwin Union">
     <div class="bg-black text-white py-8">
     <div class="container mx-auto flex flex-col items-start desktop:flex-row my-12 md:my-24">
       <div class="flex flex-col w-full sticky desktop:top-36 desktop:w-1/3 mt-2 desktop:mt-12 px-8">
@@ -120,7 +120,7 @@ const filteredProjectList = computed(() => {
   </section>
 
       <!-- Cartes projets filtrées -->
-    <section class="mx-[6%]">
+    <section aria-label="les projets de Chez Marwin TeamCare service de l'entreprise Chez Marwin Union" class="mx-[6%]">
     <h3 class="text-5xl font-Primary font-bold text-CMTC-primary ml-[2%]">Nos co-créations</h3>
       <div class="grid desktop:grid-cols-3 phone:gap-[4%] desktop:gap-[10%] mx-[10%] mb-[10%] mt-[2%]">
         <CardProject
@@ -132,7 +132,7 @@ const filteredProjectList = computed(() => {
       </div>
     </section>
 
-        <section class="grid desktop:grid-cols-2 items-center gap-[2%] mx-[6%] phone:mt-[20%] desktop:mt-[4%">
+        <section aria-label="FAQ de Chez Marwin TeamCare service de l'entreprise Chez Marwin Union" class="grid desktop:grid-cols-2 items-center gap-[2%] mx-[6%] phone:mt-[20%] desktop:mt-[4%">
       <FAQ 
       question1="Comment sont sélectionnés vos partenaires de confiance ?"
       reponse1="Chez Marwin TeamCare, le réseau de partenaires fonctionne comme une véritable famille. Chaque partenaire est choisi pour la qualité de son service, son sens de l’accueil et sa volonté de faire vivre une belle expérience humaine. Grâce à des accords de confiance, mes partenaires s’engagent à proposer des avantages exclusifs et des réductions pour chaque événement organisé. Leur satisfaction client, tout comme la vôtre, est une priorité partagée."

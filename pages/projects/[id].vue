@@ -250,14 +250,14 @@ const projectCollab = computed(() => {
 
 <template>
   <!-- --------------------------- Image entête --------------------------- -->
-  <section>
+  <section aria-label="Entête du projet">
     <img loading="lazy" :src="project.img" :alt="project.alt" class="w-full h-full" />
   </section>
 
   <!-- --------------------------- Détails & Contexte --------------------------- -->
   <div class="grid desktop:grid-cols-4 phone:gap-y-[12%] mt-[2%]">
     <!-- Colonne gauche : détails -->
-    <section class="mx-[4%] desktop:col-span-1">
+    <section aria-label="Détails du projet" class="mx-[4%] desktop:col-span-1">
       <h2 class="font-Primary font-bold text-2xl text-primary-color">{{ project.title }}</h2>
       <h2 class="font-Primary font-bold text-xl text-dark-color">Détails du projet</h2>
 
@@ -278,7 +278,7 @@ const projectCollab = computed(() => {
     </section>
 
     <!-- Colonne droite : contexte -->
-    <section class="mx-[4%] desktop:col-span-3">
+    <section aria-label="Contexte du projet" class="mx-[4%] desktop:col-span-3">
       <h2 class="font-Primary font-bold text-xl text-dark-color mb-[1%]">Contexte</h2>
       <p class="font-Secondary font-normal text-dark-color text-justify">
         {{ project.context }}
@@ -287,7 +287,7 @@ const projectCollab = computed(() => {
   </div>
 
   <!-- --------------------------- Description --------------------------- -->
-  <section class="mx-[2%] phone:mt-[26%] desktop:mt-[2%]">
+  <section aria-label="Description du projet" class="mx-[2%] phone:mt-[26%] desktop:mt-[2%]">
     <h2 class="font-Primary font-bold text-2xl text-primary-color">Description</h2>
     <p class="font-Secondary font-normal text-dark-color">
       {{ project.description }}
@@ -295,7 +295,7 @@ const projectCollab = computed(() => {
   </section>
 
   <!-- --------------------------- Collaborateur(s) --------------------------- -->
-  <section v-if="project.collaborateurs!=''" class="mx-[2%] phone:mt-[18%] desktop:mt-[2%]">
+  <section aria-label="Collaborateurs du projet" v-if="project.collaborateurs!=''" class="mx-[2%] phone:mt-[18%] desktop:mt-[2%]">
     <h2 class="font-Primary font-bold text-2xl text-primary-color">Collaborateurs</h2>
     <ul class="flex flex-wrap gap-[2%] mt-[1%] justify-center">
 
@@ -313,7 +313,7 @@ const projectCollab = computed(() => {
   </section>
 
   <!-- --------------------------- Retour --------------------------- -->
-  <section v-if="project.retour!=''" class="mx-[2%] phone:mt-[18%] desktop:mt-[2%]">
+  <section aria-label="Retour client du projet" v-if="project.retour!=''" class="mx-[2%] phone:mt-[18%] desktop:mt-[2%]">
     <h2 class="font-Primary font-bold text-2xl text-primary-color">Retour</h2>
     <p class="font-Secondary font-normal text-dark-color italic">
       {{ project.retour }}
@@ -321,7 +321,7 @@ const projectCollab = computed(() => {
   </section>
 
   <!-- --------------------------- Logiciels utilisés --------------------------- -->
-  <section class="mt-8 mx-[2%] mb-[3%]">
+  <section aria-label="Logiciels utilisés pour le projet" class="mt-8 mx-[2%] mb-[3%]">
     <h2 class="font-Primary font-bold text-2xl text-primary-color mb-[1%]">
       Logiciels utilisés
     </h2>
@@ -341,7 +341,7 @@ const projectCollab = computed(() => {
   </section>
 
     <!-- --------------------------- Links --------------------------- -->
-  <section class="mt-8 mx-[8%] flex justify-center gap-[10%]">
+  <section aria-label="Redirection du projet" class="mt-8 mx-[8%] flex justify-center gap-[10%]">
     <NuxtLink v-if="project.doc!=''" :to="project.doc" target="_blank" class="w-full bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Documentation</button></NuxtLink>
     <NuxtLink v-if="project.link!=''" :to="project.link" target="_blank" class="w-full bg-primary-color bg-opacity-100 border-2 border-primary-color hover:bg-opacity-30 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-110 hover:scale-100 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm w-full">Le projet</button></NuxtLink>
     <NuxtLink v-if="project.repos!=''" :to="project.repos" target="_blank" class="w-full bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Repository</button></NuxtLink>
@@ -349,14 +349,14 @@ const projectCollab = computed(() => {
 
 
   <!-- --------------------------- Galerie --------------------------- -->
-  <section class="mx-[8%] mt-8 grid desktop:grid-cols-2 gap-[4%] items-center">
+  <section aria-label="Galerie photo du projet" class="mx-[8%] mt-8 grid desktop:grid-cols-2 gap-[4%] items-center">
     <img loading="lazy" v-if="project.img1!=''" :src="project.img1" alt="Image 1 de la gallerie photo du projet" class="w-[700px]" />
     <img loading="lazy" v-if="project.img2!=''" :src="project.img2" alt="Image 2 de la gallerie photo du projet" class="w-[700px]" />
     <img loading="lazy" v-if="project.img3!=''" :src="project.img3" alt="Image 3 de la gallerie photo du projet" class="w-full desktop:col-span-2"/>
   </section>
 
   <!-- --------------------------- Boutons / Navigation --------------------------- -->
-  <section class="flex justify-between desktop:mt-[8%] phone:mt-[14%] mx-[4%]">
+  <section aria-label="Navigation du projet" class="flex justify-between desktop:mt-[8%] phone:mt-[14%] mx-[4%]">
         <NuxtLink :to="project.previous" class="w-1/4 bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Précédent</button></NuxtLink>
         <NuxtLink :to="project.next" class="w-1/4 bg-primary-color bg-opacity-30 border-2 border-primary-color hover:bg-opacity-100 shadow-sm shadow-secondary-color hover:shadow-md hover:shadow-primary-color scale-100 hover:scale-110 rounded-3xl py-[1%] transition-all duration-300"><button class="w-full font-Primary text-dark-color desktop:text-lg phone:text-sm">Suivant</button></NuxtLink>
   </section>

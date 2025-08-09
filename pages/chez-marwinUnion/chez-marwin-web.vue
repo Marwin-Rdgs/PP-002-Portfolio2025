@@ -18,7 +18,7 @@ const filteredProjectList = computed(() => {
 });
 </script>
 <template>
-    <section class="flex justify-center items-center gap-[2%] mt-[6%] animate-pulse w-[90%] mx-auto">
+    <section aria-label="Hero de la page de présentation du service Chez Marwin Web de l'entreprise Chez Marwin Union" class="flex justify-center items-center gap-[2%] mt-[6%] animate-pulse w-[90%] mx-auto">
       <img loading="lazy" src="/imgs/Chez-MarwinUnion/CMW.svg" alt="logo de Chez Marwin Web service de Chez Marwin Union entreprise de Marwin RODRIGUES" class="desktop:w-[128px] phone:w-[64px] animate-fadeIn">
       <h1 class="font-Primary desktop:text-8xl phone:text-2xl text-CMW-primary drop-shadow-lg animate-fadeIn">Chez Marwin-Web</h1>
     </section>
@@ -31,7 +31,7 @@ const filteredProjectList = computed(() => {
       <p class="text-base font-Secondary text-dark-color text-justify">Chez Marwin Web, chaque projet est unique, et chaque collaboration est un vrai partenariat. Ensemble, faisons de votre présence digitale un atout fort et humain.</p>
     </div>   
 
-    <section>
+    <section aria-label="l'accompagnement du service Chez Marwin Web de l'entreprise Chez Marwin Union">
     <div class="bg-black text-white py-8">
     <div class="container mx-auto flex flex-col items-start desktop:flex-row my-12 md:my-24">
       <div class="flex flex-col w-full sticky desktop:top-36 desktop:w-1/3 mt-2 desktop:mt-12 px-8">
@@ -100,7 +100,7 @@ const filteredProjectList = computed(() => {
   </section>
 
       <!-- Cartes projets filtrées -->
-    <section class="mx-[6%]">
+    <section aria-label="Liste des projets du service Chez Marwin Web de l'entreprise Chez Marwin Union" class="mx-[6%]">
     <h3 class="text-5xl font-Primary font-bold text-CMW-primary ml-[2%]">Nos co-créations</h3>
       <div class="grid desktop:grid-cols-3 phone:gap-[4%] desktop:gap-[10%] mx-[10%] mb-[10%] mt-[2%]">
         <CardProject
@@ -112,7 +112,7 @@ const filteredProjectList = computed(() => {
       </div>
     </section>
 
-        <section class="grid desktop:grid-cols-2 items-center gap-[2%] mx-[6%] phone:mt-[20%] desktop:mt-[4%]">
+        <section aria-label="FAQ du service Chez Marwin Web de l'entreprise de Chez Marwin Union" class="grid desktop:grid-cols-2 items-center gap-[2%] mx-[6%] phone:mt-[20%] desktop:mt-[4%]">
       <FAQ 
       question1="Est-ce que vous assurez le suivi et la maintenance du site après sa mise en ligne ?"
       reponse1="Absolument. Chez Marwin Web, la création d’un site web ne s’arrête pas à sa mise en ligne. Je propose un véritable accompagnement dans la durée, à travers un abonnement annuel personnalisé. Cela comprend les mises à jour techniques, la maintenance régulière du site, ainsi qu’une disponibilité en cas de besoin pour effectuer des modifications ou des ajustements. Ce suivi fait partie intégrante de ma vision du métier : construire des relations durables et rassurantes avec mes clients, même après la livraison. Vous n’êtes jamais laissé seul face à votre site : je reste à vos côtés."

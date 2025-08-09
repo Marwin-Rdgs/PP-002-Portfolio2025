@@ -60,7 +60,7 @@ const handleSubmit = async () => {
 </script>
 
 <template>
-  <section class="flex flex-col justify-center mx-[4%] items-center mt-[4%] overflow-x-hidden">
+  <section aria-label="Formulaire de contact" class="flex flex-col justify-center mx-[4%] items-center mt-[4%] overflow-x-hidden">
     <h1 class="text-5xl font-Primary font-bold text-primary-color ml-[2%]">Me contacter</h1>
     
     <div class="w-2/3 px-4 py-12 relative mt-[2%]">

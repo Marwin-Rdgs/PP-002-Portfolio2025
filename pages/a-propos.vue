@@ -55,7 +55,7 @@ function updateWord() {
 </script>
 
 <template>
-    <section class="mt-[6%]">
+    <section aria-label="Hero page d'à propos" class="mt-[6%]">
       <div class="phone:grid phone:grid-cols-1 desktop:flex desktop:flex-row justify-between items-center">
 
         <div class="phone:col-start-2 desktop:w-1/2 z-10 pl-[4%]">
@@ -95,7 +95,7 @@ function updateWord() {
     </section>
 
     <!-- Section Paragraphe -->
-    <section
+    <section aria-label="Histoire de Marwin RODRIGUES"
     ref="hoverArea"
     class="mt-[13%] mx-[4%] relative cursor-none overflow-hidden grid grid-cols-1 desktop:h-[1400px] phone:gap-[1%] desktop:gap-0"
     @mousemove="handleMouseMove"
@@ -126,7 +126,7 @@ function updateWord() {
     </section>
 
 
-    <section class="relative antialiased">
+    <section aria-label="Parcours de Marwin RODRIGUES" class="relative antialiased">
       <main class="relative min-h-screen overflow-hidden">
         <div class="w-full px-4 md:px-6 py-24">
           <div class="divide-y divide-primary-color [&>*]:py-16">
