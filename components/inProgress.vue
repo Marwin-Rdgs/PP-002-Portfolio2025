@@ -4,12 +4,12 @@
        <div class="progess__content">
            <div class="progress__content-text">
                <div class="putCenter">
-                   <img class="logoprincipal" src="/imgs/Marwin/Logo-MarwinWeb.png" alt="Logo de Marwin RODRIGUES, Auto-entrepreneur en services numériques">
+                   <img loading="lazy" class="logoprincipal" src="/imgs/Chez-MawinUnion/CMU.svg" alt="Logo de Marwin RODRIGUES, Business Manager & Entrepreneur">
                </div>
                <h1>Coming Soon</h1>
                <p>Le futur site web de Marwin RODRIGUES prend vie… Restez connectés pour une expérience innovante à venir !</p>
                <div class="putCenter">
-                   <a href="https://www.linkedin.com/in/marwin-rodrigues/"><button>Savoir plus sur Marwin RODRIGUES</button></a>
+                   <NuxtLink to="https://www.linkedin.com/in/marwin-rodrigues/" target="_blank"><button>Savoir plus sur Marwin RODRIGUES</button></NuxtLink>
                </div>
            </div>
        </div>

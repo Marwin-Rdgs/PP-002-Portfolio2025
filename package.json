@@ -10,8 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/google-gtag": "^1.0.4",
+    "@nuxtjs/sitemap": "^7.4.3",
     "animate.css": "^4.1.1",
     "nuxt": "^3.14.1592",
+    "swiper": "^11.2.6",
     "vue": "latest",
     "vue-router": "latest"
   },

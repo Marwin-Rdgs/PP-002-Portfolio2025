@@ -1,1 +1,21 @@
+# robots.txt for marwin-rodrigues.fr
+User-agent: *
 
+# Autoriser toutes les pages publiques
+Allow: /
+
+# Empêcher l'indexation des répertoires sensibles ou inutiles
+Disallow: /admin/
+Disallow: /server/
+Disallow: /serveur/
+Disallow: /api/
+Disallow: /data/
+Disallow: /assets/
+Disallow: /components/
+Disallow: /layouts/
+Disallow: /pages/
+Disallow: /static/
+Disallow: /node_modules/
+
+# Sitemap pour les moteurs de recherche
+Sitemap: https://marwin-rodrigues.fr/sitemap.xml

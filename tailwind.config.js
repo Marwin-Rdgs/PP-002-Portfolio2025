@@ -9,33 +9,41 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'primary-color' : '#EEA500',
-      'secondary-color' : '#F3BB40',
-      'contrast-color' : '#2C3236',
-      'dark-color' : '#140F03',
-      'light-color' : '#FAFAFA',
+      'primary-color': '#F0A500',
+      'secondary-color': '#FCC35F',
+      'contrast-color': '#2C3236',
+      'dark-color': '#140F03',
+      'light-color': '#FAFAFA',
+      'CMW-primary': '#6BC4CC',
+      'CMW-secondary': '#BAE0E6',
+      'CMTC-primary': '#6CB96A',
+      'CMTC-secondary': '#B2D6A8',
+      'alert-color': '#FF4242',
     },
     fontFamily: {
       Primary: ['Reem Kufi', 'sans-serif'],
       Secondary: ['Quicksand', 'sans-serif'],
     },
-    "screens": {
+    screens: {
       phone: '274px',
-      // tablette: '425px',
-      desktop: '1024px'
+      desktop: '1024px',
     },
     extend: {
       animation: {
         fadeIn: 'fadeIn 1s ease-in-out',
+        marquee: 'marquee 30s linear infinite',
       },
       keyframes: {
         fadeIn: {
           '0%': { opacity: 0 },
           '100%': { opacity: 1 },
         },
+        marquee: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
       },
     },
   },
-
   plugins: [],
-};
+}

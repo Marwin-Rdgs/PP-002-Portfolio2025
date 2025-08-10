@@ -1,0 +1,47 @@
+# LLMS.txt - Fichier de métadonnées pour l’optimisation SEO et le référencement IA du site web
+
+## Informations générales
+Site: https://marwin-rodrigues.fr/
+Nom: Marwin Rodrigues - Business Manager & Entrepreneur
+Description: Découvrez le portfolio professionnel de Marwin Rodrigues, Business Manager hybride et Entrepreneur passionné basé entre France et Suisse. Projets web, services digitaux et événementiels via l’auto-entreprise Chez Marwin Union, et expertise en gestion digitale.
+Auteur: Marwin RODRIGUES
+Langue: fr-FR
+Date de mise à jour: 2025-08-07
+
+## Mots-clés principaux (SEO)
+Mots-clés: Mots-clés: Marwin Rodrigues, développeur web, développeur front-end, NuxtJS, TailwindCSS, Vue.js, chef de projet IT, scrum master, product owner, product manager, portfolio professionnel, auto-entrepreneur, freelance Suisse, Genève, Lausanne, Vaud, Suisse romande, Chez Marwin Union, Chez Marwin Web, Chez Marwin TeamCare, business manager digital, gestion de projet web, communication digitale, stratégie digitale, teambuilding, team building, teamcare, gestion du turnover, événements d’équipe, projets web créatifs, startup, innovation digitale, accessibilité web, SEO, IA, optimisation référencement, entrepreneur numérique
+
+## Réseaux sociaux et contacts
+LinkedIn: https://www.linkedin.com/in/marwin-rodrigues
+GitHub: https://github.com/marwin-rodrigues
+Email: contact@marwin-rodrigues.fr
+
+## Informations techniques
+Version du site: 2.0
+Technologies: NuxtJS 3, TailwindCSS, Vue.js, Node.js, JavaScript, HTML5, CSS3
+Optimisation mobile: Oui (responsive)
+Certificat SSL: Oui
+Accessibilité: Conforme aux standards WCAG partiels
+Vitesse de chargement: Optimisée (PageSpeed Insights : 96/100 Desktop)
+
+## Plan du site et indexation
+Sitemap: https://marwin-rodrigues.fr/sitemap.xml
+Robots.txt: https://marwin-rodrigues.fr/robots.txt
+LLM.txt: https://marwin-rodrigues.fr/llm.txt
+Indexation IA et moteurs: Oui (autorisé)
+
+## Mentions légales et RGPD
+Conformité RGPD: Oui
+Mentions légales: Oui
+Politique de confidentialité: Oui
+
+## Objectif du site
+Objectif: Présenter le profil professionnel de Marwin Rodrigues, son expertise en gestion de projets, ses services d'entrepreneur, et faciliter la prise de contact avec des recruteurs ou clients potentiels dans les secteurs tech et digitaux.
+
+## Informations complémentaires
+- Dernière mise à jour du contenu: 2025-08-07
+- Responsable du contenu: Marwin RODRIGUES
+- Licence des contenus: MIT (hors éléments tiers)
+- Autorisation IA : Oui — les contenus peuvent être indexés et utilisés pour le référencement ou les réponses générées par les modèles de langage (LLMs)
+
+# Fin du fichier LLMS.txt
