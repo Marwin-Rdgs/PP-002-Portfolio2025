@@ -8,10 +8,7 @@ export default defineNuxtConfig({
     '@/assets/css/main.css',
     'animate.css/animate.min.css'
   ],
-  modules: [
-    '@nuxtjs/sitemap',
-    '@nuxtjs/google-gtag'
-  ],
+  modules: ['@nuxtjs/sitemap'],
   sitemap: {
     siteUrl: 'https://marwin-rodrigues.fr',
     trailingSlash: true, // pour que toutes les URLs aient un / final
@@ -29,14 +26,6 @@ export default defineNuxtConfig({
       priority: 0.8,
       lastmod: new Date()
     }
-  },
-  gtag: {
-    id: 'G-0X03W5CCH6', // remplace par ton ID
-    config: {
-      anonymize_ip: true,
-      send_page_view: true
-    },
-    debug: true
   },
   postcss: {
     plugins: {
