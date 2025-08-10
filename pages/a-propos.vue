@@ -1,6 +1,49 @@
 <script setup>
 import { ref } from 'vue'
 import projectList from '~/data/projectList.json'
+import { useHead } from '#imports';
+
+useHead({
+  title: "À propos | Marwin Rodrigues - Business Manager & Entrepreneur",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Marwin Rodrigues – Business Manager & Entrepreneur spécialisé en projets digitaux, management et innovation."
+    },
+    {
+      name: "keywords",
+      content:
+        "Marwin Rodrigues, Business Manager, Entrepreneur, Projets digitaux, Management, Innovation, CV en ligne, Strasbourg, Bas-rhin, Montbéliard, Doubs, Divonne-les-bains, Ain, Freelance, Chez Marwin Union, Chez Marwin Web, Chez Marwin TeamCare"
+    },
+    { name: "author", content: "Marwin Rodrigues" },
+
+    // Open Graph
+    { property: "og:title", content: "À propos | Marwin Rodrigues - Business Manager & Entrepreneur" },
+    {
+      property: "og:description",
+      content:
+        "Parcourez mon profil : Business Manager & Entrepreneur passionné par la gestion de projets digitaux et l'innovation."
+    },
+    { property: "og:image", content: "https://marwin-rodrigues.fr/imgs/Marwin/About_Me.png" },
+    { property: "og:url", content: "https://marwin-rodrigues.fr/a-propos" },
+    { property: "og:type", content: "profile" },
+
+    // Twitter Card
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: "À propos | Marwin Rodrigues - Business Manager & Entrepreneur" },
+    {
+      name: "twitter:description",
+      content:
+        "Marwin Rodrigues – Business Manager & Entrepreneur passionné par le digital, le management et l'innovation."
+    },
+    { name: "twitter:image", content: "https://marwin-rodrigues.fr/imgs/Marwin/About_Me.png" }
+  ],
+  link: [
+    { rel: "canonical", href: "https://marwin-rodrigues.fr/a-propos" }
+  ]
+})
+
 
 const projectCount = projectList.length
 

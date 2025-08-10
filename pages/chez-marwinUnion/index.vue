@@ -4,6 +4,49 @@ import articleListRaw from '@/data/CMU-articles.json';
 import feedbackListRaw from '@/data/feedbackIndex.json';
 import projectListRaw from '@/data/projectList.json';
 import Swiper from 'swiper/bundle';
+import { useHead } from '#imports';
+
+useHead({
+  title: "Chez Marwin Union | Entreprise Multi-Service",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Découvrez Chez Marwin Union, votre agence de communication et événementielle dédiée à la création de projets digitaux innovants et performants."
+    },
+    {
+      name: "keywords",
+      content:
+        "Chez Marwin Union, agence communication, événementiel, digital, création site internet, marketing digital, gestion de projet, innovation digitale, Marwin Rodrigues, Business Manager, Entrepreneur, Développeur Web, Gestion de projet, Digital, Communication, SEO, NuxtJS, TailwindCSS, Chez Marwin Web, Chez Marwin TeamCare, Chez Marwin Union, Auto-entreprise, Agence de communication, Freelance, Strasbourg, Divonne les bains, Montbéliard, Doubs, Bas-rhin, Ain"
+    },
+    { name: "author", content: "Marwin Rodrigues" },
+
+    // Open Graph
+    { property: "og:title", content: "Chez Marwin Union | Agence de Communication & événementielle" },
+    {
+      property: "og:description",
+      content:
+        "Agence de communication et événementielle spécialisée dans la création digitale innovante et la gestion de projets sur mesure."
+    },
+    { property: "og:image", content: "https://marwin-rodrigues.fr/imgs/Chez-MarwinUnion/CMU.svg" },
+    { property: "og:url", content: "https://marwin-rodrigues.fr/chez-marwinUnion" },
+    { property: "og:type", content: "website" },
+
+    // Twitter Card
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: "Chez Marwin Union | Agence de Communication & événementielle" },
+    {
+      name: "twitter:description",
+      content:
+        "Votre agence spécialisée en communication digitale et événementielle, pour donner vie à vos projets innovants."
+    },
+    { name: "twitter:image", content: "https://marwin-rodrigues.fr/imgs/Chez-MarwinUnion/CMU.svg" }
+  ],
+  link: [
+    { rel: "canonical", href: "https://marwin-rodrigues.fr/chez-marwinUnion" }
+  ]
+});
+
 
 const feedbackList = ref(feedbackListRaw);
 const articleList = ref([...articleListRaw].reverse().slice(0, 3));

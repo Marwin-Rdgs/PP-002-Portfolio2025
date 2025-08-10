@@ -1,11 +1,50 @@
 <script setup>
 import { useRoute } from 'vue-router'
 import articleListRaw from '@/data/CMU-articles.json'
+import { useHead } from '#imports';
 
 const route = useRoute()
 const articleId = route.params.id
 
 const article = articleListRaw.find(a => a.id === articleId)
+const baseKeywords = "Marwin Rodrigues, Business Manager, Entrepreneur, Développeur Web, Gestion de projet, Digital, Communication, SEO, NuxtJS, TailwindCSS, Chez Marwin Web, Chez Marwin TeamCare, Chez Marwin Union, Auto-entreprise, Agence de communication, Freelance, Strasbourg, Divonne les bains, Montbéliard, Doubs, Bas-rhin, Ain"
+
+useHead({
+  title: `${article.title} | Chez Marwin Union`,
+  meta: [
+    {
+      name: "description",
+      content: article.intro || `Découvrez l'article "${article.title}" publié par Chez Marwin Union.`
+    },
+    {
+      name: "keywords",
+      content: `${article.title}, ${article.categ}, ${baseKeywords}`
+    },
+    { name: "author", content: "Marwin Rodrigues" },
+
+    // Open Graph
+    { property: "og:title", content: `${article.title} | Chez Marwin Union` },
+    {
+      property: "og:description",
+      content: article.intro || `Article "${article.title}" publié par Chez Marwin Union.`
+    },
+    { property: "og:image", content: article.cover || "https://marwin-rodrigues.fr/imgs/Chez-MarwinUnion/CMU-Signature.svg" },
+    { property: "og:url", content: `https://marwin-rodrigues.fr/chez-marwinUnion/articles/${article.id}` },
+    { property: "og:type", content: "article" },
+
+    // Twitter Card
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: `${article.title} | Chez Marwin Union` },
+    {
+      name: "twitter:description",
+      content: article.intro || `Article publié par Chez Marwin Union.`
+    },
+    { name: "twitter:image", content: article.cover || "https://marwin-rodrigues.fr/imgs/Chez-MarwinUnion/CMU-Signature.svg" }
+  ],
+  link: [
+    { rel: "canonical", href: `https://marwin-rodrigues.fr/chez-marwinUnion/articles/${article.id}` }
+  ]
+})
 </script>
 
 <template>

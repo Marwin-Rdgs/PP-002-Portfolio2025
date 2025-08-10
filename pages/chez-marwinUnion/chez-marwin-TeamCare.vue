@@ -2,6 +2,49 @@
 import { ref, computed } from 'vue'
 import projectListRaw from '@/data/projectList.json'
 import partnersListRaw from '@/data/partners.json'
+import { useHead } from '#imports';
+
+useHead({
+  title: "Chez Marwin TeamCare | Organisation d'événements d'entreprise sur mesure",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Chez Marwin TeamCare vous accompagne dans l'organisation d'événements d'entreprise sur mesure : team building, afterworks, dîners d'affaires. Renforcez la cohésion et le bien-être de vos équipes avec Chez Marwin Union."
+    },
+    {
+      name: "keywords",
+      content:
+        "Chez Marwin TeamCare, organisation événements entreprise, team building, afterworks, dîner d'affaires, cohésion équipe, événement sur mesure, Chez Marwin Union, Marwin Rodrigues, Business Manager, Entrepreneur, Développeur Web, Gestion de projet, Digital, Communication, SEO, NuxtJS, TailwindCSS, Chez Marwin Web, Auto-entreprise, Agence de communication, Freelance, Strasbourg, Divonne les bains, Montbéliard, Doubs, Bas-rhin, Ain"
+    },
+    { name: "author", content: "Marwin Rodrigues" },
+
+    // Open Graph
+    { property: "og:title", content: "Chez Marwin TeamCare | Organisation d'événements d'entreprise" },
+    {
+      property: "og:description",
+      content:
+        "Service d'organisation d'événements d'entreprise sur mesure (team building, afterworks, dîners d'affaires) par Chez Marwin Union."
+    },
+    { property: "og:image", content: "https://marwin-rodrigues.fr/imgs/Chez-MarwinUnion/CMTC.svg" },
+    { property: "og:url", content: "https://marwin-rodrigues.fr/chez-marwinUnion/chez-marwin-TeamCare" },
+    { property: "og:type", content: "website" },
+
+    // Twitter Card
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: "Chez Marwin TeamCare | Organisation d'événements d'entreprise" },
+    {
+      name: "twitter:description",
+      content:
+        "Renforcez la cohésion de vos équipes avec des événements sur mesure organisés par Chez Marwin TeamCare."
+    },
+    { name: "twitter:image", content: "https://marwin-rodrigues.fr/imgs/Chez-MarwinUnion/CMTC.svg" }
+  ],
+  link: [
+    { rel: "canonical", href: "https://marwin-rodrigues.fr/chez-marwinUnion/chez-marwin-TeamCare" }
+  ]
+});
+
 
 const partnerList = ref([...partnersListRaw].reverse())
 const selectedPresta = ref('all')

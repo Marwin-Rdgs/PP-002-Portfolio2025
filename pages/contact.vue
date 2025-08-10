@@ -1,6 +1,49 @@
 <script setup>
 import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
 const showCalendly = ref(false)
+import { useHead } from '#imports';
+
+useHead({
+  title: "Contact | Marwin Rodrigues - Business Manager & Entrepreneur",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Prenez contact avec Marwin Rodrigues pour échanger sur vos projets digitaux, opportunités professionnelles ou collaborations."
+    },
+    {
+      name: "keywords",
+      content:
+        "Contact Marwin Rodrigues, Marwin Rodrigues, Business Manager, Entrepreneur, Projets digitaux, Collaboration, Opportunités, Chez Marwin Web, Chez Marwin TeamCare, Chez Marwin Union, Strasbourg, Bas-Rhin, Divonne-les-bains, Ain, Montbéliard, Doubs, Freelance"
+    },
+    { name: "author", content: "Marwin Rodrigues" },
+
+    // Open Graph
+    { property: "og:title", content: "Contact | Marwin Rodrigues - Business Manager & Entrepreneur" },
+    {
+      property: "og:description",
+      content:
+        "Discutons ensemble de vos besoins, projets et idées. Contactez Marwin Rodrigues dès aujourd'hui."
+    },
+    { property: "og:image", content: "https://marwin-rodrigues.fr/imgs/Marwin/PhoneMarwin.png" },
+    { property: "og:url", content: "https://marwin-rodrigues.fr/contact" },
+    { property: "og:type", content: "website" },
+
+    // Twitter Card
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: "Contact | Marwin Rodrigues - Business Manager & Entrepreneur" },
+    {
+      name: "twitter:description",
+      content:
+        "Entrez en contact avec Marwin Rodrigues pour vos projets digitaux et opportunités professionnelles."
+    },
+    { name: "twitter:image", content: "https://marwin-rodrigues.fr/imgs/Marwin/PhoneMarwin.png" }
+  ],
+  link: [
+    { rel: "canonical", href: "https://marwin-rodrigues.fr/contact" }
+  ]
+})
+
 
 
 const form = ref({

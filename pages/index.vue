@@ -3,6 +3,50 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import feedbackListRaw from '@/data/feedbackIndex.json'
 import projectListRaw from '@/data/projectList.json'
 
+import { useHead } from '#imports';
+
+useHead({
+  title: "Marwin Rodrigues | Business Manager & Entrepreneur",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Découvrez Marwin Rodrigues, Business Manager & Entrepreneur passionné par le digital. Expert en développement web, communication et gestion de projets, je transforme vos idées en projets concrets."
+    },
+    {
+      name: "keywords",
+      content:
+        "Marwin Rodrigues, Business Manager, Entrepreneur, Développeur Web, Gestion de projet, Digital, Communication, SEO, NuxtJS, TailwindCSS, Chez Marwin Web, Chez Marwin TeamCare, Chez Marwin Union, Auto-entreprise, Agence de communication, Freelance, Strasbourg, Divonne les bains, Montbéliard, Doubs, Bas-rhin, Ain"
+    },
+    { name: "author", content: "Marwin Rodrigues" },
+
+    // Open Graph
+    { property: "og:title", content: "Marwin Rodrigues | Business Manager & Entrepreneur" },
+    {
+      property: "og:description",
+      content:
+        "Business Manager & Entrepreneur passionné par le digital. Marketing digital et gestion de projets ambitieux."
+    },
+    { property: "og:image", content: "https://marwin-rodrigues.fr/imgs/Marwin/Marwin-Index.png" },
+    { property: "og:url", content: "https://marwin-rodrigues.fr" },
+    { property: "og:type", content: "website" },
+
+    // Twitter Card
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: "Marwin Rodrigues | Business Manager & Entrepreneur" },
+    {
+      name: "twitter:description",
+      content:
+        "Développeur web et entrepreneur passionné, spécialisé en projets digitaux innovants."
+    },
+    { name: "twitter:image", content: "https://marwin-rodrigues.fr/imgs/Marwin/Marwin-Index.png" }
+  ],
+  link: [
+    { rel: "canonical", href: "https://marwin-rodrigues.fr" }
+  ]
+})
+
+
 const showCalendly = ref(false)
 const avis = ref(1)
 const feedbackList = ref(feedbackListRaw)

@@ -1,6 +1,49 @@
 <script setup>
 import { ref, computed } from 'vue'
 import partnersListRaw from '@/data/partners.json'
+import { useHead } from '#imports';
+
+useHead({
+  title: "Chez Marwin TeamCare | Nos Partenaires",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Découvrez l'ensemble des partenaires du service Chez Marwin TeamCare, sélectionnés pour vous accompagner avec des prestations de qualité dans divers domaines."
+    },
+    {
+      name: "keywords",
+      content:
+        "Marwin Rodrigues, Business Manager, Entrepreneur, Développeur Web, Gestion de projet, Digital, Communication, SEO, NuxtJS, TailwindCSS, Chez Marwin Web, Chez Marwin TeamCare, Chez Marwin Union, Auto-entreprise, Agence de communication, Freelance, Strasbourg, Divonne les bains, Montbéliard, Doubs, Bas-rhin, Ain, partenaires, collaboration, service partenaire"
+    },
+    { name: "author", content: "Marwin Rodrigues" },
+
+    // Open Graph
+    { property: "og:title", content: "Chez Marwin TeamCare | Nos Partenaires" },
+    {
+      property: "og:description",
+      content:
+        "Liste complète des partenaires du service Chez Marwin TeamCare, pour des collaborations de confiance et des services de qualité."
+    },
+    { property: "og:image", content: "https://marwin-rodrigues.fr/imgs/Chez-MarwinUnion/CMTC-Signature.svg" },
+    { property: "og:url", content: "https://marwin-rodrigues.fr/chez-marwin-Union/partner" },
+    { property: "og:type", content: "website" },
+
+    // Twitter Card
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: "Chez Marwin TeamCare | Nos Partenaires" },
+    {
+      name: "twitter:description",
+      content:
+        "Découvrez nos partenaires de confiance chez Chez Marwin TeamCare, experts dans leurs domaines respectifs."
+    },
+    { name: "twitter:image", content: "https://marwin-rodrigues.fr/imgs/Chez-MarwinUnion/CMTC-Signature.svg" }
+  ],
+  link: [
+    { rel: "canonical", href: "https://marwin-rodrigues.fr/chez-marwin-Union/partner" }
+  ]
+});
+
 
 const partnerList = ref([...partnersListRaw].reverse())
 

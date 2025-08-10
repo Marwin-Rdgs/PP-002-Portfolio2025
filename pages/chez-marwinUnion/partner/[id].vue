@@ -1,11 +1,79 @@
 <script setup>
 import { useRoute } from 'vue-router'
 import partnerListRaw from '@/data/partners.json'
+import { useHead } from '#imports';
 
 const route = useRoute()
 const partnerId = route.params.id
 
 const partner = partnerListRaw.find(p => p.id === partnerId)
+
+useHead(() => {
+  if (!partner) {
+    return {
+      title: "Partenaire Chez Marwin TeamCare | Chez Marwin Union",
+      meta: [
+        { name: "description", content: "Présentation d'un partenaire du service Chez Marwin TeamCare." },
+        {
+          name: "keywords",
+          content:
+            "Chez Marwin TeamCare, partenaire, événementiel entreprise, afterwork, teambuilding, dîner d'affaire, Chez Marwin Union, Marwin Rodrigues, Business Manager, Entrepreneur, Développeur Web, Gestion de projet, Digital, Communication, SEO, NuxtJS, TailwindCSS, Chez Marwin Web, Auto-entreprise, Agence de communication, Freelance, Strasbourg, Divonne les bains, Montbéliard, Doubs, Bas-rhin, Ain"
+        },
+        { name: "author", content: "Marwin Rodrigues" },
+        // Open Graph minimal fallback
+        { property: "og:title", content: "Partenaire Chez Marwin TeamCare | Chez Marwin Union" },
+        { property: "og:description", content: "Présentation d'un partenaire du service Chez Marwin TeamCare." },
+        { property: "og:type", content: "website" },
+        // Twitter Card minimal fallback
+        { name: "twitter:card", content: "summary" },
+        { name: "twitter:title", content: "Partenaire Chez Marwin TeamCare | Chez Marwin Union" },
+        { name: "twitter:description", content: "Présentation d'un partenaire du service Chez Marwin TeamCare." }
+      ],
+      link: [{ rel: "canonical", href: "https://marwin-rodrigues.fr/chez-marwin-Union/partner" }]
+    }
+  }
+
+  const baseKeywords =
+    "Marwin Rodrigues, Business Manager, Entrepreneur, Développeur Web, Gestion de projet, Digital, Communication, SEO, NuxtJS, TailwindCSS, Chez Marwin Web, Chez Marwin TeamCare, Chez Marwin Union, Auto-entreprise, Agence de communication, Freelance, Strasbourg, Divonne les bains, Montbéliard, Doubs, Bas-rhin, Ain";
+
+  return {
+    title: `${partner.name} | Partenaire Chez Marwin TeamCare`,
+    meta: [
+      {
+        name: "description",
+        content: partner.description || `Découvrez le partenaire "${partner.name}" du service Chez Marwin TeamCare.`
+      },
+      {
+        name: "keywords",
+        content: `${partner.name}, partenaire, Chez Marwin TeamCare, événementiel entreprise, afterwork, teambuilding, dîner d'affaire, ${baseKeywords}`
+      },
+      { name: "author", content: "Marwin Rodrigues" },
+
+      // Open Graph
+      { property: "og:title", content: `${partner.name} | Partenaire Chez Marwin TeamCare` },
+      {
+        property: "og:description",
+        content: partner.description || `Présentation du partenaire "${partner.name}" du service Chez Marwin TeamCare.`
+      },
+      { property: "og:image", content: partner.logo },
+      { property: "og:url", content: `https://marwin-rodrigues.fr/chez-marwin-Union/partner/${partner.id}` },
+      { property: "og:type", content: "website" },
+
+      // Twitter Card
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: `${partner.name} | Partenaire Chez Marwin TeamCare` },
+      {
+        name: "twitter:description",
+        content: partner.description || `Présentation du partenaire "${partner.name}" du service Chez Marwin TeamCare.`
+      },
+      { name: "twitter:image", content: partner.logo }
+    ],
+    link: [
+      { rel: "canonical", href: `https://marwin-rodrigues.fr/chez-marwin-Union/partner/${partner.id}` }
+    ]
+  }
+});
+
 </script>
 
 <template>

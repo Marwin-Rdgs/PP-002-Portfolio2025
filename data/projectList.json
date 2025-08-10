@@ -22,7 +22,8 @@
         "next": "PS2017001",
         "tools": ["wix"],
 
-        "presta": ""
+        "presta": "",
+        "keywords": ["Prod Squad", "Communauté Minecraft privée", "Événements Minecraft UHC", "Cités Minecraft", "Minecraft France", "Site web vitrine Minecraft", "Promotion communauté gaming", "Jeux vidéo multijoueur", "Command blocks Minecraft", "Équipe Minecraft française", "Organisation d’événements Minecraft", "Twitch Minecraft", "YouTube Minecraft", "Conception site web Wix", "Site web Wix gaming", "Projet web étudiant", "Première création web", "Navigation intuitive site web", "Identité visuelle gaming", "Expérience utilisateur site vitrine", "Passion jeux vidéo et web", "Site communautaire Minecraft", "Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Gestion de projet", "Digital", "Communication", "SEO", "NuxtJS", "TailwindCSS", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain"] 
     },
     {
         "id":"PS2017001",
@@ -47,7 +48,8 @@
         "next": "PP2022001",
         "tools": ["wix"],
 
-        "presta": ""
+        "presta": "",
+        "keywords":["Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Gestion de projet", "Digital", "Communication", "SEO", "NuxtJS", "TailwindCSS", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain","Trois Cent Team","Projet scolaire","Option ICN","Lycée Cuvier Montbéliard","Création numérique","Site portfolio","Travaux d'étudiants","Collaboration en équipe","Thomas Bouvais","Jordan","Wix","Développement web","HTML CSS débutant","Scratch fils tendus","Robotique en entreprise","Blog projet","Formulaire contact","Carte localisation lycée","Chat en direct","Espace utilisateur","CMS Wix","Design web","UX","Organisation contenu","Présentation équipe","Apprentissage web","Projet pédagogique","Projet web étudiant","Contenu accessible","Site web lisible","Première expérience numérique","Marwin Rodrigues","Développement site web scolaire","Conception site web","Projet de groupe"]
     },
     {
         "id":"PP2022001",
@@ -72,7 +74,8 @@
         "next": "PP2022002",
         "tools": ["html", "css", "js", "php","bootstrap","bootswatch", "phpmyadmin", "SQLite"],
 
-        "presta": ""
+        "presta": "",
+        "keywords": ["Stweaming", "plateforme de streaming unifiée", "site de streaming", "gestion de contenus", "animes", "films", "dessins animés", "séries", "MyAnimeList", "HTML", "CSS", "JavaScript", "PHP", "MySQL", "phpMyAdmin", "Bootstrap", "Bootswatch", "playlist personnalisée", "notation contenus", "commentaires", "expérience sociale", "catalogue fictif", "projet personnel", "roadmap fonctionnalités", "Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Gestion de projet", "Digital", "Communication", "SEO", "NuxtJS", "TailwindCSS", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain"]
     },
     {
         "id":"PP2022002",
@@ -97,7 +100,8 @@
         "next": "PC2022001",
         "tools": ["html", "css", "js"],
 
-        "presta": ""
+        "presta": "",
+        "keywords": ["Template Footer", "Footer Waves", "bas de page vague", "template HTML CSS JavaScript", "composant réutilisable", "design moderne", "effet vague", "personnalisation facile", "code commenté pédagogique", "accessibilité débutants", "projet personnel", "section site web", "template adaptable", "Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Gestion de projet", "Digital", "Communication", "SEO", "NuxtJS", "TailwindCSS", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain"]
     },
     {
         "id":"PC2022001",
@@ -122,7 +126,8 @@
         "next": "PC2022002",
         "tools": ["html", "css", "illustrator"],
 
-        "presta": ""
+        "presta": "",
+        "keywords": ["Citadelle de Besançon", "illustration animée", "style graphique Firewatch", "paysages en aplats", "couleurs chaudes", "atmosphère immersive", "Adobe Illustrator", "animation HTML CSS", "effets de profondeur", "dégradés de teintes", "création personnelle", "animation web sans JavaScript", "exercice pédagogique", "BUT MMI", "projet étudiant", "Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Gestion de projet", "Digital", "Communication", "SEO", "NuxtJS", "TailwindCSS", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain"]
     },
     {
         "id":"PC2022002",
@@ -147,7 +152,8 @@
         "next": "PS2023001",
         "tools": ["vue","tailwind","js","figma","alpine","firebase","github","trello","openstreetmap"],
 
-        "presta": ""
+        "presta": "",
+        "keywords": ["go-match", "gestion terrain sport", "plateforme multisports", "réservation terrain", "VueJS", "TailwindCSS", "AlpineJS", "Firebase NoSQL", "OpenStreetMap", "Netlify", "GitHub", "Trello", "Adobe Illustrator", "Figma", "branding", "maquette", "expérience utilisateur", "gestion de projet", "développement web", "Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Gestion de projet", "Digital", "Communication", "SEO", "NuxtJS", "TailwindCSS", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain"]
     },
     {
         "id":"PS2023001",
@@ -172,7 +178,8 @@
         "next": "PC2023001",
         "tools": ["vue","tailwind","adobe","figma", "github", "supabase", "openweathermap", "trello"],
 
-        "presta": ""
+        "presta": "",
+        "keywords": ["e-morphoz", "générateur NFT", "NFT écoresponsable", "personnalisation 3D", "coccinelle 3D", "accessoires NFT", "fond dynamique", "température extérieure", "Tezos blockchain", "Michelson smart contracts", "Supabase", "PlanetHoster énergie verte", "Blender", "Substance 3D Painter", "Substance 3D Stager", "Adobe Illustrator", "Photoshop", "Figma", "Trello", "Drive", "Discord", "Gantt Project", "gestion de projet", "gamification", "innovation technologique", "engagement écologique", "expérience utilisateur", "Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Gestion de projet", "Digital", "Communication", "SEO", "NuxtJS", "TailwindCSS", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain"]
     },
     {
         "id":"PC2023001",
@@ -197,7 +204,8 @@
         "next": "PC2024001",
         "tools": ["adobe"],
 
-        "presta": "web"
+        "presta": "web",
+        "keywords": ["Carte de visite", "flyer", "affiche publicitaire", "identité graphique", "communication locale", "auto-entrepreneur", "débarras", "ferrailles", "encombrants", "Adobe Illustrator", "Adobe Photoshop", "design professionnel", "charte graphique", "support imprimé", "communication mobile", "visibilité", "Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Gestion de projet", "Digital", "Communication", "SEO", "NuxtJS", "TailwindCSS", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain"]
     },
     {
         "id":"PC2024001",
@@ -222,7 +230,8 @@
         "next": "PS2023002",
         "tools": ["adobe"],
 
-        "presta": "web"
+        "presta": "web",
+        "keywords": ["flyer", "direction artistique", "identité visuelle", "logo", "palette de couleurs", "typographies", "design graphique", "communication visuelle", "secteur automobile", "image de marque", "supports visuels", "auto-entrepreneur", "local", "clientèle ciblée", "Adobe Illustrator", "Adobe Photoshop", "Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Gestion de projet", "Digital", "Communication", "SEO", "NuxtJS", "TailwindCSS", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain"]
     },
     {
         "id":"PS2023002",
@@ -247,7 +256,8 @@
         "next": "PC2024002",
         "tools": ["php", "scss","wordpress","tailwind","adobe","figma", "github", "trello", "selenium"],
 
-        "presta": ""
+        "presta": "",
+        "keywords": ["site web", "web tv", "contenus médias", "vidéos", "podcasts", "photos", "centralisation", "ergonomie", "gestion de projet", "communication interne", "travail en équipe", "WordPress", "SCSS", "WAMP", "Figma", "Illustrator", "Photoshop", "Premiere Pro", "Media Encoder", "Looping", "HappyScribe", "Visual Paradigm", "MindMeister", "Selenium", "développement web", "chef de projet", "pluridisciplinaire", "semi-professionnel", "Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Digital", "SEO", "NuxtJS", "TailwindCSS", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain"]
     },
     {
         "id":"PC2024002",
@@ -272,7 +282,8 @@
         "next": "PC2025001",
         "tools": ["html","css","js","tailwind"],
 
-        "presta": "web"
+        "presta": "web",
+        "keywords": ["portfolio", "BTS SIO", "SISR", "développement web", "NuxtJS", "TailwindCSS", "Animate.CSS", "CI/CD", "GitHub", "Netlify", "réactivité", "gestion de projet", "front-end", "responsive", "site web", "conception", "déploiement automatisé", "Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Digital", "Communication", "SEO", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain"]
     },
     {
         "id":"PC2025001",
@@ -297,7 +308,8 @@
         "next": "PC2025003",
         "tools": ["wordpress", "avada", "figma"],
 
-        "presta": "web"
+        "presta": "web",
+        "keywords": ["nettoyage écoresponsable", "WordPress", "Avada", "SEO local", "optimisation mobile", "direction artistique", "charte graphique", "témoignages clients", "carte d’intervention", "formulaire de contact", "durabilité", "Territoire de Belfort", "Doubs", "Haut-Rhin", "Haute-Saône", "site web promotionnel", "Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Gestion de projet", "Digital", "Communication", "SEO", "NuxtJS", "TailwindCSS", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain"]
     },
     {
         "id":"PC2025003",
@@ -322,7 +334,8 @@
         "next": "PC2025004",
         "tools": ["nuxt","scss","github"],
 
-        "presta": "web"
+        "presta": "web",
+        "keywords": ["DJ", "producteur Hardstyle", "musique électro", "site promotionnel", "strasbourg", "expérience utilisateur", "performance technique", "direction artistique", "animations rythmées", "SEO avancé", "optimisation mobile", "rich snippets", "microdonnées structurées", "hébergement Infomaniak", "nuxtjs", "scss", "github", "Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Gestion de projet", "Digital", "Communication", "SEO", "NuxtJS", "TailwindCSS", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain"]
     },
     {
         "id":"PC2025004",
@@ -347,6 +360,7 @@
         "next":"PC2017001",
         "tools": ["infomaniakEvents"],
 
-        "presta": "web"
+        "presta": "web",
+        "keywords": ["talk show", "production événementielle", "logistique", "billetterie", "animation", "scénarisation", "technique audiovisuelle", "communication événementielle", "direction artistique", "streaming", "énergie collective", "entrepreneuriat jeune", "cohésion d'équipe", "projet solidaire", "Montbéliard", "Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Gestion de projet", "Digital", "Communication", "SEO", "NuxtJS", "TailwindCSS", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain"]
     }
 ]

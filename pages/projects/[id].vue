@@ -5,6 +5,7 @@
 import { useRoute } from 'vue-router'
 import { computed } from 'vue'
 import projectListRaw from '@/data/projectList.json'
+import { useHead } from '#imports';
 
 /* ----------------------------------------------------------------
    Route & données du projet
@@ -12,6 +13,49 @@ import projectListRaw from '@/data/projectList.json'
 const route = useRoute()
 const projectId = route.params.id as string
 const project = projectListRaw.find(p => p.id === projectId)
+
+/* ----------------------------------------------------------------
+   SEO
+---------------------------------------------------------------- */
+useHead({
+  title: `${project.title} | Projet de Marwin Rodrigues`,
+  meta: [
+    {
+      name: "description",
+      content: project.context || 
+        `Découvrez le projet "${project.title}" réalisé par Marwin Rodrigues.`
+    },
+    {
+      name: "keywords",
+      content: `${project.title}, ${project.keywords.join(", ")}`
+    },
+    { name: "author", content: "Marwin Rodrigues" },
+
+    // Open Graph
+    { property: "og:title", content: `${project.title} | Projets de Marwin Rodrigues` },
+    {
+      property: "og:description",
+      content: project.context || 
+        `Projet "${project.title}" développé par Marwin Rodrigues.`
+    },
+    { property: "og:image", content: project.img },
+    { property: "og:url", content: `https://marwin-rodrigues.fr/projects/${project.id}` },
+    { property: "og:type", content: "website" },
+
+    // Twitter Card
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: `${project.title} | Projets de Marwin Rodrigues` },
+    {
+      name: "twitter:description",
+      content: project.context || 
+        `Un projet innovant signé Marwin Rodrigues.`
+    },
+    { name: "twitter:image", content: project.img }
+  ],
+  link: [
+    { rel: "canonical", href: `https://marwin-rodrigues.fr/projects/${project.id}` }
+  ]
+})
 
 /* ----------------------------------------------------------------
    Icônes disponibles (complète au besoin)

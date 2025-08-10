@@ -1,6 +1,49 @@
 <script setup>
 import { ref, computed } from 'vue'
 import projectListRaw from '@/data/projectList.json'
+import { useHead } from '#imports';
+
+useHead({
+  title: 'Portfolio de Marwin Rodrigues',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'Découvrez l’ensemble des projets réalisés par Marwin Rodrigues : projets scolaires, personnels, prestations professionnelles et plus encore.'
+    },
+    {
+      name: 'keywords',
+      content:
+        'Marwin Rodrigues, Business Manager, Entrepreneur, Développeur Web, Gestion de projet, Digital, Communication, SEO, NuxtJS, TailwindCSS, Chez Marwin Web, Chez Marwin TeamCare, Chez Marwin Union, Auto-entreprise, Agence de communication, Freelance, Strasbourg, Divonne les bains, Montbéliard, Doubs, Bas-rhin, Ain, projets, portfolio, Marwin Rodrigues, développement web, IT, freelance, prestation, scolaire, personnel, professionnel'
+    },
+    { name: 'author', content: 'Marwin Rodrigues' },
+
+    // Open Graph
+    { property: 'og:title', content: 'Portfolio de Marwin Rodrigues' },
+    {
+      property: 'og:description',
+      content:
+        'Parcourez la galerie complète des projets web et digitaux de Marwin Rodrigues.'
+    },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:url', content: 'https://marwin-rodrigues.fr/projects' },
+    { property: 'og:image', content: 'https://marwin-rodrigues.fr/imgs/Marwin/Marwin-Index.png' },
+
+    // Twitter Card
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Portfolio de Marwin Rodrigues' },
+    {
+      name: 'twitter:description',
+      content:
+        'Galerie complète des projets web et digitaux réalisés par Marwin Rodrigues.'
+    },
+    { name: 'twitter:image', content: 'https://marwin-rodrigues.fr/imgs/Marwin/Marwin-Index.png' }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://marwin-rodrigues.fr/projects' }
+  ]
+})
+
 
 const projectList = ref([...projectListRaw].reverse())
 

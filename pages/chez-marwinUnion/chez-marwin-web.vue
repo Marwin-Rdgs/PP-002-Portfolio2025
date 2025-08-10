@@ -1,6 +1,49 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import projectListRaw from '@/data/projectList.json';
+import { useHead } from '#imports';
+
+useHead({
+  title: "Chez Marwin Web | Service Digital & Communication Chez Marwin Union",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Découvrez Chez Marwin Web, service digital de Chez Marwin Union, spécialisé dans la production de sites web vitrines, la communication digitale (gestion des réseaux sociaux) et la création print (cartes de visite, flyers, etc.)."
+    },
+    {
+      name: "keywords",
+      content:
+        "Chez Marwin Web, service digital, création site web vitrine, communication digitale, gestion réseaux sociaux, supports print, cartes de visite, flyers, Chez Marwin Union, Marwin Rodrigues, Business Manager, Entrepreneur, Développeur Web, Gestion de projet, Digital, Communication, SEO, NuxtJS, TailwindCSS, Chez Marwin TeamCare, Auto-entreprise, Agence de communication, Freelance, Strasbourg, Divonne les bains, Montbéliard, Doubs, Bas-rhin, Ain"
+    },
+    { name: "author", content: "Marwin Rodrigues" },
+
+    // Open Graph
+    { property: "og:title", content: "Chez Marwin Web | Service Digital & Communication Chez Marwin Union" },
+    {
+      property: "og:description",
+      content:
+        "Service digital complet pour booster votre présence en ligne et locale : création de sites vitrines, gestion réseaux sociaux et supports imprimés."
+    },
+    { property: "og:image", content: "https://marwin-rodrigues.fr/imgs/Chez-MarwinUnion/CMW.svg" },
+    { property: "og:url", content: "https://marwin-rodrigues.fr/chez-marwinUnion/chez-marwin-web" },
+    { property: "og:type", content: "website" },
+
+    // Twitter Card
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: "Chez Marwin Web | Service Digital & Communication Chez Marwin Union" },
+    {
+      name: "twitter:description",
+      content:
+        "Boostez votre visibilité avec Chez Marwin Web : sites web sur mesure, communication digitale et supports print personnalisés."
+    },
+    { name: "twitter:image", content: "https://marwin-rodrigues.fr/imgs/Chez-MarwinUnion/CMW.svg" }
+  ],
+  link: [
+    { rel: "canonical", href: "https://marwin-rodrigues.fr/chez-marwinUnion/chez-marwin-web" }
+  ]
+});
+
 
 // 🔍 Sélection du type de prestation (filtre)
 const selectedPresta = ref('all');
