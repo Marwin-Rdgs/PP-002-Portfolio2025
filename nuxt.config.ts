@@ -9,24 +9,23 @@ export default defineNuxtConfig({
     'animate.css/animate.min.css'
   ],
   modules: ['@nuxtjs/sitemap'],
-  sitemap: {
-    siteUrl: 'https://marwin-rodrigues.fr',
-    trailingSlash: true, // pour que toutes les URLs aient un / final
-    gzip: true,
-    exclude: [
-      '/admin/**',
-      '/serveur/**',
-      '/components/**',
-      '/data/**',
-      '/layouts/**',
-      '/pages/**',
-    ],
-    defaults: {
-      changefreq: 'monthly',
-      priority: 0.8,
-      lastmod: new Date()
-    }
-  },
+sitemap: {
+  siteUrl: 'https://marwin-rodrigues.fr',
+  trailingSlash: true,
+  gzip: true,
+  exclude: [
+    '/admin/**',
+    '/serveur/**',
+    '/components/**',
+    '/data/**',
+    '/layouts/**',
+  ],
+  defaults: {
+    changefreq: 'monthly',
+    priority: 0.8,
+    lastmod: new Date()
+  }
+},
   postcss: {
     plugins: {
       tailwindcss: {},
