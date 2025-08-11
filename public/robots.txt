@@ -13,7 +13,6 @@ Disallow: /data/
 Disallow: /assets/
 Disallow: /components/
 Disallow: /layouts/
-Disallow: /pages/
 Disallow: /static/
 Disallow: /node_modules/
 
