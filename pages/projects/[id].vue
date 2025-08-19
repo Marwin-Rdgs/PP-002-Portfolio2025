@@ -15,28 +15,33 @@ const projectId = route.params.id as string
 const project = projectListRaw.find(p => p.id === projectId)
 
 /* ----------------------------------------------------------------
+   Auteur dynamique
+---------------------------------------------------------------- */
+const authorName = projectId === "PC2025004" ? "Jules Dupaquier" : "Marwin Rodrigues"
+
+/* ----------------------------------------------------------------
    SEO
 ---------------------------------------------------------------- */
 useHead({
-  title: `${project.title} | Projet de Marwin Rodrigues`,
+  title: `${project.title} | Projet de ${authorName}`,
   meta: [
     {
       name: "description",
       content: project.context || 
-        `Découvrez le projet "${project.title}" réalisé par Marwin Rodrigues.`
+        `Découvrez le projet "${project.title}" réalisé par ${authorName}.`
     },
     {
       name: "keywords",
       content: `${project.title}, ${project.keywords.join(", ")}`
     },
-    { name: "author", content: "Marwin Rodrigues" },
+    { name: "author", content: authorName },
 
     // Open Graph
-    { property: "og:title", content: `${project.title} | Projets de Marwin Rodrigues` },
+    { property: "og:title", content: `${project.title} | Projets de ${authorName}` },
     {
       property: "og:description",
       content: project.context || 
-        `Projet "${project.title}" développé par Marwin Rodrigues.`
+        `Projet "${project.title}" développé par ${authorName}.`
     },
     { property: "og:image", content: project.img },
     { property: "og:url", content: `https://marwin-rodrigues.fr/projects/${project.id}` },
@@ -44,11 +49,11 @@ useHead({
 
     // Twitter Card
     { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: `${project.title} | Projets de Marwin Rodrigues` },
+    { name: "twitter:title", content: `${project.title} | Projets de ${authorName}` },
     {
       name: "twitter:description",
       content: project.context || 
-        `Un projet innovant signé Marwin Rodrigues.`
+        `Un projet innovant signé ${authorName}.`
     },
     { name: "twitter:image", content: project.img }
   ],
@@ -291,6 +296,7 @@ const projectCollab = computed(() => {
     .filter(Boolean)              // supprime les clés inconnues
 })
 </script>
+
 
 <template>
   <!-- --------------------------- Image entête --------------------------- -->
