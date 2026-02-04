@@ -357,10 +357,36 @@
         "img2": "/imgs/projects/SoireeCanap/img2.jpg",
         "img3": "/imgs/projects/SoireeCanap/img3.png",
         "previous":"PC2025003",
-        "next":"PC2017001",
+        "next":"PC2026001",
         "tools": ["infomaniakEvents"],
 
         "presta": "web",
         "keywords": ["talk show", "production événementielle", "logistique", "billetterie", "animation", "scénarisation", "technique audiovisuelle", "communication événementielle", "direction artistique", "streaming", "énergie collective", "entrepreneuriat jeune", "cohésion d'équipe", "projet solidaire", "Montbéliard", "Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Gestion de projet", "Digital", "Communication", "SEO", "NuxtJS", "TailwindCSS", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain"]
+    },
+    {
+        "id":"PC2026001",
+        "title":"Madame La Baronne",
+        "img":"/imgs/projects/MadameLaBaronne/MadameLaBaronne.png",
+        "alt":"Site web du salon de coiffure Madame La Baronne à Audincourt – design chic et baroque",
+
+        "date": "Février 2026",
+        "role": "Conception site web",
+        "categ":"prestation",
+        "context": "Le projet Madame La Baronne s’inscrit dans l’accompagnement digital d’un salon de coiffure indépendant situé à Audincourt, souhaitant renforcer sa visibilité locale et affirmer son identité haut de gamme, chic et baroque. L’objectif était de concevoir un site internet promotionnel clair, élégant et performant, capable de valoriser les prestations, l’expertise de l’équipe et l’univers unique du salon, tout en facilitant la prise de rendez-vous via Planity et le contact client. Une attention particulière a été portée au référencement naturel (SEO local), à l’expérience utilisateur et à la cohérence entre l’image de marque du salon et sa présence en ligne.",
+        "description": "J’ai assuré la conception complète du site web de Madame La Baronne sous WordPress avec Avada, de la réflexion UX/UI jusqu’à l’intégration finale. Le travail a inclus la structuration des pages, la rédaction et l’optimisation des contenus pour le SEO, l’intégration des prestations, la mise en avant de l’équipe, ainsi que la connexion avec les outils de prise de rendez-vous et de contact. Le résultat est un site élégant, fluide et responsive, pensé pour convertir les visiteurs en clients, renforcer la notoriété locale du salon et refléter fidèlement son univers chic, baroque et convivial.",
+        "retour": "",
+        "collaborateurs": [],
+        "doc": "",
+        "link": "https://www.madame-la-baronne.fr/",
+        "repos": "",
+        "img1": "/imgs/projects/MadameLaBaronne/img1.png",
+        "img2": "/imgs/projects/MadameLaBaronne/img2.png",
+        "img3": "/imgs/projects/MadameLaBaronne/img3.png",
+        "previous":"PC2025004",
+        "next":"PC2017001",
+        "tools": ["wordpress","avada","figma"],
+
+        "presta": "web",
+        "keywords": ["Madame La Baronne","salon de coiffure Audincourt","site internet salon de coiffure","création site web","WordPress","Avada","UX UI design","web design premium","SEO local","référencement naturel","prise de rendez-vous en ligne","Planity","coiffure femme homme enfant","coiffure événementielle","identité visuelle","site vitrine","freelance web","Chez Marwin Web","Chez Marwin Union","Marwin Rodrigues","auto-entrepreneur","communication digitale","Audincourt","Doubs","Bourgogne-Franche-Comté"]
     }
 ]
