@@ -137,6 +137,9 @@ import avadaIcon from '@/components/tools/avada.vue';
 import infomaniakEventsIcon from '@/components/tools/infomaniakEvents.vue';
 
 import AlexandreGarnierIcon from '@/components/collab/AlexandreGarnier.vue';
+import AngeloBosettiIcon from '@/components/collab/AngeloBosetti.vue';
+import LiloueGuyotIcon from '@/components/collab/LiloueGuyot.vue';
+import MatthieuMonturetIcon from '@/components/collab/MatthieuMonturet.vue';
 import MathisGuellatiIcon from '@/components/collab/MathisGuellati.vue';
 import AliciaIversincIcon from '@/components/collab/AliciaIversinc.vue';
 import AllanHienneIcon from '@/components/collab/AllanHienne.vue';
@@ -241,6 +244,9 @@ const toolComponents: Record<string, any> = {
 
 const collabComponents: Record<string, any> = {
   AlexandreGarnier: AlexandreGarnierIcon,
+  MatthieuMonturet: MatthieuMonturetIcon,
+  LiloueGuyot: LiloueGuyotIcon,
+  AngeloBosetti: AngeloBosettiIcon,
   MathisGuellati: MathisGuellatiIcon,
   AliciaIversinc: AliciaIversincIcon,
   AllanHienne: AllanHienneIcon,
