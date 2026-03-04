@@ -124,11 +124,11 @@ onUnmounted(() => {
     <section aria-label="Liste des projets de Marwin RODRIGUES" class="desktop:mt-[10%] phone:mt-[20%]">
       <h3 class="desktop:text-5xl phone:text-4xl font-Primary font-bold text-primary-color ml-[2%]">Mon dernier projet</h3>
 
-      <div class="bg-[url(/imgs/projects/SoireeCanap/SoireeCanap.png)] bg-cover bg-center mt-[1%] h-[100%]">
+      <div class="bg-[url(/imgs/projects/MadameLaBaronne/MadameLaBaronne.png)] bg-cover bg-center mt-[1%] h-[100%]">
         <div class="grid items-center bg-light-color bg-opacity-5 rounded-r-full w-[50%] pl-[2%] pr-[4%] pt-[4%] h-[500px]">
-          <h2 class="desktop:text-5xl phone:text-3xl font-Primary font-bold text-primary-color drop-shadow-xl">Soirée Canap</h2>
-          <p class="desktop:text-lg phone:text-base font-Secondary font-medium text-light-color drop-shadow-md">Talk Show sur scène à Montbéliard autour de la formation BUT MMI</p>
-          <NuxtLink to="/projects/PC2025004"><button class="bg-primary-color text-dark-color rounded-full desktop:px-[24px] phone:px-[10px] phone:text-sm desktop:text-lg py-[1%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:translate-x-6 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-500">Voir plus</button></NuxtLink>
+          <h2 class="desktop:text-5xl phone:text-3xl font-Primary font-bold text-primary-color drop-shadow-xl">Madame La Baronne</h2>
+          <p class="desktop:text-lg phone:text-base font-Secondary font-medium text-light-color drop-shadow-md">Site web promotionnel d'un salon de coiffure situé sur Audincourt</p>
+          <NuxtLink to="/projects/PC2026001"><button class="bg-primary-color text-dark-color rounded-full desktop:px-[24px] phone:px-[10px] phone:text-sm desktop:text-lg py-[1%] text-center font-Primary font-bold drop-shadow-lg hover:scale-110 hover:translate-x-6 hover:shadow-secondary-color hover:shadow-lg transition-all ease-in-out duration-500">Voir plus</button></NuxtLink>
         </div>
       </div>
       <div class="desktop:flex phone:flex-col desktop:flex-row gap-[2%] justify-center mx-[2%] mt-[1%]">
