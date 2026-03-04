@@ -357,11 +357,37 @@
         "img2": "/imgs/projects/SoireeCanap/img2.jpg",
         "img3": "/imgs/projects/SoireeCanap/img3.png",
         "previous":"PC2025003",
-        "next":"PC2026001",
+        "next":"PP2026001",
         "tools": ["infomaniakEvents"],
 
         "presta": "web",
         "keywords": ["talk show", "production événementielle", "logistique", "billetterie", "animation", "scénarisation", "technique audiovisuelle", "communication événementielle", "direction artistique", "streaming", "énergie collective", "entrepreneuriat jeune", "cohésion d'équipe", "projet solidaire", "Montbéliard", "Marwin Rodrigues", "Business Manager", "Entrepreneur", "Développeur Web", "Gestion de projet", "Digital", "Communication", "SEO", "NuxtJS", "TailwindCSS", "Chez Marwin Web", "Chez Marwin TeamCare", "Chez Marwin Union", "Auto-entreprise", "Agence de communication", "Freelance", "Strasbourg", "Divonne les bains", "Montbéliard", "Doubs", "Bas-rhin", "Ain"]
+    },
+    {
+        "id":"PP2026001",
+        "title":"Jadyss",
+        "img":"/imgs/projects/Jadyss/Jadyss.jpg",
+        "alt":"Gestion de 2 pôles (Développement web et communication) d'une association sous loi 1901 organisatrice d'événement de jeux vidéos en ligne",
+
+        "date": "Février 2026",
+        "role": "Management",
+        "categ":"pro",
+        "context": "Jadyss était une association loi 1901 dédiée à l’organisation d’événements gaming en ligne, autour d’un concept d’UHC scénarisé inspiré de l’univers manga sur le jeu vidéo Minecraft. Pensé comme un projet structuré et ambitieux, Jadyss reposait sur plusieurs pôles organisés en équipes projets, notamment un pôle développement web et un pôle communication. En tant que Responsable Développement Web et Communication, j’étais chargé de structurer les équipes, piloter les projets digitaux et coordonner la stratégie globale de lancement. Le projet central était la conception d’un site web vitrine promotionnel, véritable socle stratégique de l’identité du projet, destiné à fédérer une communauté, présenter l’univers narratif et préparer l’ouverture officielle.",
+        "description": "J’ai occupé un rôle transverse mêlant pilotage technique, gestion de projet et direction communication. Côté développement web, j’ai supervisé la conception du site vitrine aux côtés d’un chef de projet, d’un développeur senior et d’un développeur junior, en méthodologie Agile avec un suivi des sprints et des tickets sous Jira. J’assurais la coordination des profils techniques, la supervision des livrables, la priorisation des tâches et la cohérence globale du produit, avec une attention particulière portée à l’expérience utilisateur et à la vision stratégique du projet. En parallèle, j’ai piloté la phase d’analyse d’un portail intranet interne destiné à structurer la gestion des équipes, incluant la rédaction des spécifications fonctionnelles, l’analyse technique et la conception du modèle de données. Sur le volet communication, j’ai dirigé un pôle composé de chefs de projet et de chargés de communication spécialisés en graphisme, web design, rédaction, community management et production audiovisuelle. J’ai structuré l’organisation en groupes projets dédiés à la production du trailer officiel, au plan de communication de lancement, à la rédaction des contenus web et à la création de supports internes. Le pilotage global reposait sur Notion pour la planification stratégique et la matrice RACI, ainsi que sur Tolgee pour la gestion des contenus. Ce projet illustre ma capacité à structurer un écosystème digital complet, à coordonner des équipes pluridisciplinaires et à porter une vision produit cohérente dans un environnement associatif ambitieux.",
+        "retour": "",
+        "collaborateurs": [],
+        "doc": "",
+        "link": "https://jadyss.marwin-rodrigues.fr/",
+        "repos": "",
+        "img1": "/imgs/projects/Jadyss/img1.png",
+        "img2": "/imgs/projects/Jadyss/img2.png",
+        "img3": "/imgs/projects/Jadyss/img3.png",
+        "previous":"PC2025004",
+        "next":"PC2026001",
+        "tools": ["figma", "Jira", "HTML","CSS", "JS", "NodeJS", "gitlab", "tailwind", "nuxt", "tolgee", "Notion"],
+
+        "presta": "",
+        "keywords": ["Jadyss","association loi 1901","événement gaming en ligne","UHC scénarisé","projet e-sport","site web vitrine","développement web","responsable développement web","gestion de projet IT","méthodologie agile","Scrum","Jira","UX UI design","intranet","analyse fonctionnelle","spécifications techniques","MCD","architecture applicative","direction communication","pilotage d’équipe","production audiovisuelle","trailer gaming","plan de communication","Notion gestion de projet","matrice RACI","Tolgee","stratégie digitale","leadership","coordination pluridisciplinaire","Marwin Rodrigues"]
     },
     {
         "id":"PC2026001",
@@ -382,7 +408,7 @@
         "img1": "/imgs/projects/MadameLaBaronne/img1.png",
         "img2": "/imgs/projects/MadameLaBaronne/img2.png",
         "img3": "/imgs/projects/MadameLaBaronne/img3.png",
-        "previous":"PC2025004",
+        "previous":"PP2026001",
         "next":"PC2017001",
         "tools": ["wordpress","avada","figma"],
 
