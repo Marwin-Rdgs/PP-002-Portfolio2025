@@ -36,7 +36,7 @@
 </ul>
 
 <!-- Vous trouverez ici la "mention légale" -->
-<p>© Copyright 2025 Marwin RODRIGUES – Tous droits réservés – Création Chez Marwin web – <span class="hover:underline hover:cursor-pointer" @click="$emit('toggle-legal')">Mentions légales</span> – <span class="hover:underline hover:cursor-pointer"  @click="$emit('toggle-politics')">Politique de confidentialité</span></p>
+<p>© Copyright 2026 Marwin RODRIGUES – Tous droits réservés – Création Chez Marwin web – <span class="hover:underline hover:cursor-pointer" @click="$emit('toggle-legal')">Mentions légales</span> – <span class="hover:underline hover:cursor-pointer"  @click="$emit('toggle-politics')">Politique de confidentialité</span></p>
 
 </footer>
 </template>
