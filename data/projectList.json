@@ -409,10 +409,36 @@
         "img2": "/imgs/projects/MadameLaBaronne/img2.png",
         "img3": "/imgs/projects/MadameLaBaronne/img3.png",
         "previous":"PP2026001",
-        "next":"PC2017001",
+        "next":"PC2026002",
         "tools": ["wordpress","avada","figma"],
 
         "presta": "web",
         "keywords": ["Madame La Baronne","salon de coiffure Audincourt","site internet salon de coiffure","création site web","WordPress","Avada","UX UI design","web design premium","SEO local","référencement naturel","prise de rendez-vous en ligne","Planity","coiffure femme homme enfant","coiffure événementielle","identité visuelle","site vitrine","freelance web","Chez Marwin Web","Chez Marwin Union","Marwin Rodrigues","auto-entrepreneur","communication digitale","Audincourt","Doubs","Bourgogne-Franche-Comté"]
+    },
+    {
+        "id":"PC2026002",
+        "title":"Laetitia Dornier",
+        "img":"/imgs/projects/LaetitiaDornier/LaetitiaDornier.png",
+        "alt":"Site web du sophrologue à Granges-Narboz – design propre à l'univers de Laetitia",
+
+        "date": "Avril 2026",
+        "role": "Conception site web",
+        "categ":"prestation",
+        "context": "Le projet Laetitia Dornier s’inscrit dans l’accompagnement digital d’une praticienne indépendante en sophrologie et réflexologie située à Granges-Narboz, à proximité de Pontarlier dans le Doubs. L’objectif était de concevoir un site internet vitrine apaisant, professionnel et optimisé pour le référencement local (SEO), afin de développer sa visibilité en ligne, rassurer les futurs clients et valoriser ses prestations de bien-être. Une attention particulière a été portée à l’expérience utilisateur, à l’ambiance visuelle (douce, naturelle et zen) ainsi qu’à la structuration des contenus pour répondre aux intentions de recherche liées à la sophrologie, la gestion du stress et la réflexologie plantaire et crânienne.",
+        "description": "J’ai réalisé la conception complète du site web de Laetitia Dornier avec WordPress et le thème Avada, de la phase de réflexion UX/UI jusqu’à l’intégration finale. Le projet a inclus la création d’une identité visuelle digitale cohérente avec son univers bien-être, la structuration des pages (accueil, services, contact), l’intégration des contenus, ainsi que l’optimisation SEO pour améliorer son positionnement sur des recherches locales autour de la sophrologie et de la réflexologie dans le secteur de Pontarlier. Le site a été pensé pour offrir une navigation fluide, inspirer confiance et faciliter la prise de contact, tout en mettant en valeur les bénéfices des séances proposées.",
+        "retour": "",
+        "collaborateurs": [],
+        "doc": "",
+        "link": "https://sophro-reflexo.ldornier.fr/",
+        "repos": "",
+        "img1": "/imgs/projects/LaetitiaDornier/img1.png",
+        "img2": "/imgs/projects/LaetitiaDornier/img2.png",
+        "img3": "/imgs/projects/LaetitiaDornier/img3.png",
+        "previous":"PC2026001",
+        "next":"PC2017001",
+        "tools": ["wordpress","avada","figma"],
+
+        "presta": "web",
+        "keywords": ["Laetitia Dornier","sophrologue Granges-Narboz","réflexologue Granges-Narboz","sophrologie Pontarlier","réflexologie plantaire Pontarlier","réflexologie crânienne","sophrologie gestion du stress","médecine douce Doubs","bien-être Pontarlier","praticienne bien-être Doubs","site internet sophrologue","création site web bien-être","WordPress Avada","UX UI design","web design bien-être","SEO local","référencement naturel","site vitrine professionnel","freelance web","Chez Marwin Web","Chez Marwin Union","Marwin Rodrigues","auto-entrepreneur web","communication digitale","Granges-Narboz","Pontarlier","Doubs","Bourgogne-Franche-Comté"]
     }
 ]
