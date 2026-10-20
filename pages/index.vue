@@ -103,7 +103,7 @@ onUnmounted(() => {
                 <Calendly
                   :show="showCalendly"
                   @close="showCalendly = false"
-                  url="https://calendly.com/contact-aezn/marwin-rodrigues"
+                  url="https://cal.meetergo.com/contact-39/30-min-visio-marwin"
                 />
           
           </div>
